@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html -->
+<html class=" js flexbox flexboxlegacy no-touch websqldatabase indexeddb history csscolumns csstransforms localstorage sessionstorage no-applicationcache svg inlinesvg zoom" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#" itemscope="" itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/" data-offline-url="/" data-url="/library/view/complete-comptia-a/9780133057638/copyright.html" data-csrf-cookie="csrfsafari" data-user-id="10510590" data-user-uuid="792e0d15-87f7-4f27-a256-7444770f88f0" data-username="jasonfortik" data-account-type="Trial" data-activated-trial-date="01/18/2021" data-archive="9780133057638" data-publishers="Pearson IT Certification" data-htmlfile-name="copyright.html" data-epub-title="Complete CompTIA® A+ Guide to PCs, Sixth Edition" data-debug="0" data-testing="0" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="author" content="O&#39;Reilly Media"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9780133057638"><link rel="shortcut icon" href="https://www.oreilly.com/favicon.ico"><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"><meta property="twitter:account_id" content="4503599627559754"><link rel="shortcut icon" href="https://learning.oreilly.com/favicon.ico" type="image/x-icon"><link href="./Chapter 13. Internet Connectivity_files/css" rel="stylesheet" type="text/css"><title>Chapter 13. Internet Connectivity</title><link rel="stylesheet" href="./Chapter 13. Internet Connectivity_files/output.5bdb4fcb2aad.css" type="text/css"><link rel="stylesheet" type="text/css" href="./Chapter 13. Internet Connectivity_files/annotator.e3b0c44298fc.css"><link rel="stylesheet" href="./Chapter 13. Internet Connectivity_files/font-awesome.min.css"><style type="text/css" title="ibis-book">#sbo-rt-content div{margin-top:4pt;margin-bottom:4pt;margin-right:15pt}#sbo-rt-content h1{margin-top:15pt;margin-bottom:12pt;text-align:center;font-weight:bold;page-break-after:avoid}#sbo-rt-content h2{margin-top:7pt;margin-bottom:25pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h3{margin-top:9pt;margin-bottom:8pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h4{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h5{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h6{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content .cover{margin-top:2pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .indent{margin-top:4pt;margin-bottom:4pt;text-indent:15pt}#sbo-rt-content .noindent{margin-top:4pt;margin-bottom:4pt;text-indent:.002pt}#sbo-rt-content .noindentf{margin-top:4pt;margin-bottom:4pt;text-indent:15pt}#sbo-rt-content .address{margin-top:2pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .edition{margin-top:15pt;margin-bottom:15pt;text-align:center;font-weight:bold}#sbo-rt-content .copy{margin-top:8pt;margin-bottom:8pt;text-indent:.024pt}#sbo-rt-content .legalnotice{margin-top:9pt;margin-bottom:8pt;font-weight:bold;text-indent:.002pt}#sbo-rt-content .author{margin-top:80pt;margin-bottom:60pt;text-align:center}#sbo-rt-content .attribution{margin-top:2pt;margin-bottom:14pt;margin-left:25pt;text-align:left}#sbo-rt-content .blockquote{margin-top:7pt;margin-bottom:7pt;margin-right:25pt;margin-left:25pt}#sbo-rt-content .middle,#sbo-rt-content img{vertical-align:middle}#sbo-rt-content div.image,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image{margin-top:5pt;text-align:center}#sbo-rt-content div.image2,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image2{margin-top:9pt;margin-left:40pt;text-align:left}#sbo-rt-content .toc-chapter{margin-top:10pt;margin-bottom:5pt;margin-left:6pt;text-align:left}#sbo-rt-content .toc-chapter1{margin-top:10pt;margin-bottom:5pt;text-align:left}#sbo-rt-content .toc-section{margin-top:5pt;margin-bottom:4pt;margin-left:45pt;text-align:left}#sbo-rt-content .toc-section1{margin-top:4pt;margin-bottom:4pt;margin-left:65pt;text-align:left}#sbo-rt-content .toc-appendix{margin-top:10pt;margin-bottom:10pt;text-align:left}#sbo-rt-content .toc-index{margin-top:10pt;margin-bottom:5pt;text-align:left}#sbo-rt-content .note{margin-top:6pt;margin-bottom:12pt;margin-left:24pt;margin-right:24pt;page-break-inside:avoid;background-color:#DDD}#sbo-rt-content .notepara{margin-top:4pt;margin-bottom:5pt;margin-right:25pt;margin-left:25pt}#sbo-rt-content .title{margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:10pt;margin-right:20pt;page-break-after:avoid;page-break-inside:avoid}#sbo-rt-content .sb-indenthangingN{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;margin-right:20pt;text-indent:-12pt;text-align:left}#sbo-rt-content .feature{margin-top:5pt;margin-bottom:12pt;margin-right:10pt;margin-left:10pt;page-break-inside:avoid}#sbo-rt-content .feature1{margin-top:5pt;margin-bottom:12pt;margin-right:10pt;margin-left:10pt;page-break-inside:avoid;background-color:#B0E2FA}#sbo-rt-content .feature-title{margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:15pt}#sbo-rt-content .indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .q-indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:55pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .p-indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:85pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingBB{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingBP{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-align:left}#sbo-rt-content .indenthangingN{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingN1{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-18pt;text-align:left}#sbo-rt-content .indenthangingNB{margin-top:4pt;margin-bottom:4pt;margin-left:45pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingNP{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-align:left}#sbo-rt-content .indenthangingNa{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingNaP{margin-top:4pt;margin-bottom:4pt;margin-left:52pt;text-indent:-.9pt;text-align:left}#sbo-rt-content .tab-caption{font-weight:bold;margin-top:14pt;text-align:center;page-break-after:avoid;page-break-inside:avoid}#sbo-rt-content .fig-caption{margin-bottom:8pt;text-align:center;font-weight:bold;page-break-before:avoid;page-break-inside:avoid}#sbo-rt-content .pre{font-family:"Courier New";font-size:small;margin-top:10pt;margin-bottom:10pt;margin-left:20pt;text-align:left}#sbo-rt-content .pre1{font-family:"Courier New";font-size:small;margin-top:10pt;margin-bottom:10pt;text-align:left;margin-left:45pt}#sbo-rt-content .EmpStrong{font-family:"Courier New Bold";font-weight:bold}#sbo-rt-content .EmpItalic{font-family:"Courier New Italic";font-style:italic}#sbo-rt-content code{font-family:"Courier New";font-size:small}#sbo-rt-content .tn-footnote{margin-top:4pt;margin-bottom:4pt;margin-left:25pt;text-indent:-10pt;text-align:left;font-size:small}#sbo-rt-content .gloss{margin-top:4pt;margin-bottom:4pt;margin-left:4pt}#sbo-rt-content .gloss1{margin-top:4pt;margin-bottom:4pt;margin-left:25pt}#sbo-rt-content .indent1{margin-top:4pt;margin-bottom:4pt;margin-left:15pt}#sbo-rt-content .indent4{margin-top:4pt;margin-bottom:4pt;margin-left:12em}#sbo-rt-content .indent5{margin-top:4pt;margin-bottom:4pt;margin-left:12.5em}#sbo-rt-content .question{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-12pt}#sbo-rt-content .question1{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-18pt}#sbo-rt-content .questionp{margin-top:4pt;margin-bottom:4pt;margin-left:35pt}#sbo-rt-content .questionpi{margin-top:4pt;margin-bottom:4pt;margin-left:50pt}#sbo-rt-content .question-a{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-13pt}#sbo-rt-content .uln-indent{margin-top:4pt;margin-bottom:4pt;margin-left:25pt}#sbo-rt-content .ent{font-family:"Arial Unicode MS";src:url(fonts/ARIALUNI.TTF)}#sbo-rt-content .indexmain{margin-top:2pt;margin-bottom:2pt;text-align:left}#sbo-rt-content .indexsub{margin-top:2pt;margin-bottom:2pt;margin-left:30pt;text-indent:-15pt;text-align:left}#sbo-rt-content .indexsubsub{margin-top:2pt;margin-bottom:2pt;margin-left:50pt;text-indent:-15pt;text-align:left}#sbo-rt-content .pd_blue{color:#00AEEF}#sbo-rt-content .activitie{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .notes1{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-50pt}#sbo-rt-content .note1{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .note1p{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .objective{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .objectivep{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .procedure{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .part{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .partp{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .qquestion{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .scenario{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .task{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .caution{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .indenthangingA{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-14pt;text-align:left}#sbo-rt-content .indenthangingBN{margin-top:4pt;margin-bottom:4pt;margin-left:65pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingC{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-15pt;text-align:left}#sbo-rt-content .key{margin-top:4pt;margin-bottom:4pt;margin-left:15pt}#sbo-rt-content .enter{margin-top:4pt;margin-bottom:4pt;text-indent:.002pt}#sbo-rt-content .BoldItalic{font-family:"Courier New Bold Italic";font-weight:bold;font-style:italic}#sbo-rt-content .pd_ash{color:#6B6D73}#sbo-rt-content div.image-pa,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image-pa{text-align:center}#sbo-rt-content .tab-caption1{font-weight:bold;margin-top:14pt;text-align:center;page-break-after:avoid;page-break-inside:avoid;background-color:#DDD}</style><script async="" src="./Chapter 13. Internet Connectivity_files/gtm.js"></script><script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+          "chapter": "/api/v1/book/9780133057638/chapter/copyright.html",
+          "book_id": "9780133057638",
+          "chapter_uri": "copyright.html",
+          "position": 30.1806588735388,
+          "user_uuid": "792e0d15-87f7-4f27-a256-7444770f88f0",
+          "next_chapter_uri": "/library/view/complete-comptia-a/9780133057638/toc.html"
+        
+      },
+      title: "Complete CompTIA® A+ Guide to PCs, Sixth Edition",
+      author_list: "Cheryl Schmidt",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true,
+      allow_scripts: false,
+      has_mathml: false
+    };
+    // ]]></script><style type="text/css">
+:root div#main > div.D1fz0e
+{ display: none !important; }</style><script src="./Chapter 13. Internet Connectivity_files/modernizr.8e35451ddb64.js"></script><script>
+    
+      
+
+      
+        
+          window.PUBLIC_ANNOTATIONS = true;
+        
+      
+
+      window.MOBILE_PUBLIC_ANNOTATIONS = false;
+
+    
+
+    
+      window.PRIVACY_CONTROL_OVERRIDE = false;
+    
+
+      window.PRIVACY_CONTROL_SWITCH = true;
+
+      window.PUBLISHER_PAGES = true;
+
+      window.SBO = {
+        "constants": {
+          "SITB_ENDPOINT": "/api/v2/sitb/",
+          "SEARCH_SELECT_ENDPOINT": "https://learning.oreilly.com/api/v2/search/select/",
+          "ENABLE_ONLINE_TRAINING": true
+        }
+      };
+  </script><link rel="canonical" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><meta name="description" content="Complete CompTIA® A+ Guide to PCs, Sixth Edition Copyright © 2013 by Pearson Education, Inc. All rights reserved. No part of this book shall be reproduced, stored in a ... "><meta property="og:title" content="Copyright Page"><meta itemprop="isPartOf" content="/library/view/complete-comptia-a/9780133057638/"><meta itemprop="name" content="Copyright Page"><meta property="og:url" itemprop="url" content="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><meta property="og:site_name" content="Safari"><meta property="og:image" itemprop="thumbnailUrl" content="https://learning.oreilly.com/library/cover/9780133057638/"><meta property="og:description" itemprop="description" content="Complete CompTIA® A+ Guide to PCs, Sixth Edition Copyright © 2013 by Pearson Education, Inc. All rights reserved. No part of this book shall be reproduced, stored in a ... "><meta itemprop="inLanguage" content="en"><meta itemprop="publisher" content="Pearson IT Certification"><meta property="og:type" content="book"><meta property="og:book:isbn" itemprop="isbn" content="9780133057638"><meta property="og:book:author" itemprop="author" content="Cheryl Schmidt"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@OReillyMedia"><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: &lt;%= font_size %&gt; !important; }"></style><style type="text/css" id="font-family" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-family: &lt;%= font_family %&gt; !important; }"></style><style type="text/css" id="column-width" data-template="#sbo-rt-content { max-width: &lt;%= column_width %&gt;% !important; margin: 0 auto !important; }"></style><noscript><meta http-equiv="refresh" content="0; url=/library/no-js/" /></noscript><script>
+    var dataLayer = window.dataLayer || [];
+
+    
+      window.medalliaVsgUserIdentifier = '792e0d15-87f7-4f27-a256-7444770f88f0';
+      dataLayer.push({userIdentifier: '792e0d15-87f7-4f27-a256-7444770f88f0'});
+      dataLayer.push({loggedIn: 'yes'});
+
+      
+        window.medalliaVsgAccountIdentifier = 'ea85ea21-7426-45c5-a63b-4e4c8a9e3c20';
+        
+
+        window.medalliaVsgIsIndividual = true;
+        
+          
+          dataLayer.push({learningAccountType: 'free trial'});
+          
+        
+
+        
+      
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5P4V6Z');
+    (function () {
+      var VERSION = 'V1.1';
+      var AUTHOR = 'Awwad';
+      if (!window.GtmHelper)
+        window.GtmHelper = function () {
+          var instance = this;
+          var loc = document.location;
+          this.version = VERSION;
+          this.author = AUTHOR;
+          this.readCookie = function (name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+              if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+          };
+          this.createCookie = function (name, value, days, cookieDomain) {
+            var domain = "";
+            var expires = "";
+
+            if (days) {
+              var date = new Date();
+              date.setTime(date.getTime() + Math.ceil(days * 24 * 60 * 60 * 1000));
+              var expires = " expires=" + date.toGMTString() + ";";
+            }
+
+            if (typeof (cookieDomain) != 'undefined')
+              domain = " domain=" + cookieDomain + "; ";
+
+            document.cookie = name + "=" + value + ";" + expires + domain + "path=/";
+          };
+
+          this.isDuplicated = function (currentTransactionId) {
+            // the previous transaction id:
+            var previousTransIdValue = this.readCookie("previousTransId");
+
+            if (currentTransactionId === previousTransIdValue) {
+              return true; // Duplication
+            } else {
+              return false;
+            }
+          };
+        }
+    })()
+  </script><script defer="" src="./Chapter 13. Internet Connectivity_files/vendor.53472b75cf2a.js"></script><script defer="" src="./Chapter 13. Internet Connectivity_files/reader.99e2c495d789.js"></script><script async="" src="./Chapter 13. Internet Connectivity_files/MathJax.js"></script><style id="annotator-dynamic-style">.annotator-adder, .annotator-outer, .annotator-notice {
+  z-index: 100019;
+}
+.annotator-filter {
+  z-index: 100009;
+}</style></head>
+
+
+<body class="reading sidenav nav-collapsed  scalefonts subscribe-panel library">
+
+    
+  <noscript> 
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P4V6Z"
+            height="0" width="0"
+            style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+
+
+
+    
+      <div class="working hide" role="status">
+        <div class="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+  
+
+
+<a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li><a href="https://learning.oreilly.com/home/" class="l0 nav-icn"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.738 14H9.254v-3.676a.617.617 0 0 0-.621-.613H7.39a.617.617 0 0 0-.62.613V14H4.284a.617.617 0 0 1-.622-.613V10.22c0-.327.132-.64.367-.87l3.547-3.493a.627.627 0 0 1 .875 0l3.54 3.499c.234.229.366.54.367.864v3.167a.617.617 0 0 1-.62.613zM7.57 2.181a.625.625 0 0 1 .882 0l5.77 5.692-.93.92-5.28-5.209-5.28 5.208-.932-.919 5.77-5.692z"></path></svg><span>Home</span></a></li><li class="search"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="t-search-nav trigger nav-icn l0" data-dropdown-selector=".searchbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>search icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M31.3 0C20.9 0 12.5 8.4 12.5 18.8 12.5 22.5 13.6 25.9 15.4 28.8L1.2 42.9C-0.4 44.5-0.4 47.2 1.2 48.8 2 49.6 3.1 50 4.2 50 5.2 50 6.3 49.6 7.1 48.8L21.2 34.6C24.1 36.5 27.5 37.5 31.3 37.5 41.6 37.5 50 29.1 50 18.8 50 8.4 41.6 0 31.3 0ZM31.3 31.3C24.4 31.3 18.8 25.6 18.8 18.8 18.8 11.9 24.4 6.3 31.3 6.3 38.1 6.3 43.8 11.9 43.8 18.8 43.8 25.6 38.1 31.3 31.3 31.3Z"></path></g></svg><span>Search</span></a></li><li class="usermenu dropdown"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="trigger l0 nav-icn nav-dropdown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>navigation arrow</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M0.1 12.5L9.7 3.1C9.8 3 9.9 3 10 3 10.1 3 10.2 3 10.3 3.1L19.9 12.5C20 12.5 20 12.6 20 12.8 20 12.9 20 13 19.9 13L17 15.9C16.9 16 16.8 16 16.7 16 16.5 16 16.4 16 16.4 15.9L10 9.7 3.6 15.9C3.6 16 3.5 16 3.3 16 3.2 16 3.1 16 3 15.9L0.1 13C0 12.9 0 12.8 0 12.7 0 12.7 0 12.6 0.1 12.5Z"></path></g></svg><span>Expand Nav</span></a><div class="drop-content"><ul><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="l1 nav-icn "><!--?xml version="1.0" encoding="UTF-8"?--><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M8,8 C6.34321755,8 5.00013,6.65691245 5.00013,5.00013 C5.00013,3.34334755 6.34321755,2.00026001 8,2.00026001 C9.65678245,2.00026001 10.99987,3.34334755 10.99987,5.00013 C10.99987,6.65691245 9.65678245,8 8,8 Z M2.33024571,11.3523547 L2.33774538,11.3523547 C3.7622187,9.70968996 5.82947484,8.76608166 8.00374984,8.76608166 C10.1780248,8.76608166 12.245281,9.70968996 13.6697543,11.3523547 C13.8892083,11.6177474 14.0062813,11.9530021 13.99974,12.2973138 L13.99974,13.99974 L2.00026001,13.99974 L2.00026001,12.2973138 C1.99371867,11.9530021 2.11079172,11.6177474 2.33024571,11.3523547 Z" id="path-1"></path></svg><span>Your O'Reilly</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/profile/" class="l2 nav-icn"><span>Profile</span></a></li><li><a href="https://learning.oreilly.com/history/" class="l2 nav-icn"><span>History</span></a></li><li><a href="https://learning.oreilly.com/playlists/" class="l2 nav-icn"><span>Playlists</span></a></li><li><a href="https://learning.oreilly.com/u/792e0d15-87f7-4f27-a256-7444770f88f0/" class="l2 nav-icn"><span>Highlights</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.564 2.263l2.172 2.174c.17.168.264.397.264.636V11a.6.6 0 0 1-.6.6h-.6V6.2h-6V2.6a.6.6 0 0 1 .6-.6h3.527c.239 0 .468.095.637.263zM2.6 14a.6.6 0 0 1-.6-.6V6.8a.6.6 0 0 1 .6-.6h1.903a1.2 1.2 0 0 1 .849.352L6.2 7.4H11a.6.6 0 0 1 .6.6v5.4a.6.6 0 0 1-.6.6H2.6zM11 5h1.8L11 3.2V5z"></path></svg><span>Featured</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/featured/navigating-21st-century/" class="l2 nav-icn"><span>Navigating Change</span></a></li><li><a href="https://learning.oreilly.com/recommendations/" class="l2 nav-icn"><span>Recommended</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>queue icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M25 29.2C25.4 29.2 25.8 29.1 26.1 28.9L48.7 16.8C49.5 16.4 50 15.5 50 14.6 50 13.7 49.5 12.8 48.7 12.4L26.1 0.3C25.4-0.1 24.6-0.1 23.9 0.3L1.3 12.4C0.5 12.8 0 13.7 0 14.6 0 15.5 0.5 16.4 1.3 16.8L23.9 28.9C24.2 29.1 24.6 29.2 25 29.2ZM7.3 14.6L25 5.2 42.7 14.6 25 24 7.3 14.6ZM48.7 22.4L47.7 21.9 25 34.2 2.3 21.9 1.3 22.4C0.5 22.9 0 23.7 0 24.7 0 25.6 0.5 26.5 1.3 26.9L23.9 39.3C24.2 39.5 24.6 39.6 25 39.6 25.4 39.6 25.8 39.5 26.1 39.3L48.7 26.9C49.5 26.5 50 25.6 50 24.7 50 23.7 49.5 22.9 48.7 22.4ZM48.7 32.8L47.7 32.3 25 44.6 2.3 32.3 1.3 32.8C0.5 33.3 0 34.1 0 35.1 0 36 0.5 36.9 1.3 37.3L23.9 49.7C24.2 49.9 24.6 50 25 50 25.4 50 25.8 49.9 26.1 49.7L48.7 37.3C49.5 36.9 50 36 50 35.1 50 34.1 49.5 33.3 48.7 32.8Z"></path></g></svg><span>Explore</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/topics/" class="l2 nav-icn"><span>All Topics</span></a></li><li><a href="https://learning.oreilly.com/search/?query=&amp;extended_publisher_data=true&amp;highlight=true&amp;include_assessments=false&amp;include_case_studies=true&amp;include_courses=true&amp;include_orioles=true&amp;include_playlists=true&amp;include_collections=true&amp;include_notebooks=true&amp;is_academic_institution_account=false&amp;source=user&amp;formats=book&amp;sort=publication_date&amp;facet_json=true&amp;page=0" class="l2 nav-icn"><span>Early Releases</span></a></li><li><a href="https://learning.oreilly.com/playlists/discover/" class="l2 nav-icn"><span>Shared Playlists</span></a></li><li><a href="https://learning.oreilly.com/search/?query=&amp;extended_publisher_data=true&amp;highlight=true&amp;include_assessments=false&amp;include_case_studies=true&amp;include_courses=true&amp;include_orioles=true&amp;include_playlists=true&amp;include_collections=true&amp;include_notebooks=true&amp;is_academic_institution_account=false&amp;source=user&amp;formats=book&amp;formats=case%20study&amp;formats=learning%20path&amp;formats=live%20online%20training&amp;formats=notebook&amp;formats=oriole&amp;formats=video&amp;sort=popularity&amp;facet_json=true&amp;page=0&amp;collection_type=expert" class="l2 nav-icn"><span>Most Popular Titles</span></a></li><li><a href="https://learning.oreilly.com/resource-centers/" class="l2 nav-icn"><span>Resource Centers</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12.8 3.2A1.2 1.2 0 0 1 14 4.4v8.4a1.2 1.2 0 0 1-1.2 1.2H3.2A1.2 1.2 0 0 1 2 12.8V4.4a1.2 1.2 0 0 1 1.2-1.2h1.2V2h1.2v1.2h4.8V2h1.2v1.2h1.2zm-9.6 9.6h9.6V6.2H3.2v6.6zM8 9.5a1.35 1.35 0 1 1 0-2.7 1.35 1.35 0 0 1 0 2.7zm2.7 2.148v.552H5.3v-.552c0-.321.124-.634.355-.858a3.358 3.358 0 0 1 4.69 0c.23.224.355.537.355.858z"></path></svg><span>Attend</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/live-training/" class="l2 nav-icn"><span>Live Trainings</span></a></li><li><a href="https://learning.oreilly.com/featured/architectural-katas" class="l2 nav-icn"><span>Architectural Katas</span></a></li><li><a href="https://learning.oreilly.com/featured/strata/" class="l2 nav-icn"><span>Strata</span></a></li><li><a href="https://learning.oreilly.com/featured/oscon/" class="l2 nav-icn"><span>Open Source</span></a></li><li><a href="https://learning.oreilly.com/featured/infrastructure-ops/" class="l2 nav-icn"><span>Infra &amp; Ops</span></a></li><li><a href="https://learning.oreilly.com/featured/software-architecture/" class="l2 nav-icn"><span>Software Arch</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="l1 nav-icn "><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.6467109,4.35328907 L14.7964612,7.51003884 C15.0678463,7.78304342 15.0678463,8.22395603 14.7964612,8.49696061 L11.6467109,11.6467109 L10.6597892,10.6597892 L13.3055794,8 L10.6597892,5.34021084 L11.6467109,4.35328907 Z M4.35328907,11.6467109 L1.20353875,8.48996116 C0.932153749,8.21695658 0.932153749,7.77604397 1.20353875,7.50303939 L4.35328907,4.35328907 L5.34021084,5.34021084 L2.69442057,8 L5.34021084,10.6597892 L4.35328907,11.6467109 Z M5.84417089,11.4997226 L8.67194674,4.50027742 L10.1838269,4.50027742 L7.35605105,11.4997226 L5.84417089,11.4997226 Z" id="Mask"></path></svg><span>Interact</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/scenarios/?classification=content-scenario" class="l2 nav-icn"><span>Scenarios</span></a></li><li><a href="https://learning.oreilly.com/scenarios/?classification=sandbox-scenario" class="l2 nav-icn"><span>Sandboxes</span></a></li><li><a href="https://learning.oreilly.com/interactive/?classification=jupyter-notebook" class="l2 nav-icn"><span>Jupyter Notebooks</span></a></li></ul></li><li><a href="https://learning.oreilly.com/answers/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M2.31032699,3.75609006 C4.65421571,1.41371359 8.45302454,1.41472092 10.7955702,3.75860838 C13.1381158,6.10249583 13.1369405,9.90130261 10.7930518,12.243847 C8.44916311,14.5863913 4.65018639,14.5852161 2.30780867,12.2413286 C-0.0346204845,9.89749489 -0.0334929936,6.09853298 2.31032699,3.75609006 Z M8.8198605,4.98016308 C7.34193969,3.86924672 5.23410194,3.98609692 3.88914868,5.33104946 C3.12814393,6.09032122 2.72818176,7.13880077 2.79015179,8.21201133 C2.79115912,8.23064692 2.79233434,8.24928252 2.79350956,8.26791811 L2.79350956,8.26791811 C2.83179539,8.8307976 2.9944077,9.37404287 3.26947292,9.86201677 L3.26947292,9.86201677 L2.77621706,11.7027432 C2.7699968,11.7259241 2.77662063,11.7506624 2.79359185,11.7676337 C2.8105631,11.7846049 2.83530144,11.7912287 2.85848233,11.7850085 L2.85848233,11.7850085 L4.69400524,11.2922565 C5.26306363,11.6167344 5.90703177,11.786885 6.56209849,11.7858479 C8.64827865,11.7858479 10.3395879,10.094542 10.3395879,8.00836292 C10.3405204,6.84135608 9.80105674,5.73967784 8.87862141,5.02482134 L8.87862141,5.02482134 L8.82825492,4.98654283 Z M13.7933062,2 C14.7073496,2.00009863 15.4482759,2.74110484 15.4482759,3.65514822 C15.4482759,4.32460943 15.0449926,4.92814782 14.4264842,5.18432286 C13.8079757,5.44049789 13.096053,5.29885769 12.6226979,4.82545158 C12.1493429,4.35204547 12.0077795,3.64010743 12.2640213,3.02162665 C12.5202631,2.40314587 13.123845,1.99992776 13.7933062,2 Z"></path></svg><span>Answers</span></a></li><li><a href="https://learning.oreilly.com/certifications/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M12.912 9.18L14 8.014l-1.088-1.18a.304.304 0 01-.075-.268L13.195 5l-1.535-.463a.313.313 0 01-.194-.194l-.462-1.537-1.565.358c-.09.03-.194 0-.269-.074L8.007 2 6.845 3.09a.303.303 0 01-.269.074l-1.565-.358-.462 1.537a.313.313 0 01-.194.194L2.82 5l.358 1.567a.26.26 0 01-.075.269L2 8.015l1.088 1.164c.075.075.09.18.075.269l-.358 1.567 1.535.463c.09.03.164.104.194.194l.462 1.537 1.565-.358c.015 0 .045-.015.075-.015.075 0 .15.03.209.074L8.007 14l1.163-1.09a.303.303 0 01.269-.074l1.565.358.462-1.537a.313.313 0 01.194-.194L13.195 11l-.358-1.567a.338.338 0 01.075-.254zm-6.046 1.37L4.41 8.26l1.16-1.244 1.767 1.649L10.4 5.6l1.202 1.202-4.242 4.243-.495-.495z"></path></svg><span>Certifications</span></a></li><li><a href="https://learning.oreilly.com/preferences/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 53" width="20" height="20" version="1.1" fill="#4A3C31"><desc>settings icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M44.6 29.6C44.7 28.6 44.8 27.5 44.8 26.5 44.8 25.5 44.7 24.4 44.6 23.4L49.6 19C50 18.8 50.1 18.3 49.9 17.9 48.9 14.7 47.1 11.7 44.9 9.1 44.6 8.8 44.2 8.7 43.8 8.8L37.4 11.1C35.8 9.8 34 8.7 32.1 8L30.9 1.4C30.8 0.9 30.4 0.6 30 0.5 26.7-0.2 23.3-0.2 20 0.5 19.6 0.6 19.2 0.9 19.1 1.4L17.9 8C16 8.7 14.1 9.8 12.6 11.1L6.2 8.8C5.8 8.7 5.4 8.8 5.1 9.1 2.9 11.7 1.1 14.7 0.1 17.9 -0.1 18.3 0 18.8 0.4 19L5.4 23.4C5.3 24.4 5.2 25.5 5.2 26.5 5.2 27.5 5.3 28.6 5.4 29.6L0.4 34C0 34.2-0.1 34.7 0.1 35.1 1.1 38.3 2.9 41.4 5.1 43.9 5.4 44.2 5.8 44.4 6.2 44.2L12.6 42C14.1 43.2 16 44.3 17.9 45L19.1 51.7C19.2 52.1 19.6 52.5 20 52.5 21.6 52.8 23.3 53 25 53 26.7 53 28.4 52.8 30 52.5 30.4 52.5 30.8 52.1 30.9 51.7L32.1 45C34 44.3 35.8 43.2 37.4 42L43.8 44.2C44.2 44.4 44.6 44.2 44.9 43.9 47.1 41.4 48.9 38.3 49.9 35.1 50.1 34.7 50 34.2 49.6 34L44.6 29.6ZM25 36.4C19.6 36.4 15.2 32 15.2 26.5 15.2 21 19.6 16.6 25 16.6 30.4 16.6 34.8 21 34.8 26.5 34.8 32 30.4 36.4 25 36.4Z"></path></g></svg><span>Settings</span></a></li><li><a href="https://learning.oreilly.com/public/support/" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.363 6.656a2.692 2.692 0 0 1-2.681-2.703c0-1.493 1.2-2.703 2.681-2.703a2.692 2.692 0 0 1 2.682 2.703c0 1.493-1.2 2.703-2.682 2.703zm4.023 2.027c-1.852 0-3.352 1.513-3.352 3.379H2v-1.534c-.006-.31.099-.612.295-.852a6.666 6.666 0 0 1 9.09-.993zm-.543.676h1.12v.304c.003.284.16.543.408.676a.766.766 0 0 0 .77 0l.303-.176.556.966-.302.176a.772.772 0 0 0-.362.676v.08a.772.772 0 0 0 .362.677l.302.21-.556.965-.302-.175a.766.766 0 0 0-.771 0 .778.778 0 0 0-.409.675v.352h-1.106v-.372a.778.778 0 0 0-.409-.676.766.766 0 0 0-.77 0l-.303.176-.556-.912.302-.176a.772.772 0 0 0 .362-.676v-.04-.04a.772.772 0 0 0-.362-.676l-.302-.176.556-.966.289.155a.766.766 0 0 0 .77 0 .778.778 0 0 0 .41-.676V9.36zm1.562 2.703c0-.271-.108-.531-.3-.722a1.001 1.001 0 0 0-.72-.292 1.01 1.01 0 0 0-.992 1.023 1.01 1.01 0 0 0 1.01 1.004 1.01 1.01 0 0 0 1.002-1.013z"></path></svg><span>Support</span></a></li><li><a href="https://get.oreilly.com/email-signup.html" class="l1 nav-icn " target="&quot;_blank&quot;"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.564 2.263l2.172 2.174c.17.168.264.397.264.636V11a.6.6 0 0 1-.6.6h-.6V6.2h-6V2.6a.6.6 0 0 1 .6-.6h3.527c.239 0 .468.095.637.263zM2.6 14a.6.6 0 0 1-.6-.6V6.8a.6.6 0 0 1 .6-.6h1.903a1.2 1.2 0 0 1 .849.352L6.2 7.4H11a.6.6 0 0 1 .6.6v5.4a.6.6 0 0 1-.6.6H2.6zM11 5h1.8L11 3.2V5z"></path></svg><span>Newsletters</span></a></li><li><a href="https://learning.oreilly.com/accounts/logout/" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.613 12.63A.607.607 0 0 1 2 12.03V3.602C2 3.269 2.274 3 2.613 3h5.515v1.204H3.226v7.223h4.902v1.203H2.613zM5.677 9.02V6.611h4.903V4.926a.301.301 0 0 1 .19-.274.31.31 0 0 1 .33.063l2.722 2.673a.594.594 0 0 1 0 .849L11.1 10.909a.31.31 0 0 1-.331.063.301.301 0 0 1-.19-.274V9.02H5.677z"></path></svg><span>Sign Out</span></a></li></ul></div></li></ul></nav></header>
+
+
+
+      </div>
+      <div id="container" class="application" style="height: auto;">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container toc-menu"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1><div class="visuallyhidden">Table of Contents for </div>
+      
+      Complete CompTIA® A+ Guide to PCs, Sixth Edition
+      
+    </h1></span></a><div class="toc-contents" style="max-height: 0px;">
+  <div class="sbo-toc">
+    <button type="button" class="sbo-toc-thumb close"><div class="visuallyhidden">Close</div></button>
+      <section class="ios-app-teaser">
+        <ul>
+            <li><a class="js-toc-link toc-link" href="https://itunes.apple.com/gb/app/safari-queue-library-over/id881697395?mt=8" role="button">Install App</a></li>
+            <li><a class="js-toc-link toc-link" href="safaridetail://9780133057638" role="button">Open in App</a></li>
+        </ul>
+      </section>
+      <div class="sbo-book-meta">
+        
+        <span class="cover">
+         <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/">
+          <img src="./Chapter 13. Internet Connectivity_files/saved_resource" alt="Cover image for Complete CompTIA® A+ Guide to PCs, Sixth Edition" height="183" width="143">
+        </a>
+        </span>
+        <span class="title">
+          
+            
+                <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/publisher/pearson-it-certification/">
+                  <img src="./Chapter 13. Internet Connectivity_files/pearson.png" class="publisher-logo video" alt="publisher logo">
+                </a>
+            
+          
+
+          <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/">Complete CompTIA® A+ Guide to PCs, Sixth Edition</a>
+        </span>
+        
+        <span class="authors">by Cheryl Schmidt</span>
+        
+
+        
+        <span class="publishers t-publishers">Published by
+          <!-- Show publisher page link if publisher pages switch is on -->
+          
+            <a class="t-publisher-link toc-link js-toc-link" href="https://learning.oreilly.com/library/publisher/pearson-it-certification/">
+              Pearson IT Certification</a>, 2013
+          
+        </span>
+        
+
+    
+
+    </div>
+  <ol class="tocList">
+    
+    
+    
+     
+
+     <li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/title.html">
+        Title Page <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html">
+        Copyright Page <span class="minutes">(02:18 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/toc.html">
+        Contents at a Glance <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/bk01-toc.html">
+        Contents <span class="minutes">(13:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref01.html">
+        About the Author <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ded01.html">
+        Dedication <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref02.html">
+        Acknowledgments <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref03.html">
+        We Want to Hear from You! <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref04.html">
+        Reader Services <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref05.html">
+        It Pays to Get Certified <span class="minutes">(04:36 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref06.html">
+        Introduction <span class="minutes">(04:36 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref07.html">
+        Features of This Book <span class="minutes">(11:30 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch01.html">
+        Chapter 1. Introduction to Computer Repair <span class="minutes">(83:57 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch02.html">
+        Chapter 2. On the Motherboard <span class="minutes">(87:24 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html">
+        Chapter 3. System Configuration <span class="minutes">(48:18 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch04.html">
+        Chapter 4. Disassembly and Power <span class="minutes">(131:06 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch05.html">
+        Chapter 5. Logical Troubleshooting <span class="minutes">(31:03 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch06.html">
+        Chapter 6. Memory <span class="minutes">(86:15 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch07.html">
+        Chapter 7. Storage Devices <span class="minutes">(164:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch08.html">
+        Chapter 8. Multimedia Devices <span class="minutes">(87:24 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1 currently-reading">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch09.html">
+        Chapter 9. Other Peripherals <span class="minutes">(141:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch10.html">
+        Chapter 10. Computer Design <span class="minutes">(37:57 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch11.html">
+        Chapter 11. Basic Operating Systems <span class="minutes">(116:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+     <ul class="toc-level-2">
+     
+
+     <li class="toc-level2">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch11a.html#ch11lev1sec26">
+        Activities <span class="minutes">(77:03 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+    </li></ul>
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12.html">
+        Chapter 12. Windows XP, Vista, and 7 <span class="minutes">(149:30 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+     <ul class="toc-level-2">
+     
+
+     <li class="toc-level2">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12a.html#ch12lev1sec41">
+        Activities <span class="minutes">(105:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+    </li></ul>
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html">
+        Chapter 13. Internet Connectivity <span class="minutes">(59:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html">
+        Chapter 14. Introduction to Networking <span class="minutes">(174:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch15.html">
+        Chapter 15. Computer and Network Security <span class="minutes">(127:39 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html">
+        Glossary <span class="minutes">(118:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/index.html">
+        Index <span class="minutes">(58:39 mins)</span>
+       </a>
+      
+        
+      
+   </li></ol>
+ </div>
+
+
+
+</div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" title="Search in archive" class="js-search-controls search-controls" onclick="window.Appcues.track(&#39;SearchBook_HeronBook&#39;)"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input type="search" name="query" placeholder="Search inside this book..." autocomplete="off"></form><div class="search-archive-results"><div class="js-sitb-results-region"></div></div></li><li class="queue-control"><div class="js-content-uri" data-content-uri="/api/v1/book/9780133057638/chapter/copyright.html"><div class="js-collections-dropdown collections-dropdown menu-bit-cards" onclick="window.Appcues.track(&#39;AddPlaylist_HeronBook&#39;)"><div data-reactroot="" class="menu-dropdown-wrapper js-menu-dropdown-wrapper align-right"><img class="hidden" src="./Chapter 13. Internet Connectivity_files/ajax-transp.gif" alt="loading spinner"><div class="menu-control"><div class="control "><div class="js-playlists-menu"><button class="js-playlist-icon"><svg class="icon-add-to-playlist-sml" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill-rule="nonzero" fill="#000000"><g transform="translate(-1.000000, 0.000000)"><rect x="5" y="0" width="12" height="2"></rect><title>Playlists</title><path d="M4.5,14 C6.43299662,14 8,12.4329966 8,10.5 C8,8.56700338 6.43299662,7 4.5,7 C2.56700338,7 1,8.56700338 1,10.5 C1,12.4329966 2.56700338,14 4.5,14 Z M2.5,10 L4,10 L4,8.5 L5,8.5 L5,10 L6.5,10 L6.5,11 L5,11 L5,12.5 L4,12.5 L4,11 L2.5,11 L2.5,10 Z"></path><circle cx="2" cy="5" r="1"></circle><circle cx="1.94117647" cy="1" r="1"></circle><rect x="5" y="4" width="12" height="2"></rect><rect x="9" y="8" width="8" height="2"></rect><rect x="9" y="12" width="8" height="2"></rect></g></g></g></svg><div class="js-playlist-addto-label">Add&nbsp;To</div></button></div></div></div></div></div></div></li><li class="js-font-control-panel font-control-activator"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size" onclick="window.Appcues.track(&#39;ChangeFont_HeronBook&#39;)"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="trigger" data-push-state="false" title="Share" aria-label="Share" onclick="window.Appcues.track(&#39;Share_HeronBook&#39;)"><i class="fa fa-share"></i></a><ul class="social-sharing dropdown-menu"><li class=""><a class="twitter share-button t-twitter" target="_blank" aria-label="Share this section on Twitter" title="Share this section on Twitter" href="https://twitter.com/share?url=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html&amp;text=Complete%20CompTIA%C2%AE%20A%2B%20Guide%20to%20PCs%2C%20Sixth%20Edition&amp;via=OReillyMedia"><span>Twitter</span></a></li><li class=""><a class="facebook share-button t-facebook" target="_blank" aria-label="Share this section on Facebook" title="Share this section on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><span>Facebook</span></a></li><li class=""><a class="googleplus share-button t-googleplus" target="_blank" aria-label="Share this secton on Google Plus" title="Share this secton on Google Plus" href="https://plus.google.com/share?url=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><span>Google Plus</span></a></li><li class=""><a class="email share-button t-email" aria-label="Share this section via email" title="Share this section via email" href="mailto:?subject=Safari:%20Copyright%20Page&amp;body=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html%0D%0Afrom%20Complete%20CompTIA%C2%AE%20A%2B%20Guide%20to%20PCs%2C%20Sixth%20Edition%0D%0A"><span>Email</span></a></li></ul></li><!-- endif request.user.is_authenticated -->
+      </ul>
+    </div>
+
+      
+          
+      
+
+    <section role="document"><script src="./Chapter 13. Internet Connectivity_files/48743.js"></script>
+<script>
+  var userId = "792e0d15-87f7-4f27-a256-7444770f88f0";
+
+  var userObject = {
+    firstName: "Jason",
+    segment: "Trial",
+    admin: "False",
+    profileCreatedOn: "2021-01-18",
+    academic: ""
+  };
+  window.Appcues.identify(userId, userObject);
+  window.Appcues.page();
+
+  setTimeout(function () {
+    window.Appcues.track('ViewingBook_HeronBook')
+  }, 20000);
+</script>
+
+
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12a.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">Activities</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Chapter 14. Introduction to Networking</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><h2 id="ch13"><a id="page_695"></a><span class="pd_ash">Chapter 13</span>. <span class="pd_blue">Internet Connectivity</span></h2>
+<div class="feature"><hr>
+<p class="feature-title">Chapter Objectives</p>
+<p class="noindentf">In this chapter you will learn:</p>
+<p class="indenthangingB">• To configure an internal external modem</p>
+<p class="indenthangingB">• To explain basic handshaking between a DTE device and a DCE device</p>
+<p class="indenthangingB">• To use Windows tools when working with modems</p>
+<p class="indenthangingB">• To cable and configure a DSL modem and a cable modem</p>
+<p class="indenthangingB">• Other Internet connectivity options such as satellite, broadband wireless, WiMax, and wireless modems</p>
+<p class="indenthangingB">• Why VoIP is important to technicians</p>
+<p class="indenthangingB">• To perform basic modem troubleshooting</p>
+<p class="indenthangingB">• The benefits of mentoring in the IT field</p>
+<hr></div>
+<div class="feature1"><hr>
+<p class="feature-title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/check.jpg" alt="Image" width="50" height="47"></span> CompTIA Exam Objectives</p>
+<p class="noindentf">What CompTIA A+ exam objectives are covered in this chapter?</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.4 Install and configure expansion cards.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.7 Compare and contrast various connection interfaces and explain their purpose.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.11 Identify connector types and associated cables.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-2.7 Compare and contrast Internet connection types and features.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-2.9 Compare and contrast network devices, their functions, and features.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 802-1.6 Setup and configure Windows networking on a client/desktop.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 802-4.5 Given a scenario, troubleshoot wired and wireless networks with appropriate tools.</p>
+<hr></div>
+<h3 id="ch13lev1sec1"><a id="page_696"></a><span class="pd_blue">Internet Connectivity Overview</span></h3>
+<p class="noindent">Connecting to the Internet can be done in a variety of ways: via analog modem, ISDN, cable modem, DSL modem, satellite modem, fiber, wirelessly, power line, or cellular network. Each of these technologies has a unique installation method and configuration, but they all have in common the ability to connect a computer to an outside network. Each technology is a viable option for connectivity in a specific situation. By examining the technologies and understanding them, you can offer customers connectivity options. More information about troubleshooting network connectivity is provided in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapter 14</a>. Let’s start with the oldest method: analog modems.</p>
+<h3 id="ch13lev1sec2"><span class="pd_blue">Modems Overview</span></h3>
+<p class="noindent">One of the few serial devices still in operation is the modem. Traditionally, there were other serial devices, including mice, trackballs, printers, digitizers, plotters, and scanners. Serial printers might still be found today, if a printer needs to be located 50 feet or less from the computer.</p>
+<p class="indent">A modem (modulator/demodulator) connects a computer with the outside world through a phone line. This type of technology is frequently called a <strong><a id="ch13term10" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0230" class="pd_blue">dial-up network</a></strong> because the modem uses the traditional phone line to “dial up,” or call, another modem. Modems can be internal or external peripheral devices. An internal modem is an adapter installed in an expansion slot. An external modem attaches to a serial port. A modem converts a signal transmitted over the phone line to digital 1s and 0s to be read by the computer. It also converts the digital 1s and 0s from the computer and modulates them onto the carrier signal and sends the data over the phone line. Modems normally connect to a remote modem through the phone line. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig01">Figure 13.1</a> shows two modems connecting two computers.</p>
+<div class="image"><a id="ch13fig01"></a><img src="./Chapter 13. Internet Connectivity_files/13fig01.jpg" alt="Image" width="653" height="353"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.1.</span> Sample modem connection</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: When connecting a modem to a phone line, be careful with the cabling</span></p>
+<p class="notepara">Some modems have two jacks on the back. The labeling varies, but one jack is usually labeled PHONE and the other labeled LINE. The LINE jack is for the cable that goes from the modem to the phone wall jack. The modem’s PHONE jack is an optional jack to connect a telephone to the modem. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig02">Figure 13.2</a> shows the ports on an internal modem.</p>
+<hr></div>
+<div class="image"><a id="page_697"></a><a id="ch13fig02"></a><img src="./Chapter 13. Internet Connectivity_files/13fig02.jpg" alt="Image" width="400" height="809"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.2.</span> Internal modem ports</p>
+<h3 id="ch13lev1sec3"><span class="pd_blue">Serial Communication Overview</span></h3>
+<p class="noindent">A serial device such as a modem transmits or receives information 1 bit at a time and is traditionally connected to a serial port. With modern computers, a USB-to-serial converter (see <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig03">Figure 13.3</a>) is used to attach an external serial device such as a modem. Serial cables should be no more than 50 feet long. The possibility for data loss is more likely with distances greater than 50 feet.</p>
+<div class="image"><a id="ch13fig03"></a><img src="./Chapter 13. Internet Connectivity_files/13fig03.jpg" alt="Image" width="800" height="190"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.3.</span> USB-to-DB-9 converter</p>
+<p class="indent">Serial devices are frequently external and connect to a serial port. A device such as an internal modem may be on an adapter. Serial ports are also known as asynchronous ports, COM ports, or RS232 ports. <strong><a id="ch13term02" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0051" class="pd_blue">Asynchronous</a></strong> transmissions add extra bits to the data to track when each byte starts and ends. Synchronous transmissions rely on an external clock to time the data reception or transmission. Basic terminology associated with asynchronous transmissions is found in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">Table 13.1</a>.</p>
+<p class="tab-caption"><a id="ch13tab01"></a><span class="pd_blue">Table 13.1.</span> Serial asynchronous transmission terminology</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab01.jpg" alt="Image" width="770" height="586"></div>
+<div class="note"><hr>
+<p class="title"><a id="page_698"></a><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Configuring transmission speeds</span></p>
+<p class="notepara">When configuring a serial port or using an application, the configured speed is the rate at which the serial port transmits. This is not the speed for an external serial device that connects to the port (such as a modem).</p>
+<hr></div>
+<h3 id="ch13lev1sec4"><span class="pd_blue">How to Configure Serial Ports and Devices</span></h3>
+<p class="noindent">Serial ports and devices such as internal modems have three important configuration parameters (and others as well, as discussed later): interrupt, I/O (input/output) address, and COM port number. An internal modem has all these parameters; an external modem uses these same parameters, but they are assigned to the serial port to which the external modem connects. Use Device Manager to identify these system resources. Exercises at the end of this chapter show how to view serial device resources.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Application settings and hardware settings must match</span></p>
+<p class="notepara">Applications that communicate or control serial devices must have the application settings match the hardware settings, or communication will not occur.</p>
+<hr></div>
+<p class="indent"><a id="page_699"></a>An understanding of how serial devices operate is essential to a technician’s knowledge base if analog modems are in the geographic area. Before installing a serial device and configuring its associated software, a technician must be familiar with the terminology associated with serial device installation. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">Table 13.2</a> lists the various serial port settings.</p>
+<p class="tab-caption"><a id="ch13tab02"></a><span class="pd_blue">Table 13.2.</span> Serial port settings</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab02.jpg" alt="Image" width="916" height="564"></div>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: How does parity work?</span></p>
+<p class="notepara">Parity can be either even or odd. Take the example of a computer that uses even parity. If the data sent is 10101010, a total of four 1s is sent, plus a 0 for the parity bit. Four is an even number; therefore, the parity bit is set to 0 because the total number of 1s must be an even number when even parity is used. If the data sent is 10101011, a total of five 1s is sent, plus an extra 1 for the parity bit. Because five is an odd number and the system uses even parity, the extra parity bit is set to 1 to make the total number of 1s an even number.</p>
+<hr></div>
+<p class="indent">The two common methods for flow control are XON/XOFF (software method) and RTS/CTS (hardware method). <strong><a id="ch13term36" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1111" class="pd_blue">XON/XOFF</a></strong> handshaking sends special control characters when a serial device needs more time to process data or is ready to receive more data. If one modem needs the remote modem to wait, it will send a certain character (usually <span class="middle"><img src="./Chapter 13. Internet Connectivity_files/ctrl.jpg" alt="Image" width="34" height="21"></span> + <span class="middle"><img src="./Chapter 13. Internet Connectivity_files/s_box.jpg" alt="Image" width="23" height="23"></span>). Then, when the modem is ready to accept more data, a different control character (usually <span class="middle"><img src="./Chapter 13. Internet Connectivity_files/ctrl.jpg" alt="Image" width="34" height="21"></span> + <span class="middle"><img src="./Chapter 13. Internet Connectivity_files/q_box.jpg" alt="Image" width="25" height="20"></span>) is sent.</p>
+<p class="indent"><strong><a id="ch13term26" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0841" class="pd_blue">RTS/CTS</a></strong> (hardware handshaking) uses specific wires on the serial connector to send a signal to the other device to stop or start sending data. The CTS (clear to send) and the RTS (request to send) signals indicate when it is okay to send data. Modem communication normally uses hardware flow control (RTS/CTS) instead of software flow control. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab03">Table 13.3</a> delineates hardware flow control.</p>
+<p class="tab-caption"><a id="page_700"></a><a id="ch13tab03"></a><span class="pd_blue">Table 13.3.</span> Hardware handshaking</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab03.jpg" alt="Image" width="770" height="377"></div>
+<p class="indent">The RS232 serial communication standard was developed during a time when mainframes were the norm. A mainframe terminal known as a DTE connected to a modem known as a DCE. In today’s world, <strong><a id="ch13term13" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0281" class="pd_blue">DTE</a></strong> (data terminal equipment) includes computers and printers. On a DTE serial connector, certain pins initiate communication with a DCE device, such as a modem. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab04">Table 13.4</a> shows the common signal names as well as the common abbreviations for the signals used with DTE devices.</p>
+<p class="tab-caption"><a id="ch13tab04"></a><span class="pd_blue">Table 13.4.</span> DTE signal connections</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab04.jpg" alt="Image" width="770" height="150"></div>
+<p class="indent"><strong><a id="ch13term09" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0206" class="pd_blue">DCE</a></strong> (data circuit-terminating equipment) includes devices such as modems, mice, and digitizers. On the DCE side, the signal names relate more to receiving data. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab05">Table 13.5</a> lists the common signal names used with DCE devices.</p>
+<p class="tab-caption"><a id="ch13tab05"></a><span class="pd_blue">Table 13.5.</span> DCE signal connections</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab05.jpg" alt="Image" width="770" height="223"></div>
+<p class="indent">To avoid problems, install the internal modem or attach the serial device and determine what COM port, IRQ, and I/O settings have been assigned to the device.</p>
+<h3 id="ch13lev1sec5"><a id="page_701"></a><span class="pd_blue">56Kbps Modems</span></h3>
+<p class="noindent">Analog modems are the slowest type of Internet connectivity. Modems transmit and receive at different speeds. A faster modem means less time on the phone line and less time for processor interaction. However, because modems connect to other modems, the slowest modem determines the fastest connection speed. A slow modem can only operate at the speed for which it was designed. Connecting to a faster modem will not make the slower modem operate any faster. Fortunately, speedy modems can transmit at lower speeds. As a general rule, a modem’s speed setting should be set to its maximum throughput.</p>
+<p class="indent">The phone line limit was once thought to be 28.8Kbps, then 33.6Kbps, and finally 56Kbps. The 56Kbps data transfer rate is possible only if the transmitted (analog) signal converts to digital one time during the data transmission. Digital phone lines are quieter than their analog counterparts, have less noise on the line, and allow faster data transmissions. For example, consider the scenario of a person dialing into an office network from home that is shown in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig04">Figure 13.4</a>.</p>
+<div class="image"><a id="ch13fig04"></a><img src="./Chapter 13. Internet Connectivity_files/13fig04.jpg" alt="Image" width="725" height="382"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.4.</span> Normal modem usage</p>
+<p class="indent">Notice in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig04">Figure 13.4</a> that the signal converts twice. The first time is when the analog signal enters the phone company’s central office. Between central offices, the signal stays digital. Then, when the signal leaves the central office to travel to the work building, the signal converts from a digital signal to an analog signal. 56Kbps transmission speeds do not support two conversions.</p>
+<p class="indent">If the workplace has a digital line from the phone company or if a person dials into an Internet provider that has a digital phone connection, 56Kbps throughput on a 56Kbps modem is achievable. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig05">Figure 13.5</a> shows the difference.</p>
+<div class="image"><a id="page_702"></a><a id="ch13fig05"></a><img src="./Chapter 13. Internet Connectivity_files/13fig05.jpg" alt="Image" width="725" height="382"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.5.</span> 56Kbps modem connection</p>
+<p class="indent">In <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig05">Figure 13.5</a>, only one analog-to-digital conversion exists—the one between the home and the first central office. 56Kbps speeds, in theory, can exist when only one conversion takes place. However, if the modem cannot run at 56Kbps, the modem supports lower speeds, such as 33.6Kbps and 28.8Kbps. Studies estimate that 56Kbps will run at 56Kbps 10 to 20 percent of the time, about the same estimated percentage of time 33.6Kbps and 28.8Kbps modems run at their top speed.</p>
+<h3 id="ch13lev1sec6"><span class="pd_blue">Fax Modems</span></h3>
+<p class="noindent">A <strong><a id="ch13term14" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0358" class="pd_blue">fax modem</a></strong> allows a modem to use a computer and printer as a fax machine. The modem portion brings the data to the computer. The facsimile (fax) software allows viewing, printing, replying to, or sending a fax. A regular modem sends data differently from how a fax machine sends data, so a modem can send faxes only if it is a fax modem. Not all computer-based fax machines can handle modem data transfers, but a fax modem can do both modem and fax transfers.</p>
+<p class="indent">Fax standards handled by CCITT (ITU now) are in groups. Group I through Group IV concern fax machines. Group I and Group II are slow. A Group III bis fax modem transfers data up to 14,400bps. Group IV fax modems transmit over a digital ISDN line at speeds up to 64Kbps. ISDN technology is discussed next.</p>
+<p class="indent">The Internet has changed fax capabilities. Fax machines can now be used to send a fax that is received in an email account at the final destination. The fax machine can connect to a phone line that connects to a fax gateway. The fax gateway connects to a network and sends the message in email format to the final destination. A fax machine that adheres to the ITU T.37 iFax standard allows a fax machine to be connected to the data network. The fax machine formats the fax into email format for distribution to a person’s email account or to the destination fax machine that has its own email address account and connects to a network.</p>
+<h3 id="ch13lev1sec7"><span class="pd_blue">Digital Modems and ISDN</span></h3>
+<p class="noindent">A digital modem connects a computer directly to a digital phone line rather than to a traditional analog phone line. One type of digital phone line available from the phone company is an ISDN line. An <strong><a id="ch13term18" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0507" class="pd_blue">ISDN</a></strong> (Integrated Services Digital Network) line has three separate channels: two B channels and a D channel. The B channels handle data at 64Kbps transmission <a id="page_703"></a>speeds. The D channel is for network routing information and transmits at a lower 16Kbps. The two B channels can combine into a single channel for video conferencing, thus allowing speeds up to 128Kbps. They are available in large metropolitan areas for reasonable rates making it an affordable option for home office use. But due to recent technologies, such as cable modems and xDSL modems (covered later in this chapter), ISDN is not a popular option today.</p>
+<h3 id="ch13lev1sec8"><span class="pd_blue">VoIP</span></h3>
+<p class="noindent"><strong><a id="ch13term31" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1066" class="pd_blue">VoIP</a></strong> (Voice over IP), shown in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig06">Figure 13.6</a>, uses a corporate data network or the Internet for phone traffic rather than using the traditional <strong><a id="ch13term23" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0772" class="pd_blue">PSTN</a></strong> (public switched telephone network). Traditionally, companies used a separate network structure for the data network (the network where computers and printers connect), for the phone network, and for the video network. <strong><a id="ch13term07" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0171" class="pd_blue">Convergence</a></strong> is a term used to describe how these data, voice, and video technologies are now using one network structure instead of multiple ones.</p>
+<div class="image"><a id="ch13fig06"></a><img src="./Chapter 13. Internet Connectivity_files/13fig06.jpg" alt="Image" width="800" height="739"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.6.</span> VoIP</p>
+<p class="indent">Products are available that allow a user to use an Internet connection to make phone calls rather than the traditional phone network. There are also free software applications and email accounts that allow voice and video connections using the Internet. Through these applications, the quality may not be as good as with the traditional PSTN. There is no guaranteed <strong><a id="ch13term24" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0776" class="pd_blue">QoS</a></strong> (quality of service) provided. However, in the corporate network, QoS is often implemented in conjunction with VoIP.</p>
+<p class="indent">Technicians must be aware of VoIP for two reasons: (1) A digital phone installed in a corporate office must be connected to the network in a similar fashion to the PC (see <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig07">Figure 13.7</a>); and (2) a digital phone may be a software application (a soft phone) that has to be installed and configured on a computer.</p>
+<div class="image"><a id="page_704"></a><a id="ch13fig07"></a><img src="./Chapter 13. Internet Connectivity_files/13fig07.jpg" alt="Image" width="800" height="684"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.7.</span> VoIP phone</p>
+<p class="indent">VoIP has also affected fax capabilities. A fax machine can have a VoIP adapter installed and connect to a VoIP gateway. The VoIP gateway connects to a phone line that has a destination fax machine attached. One must realize that once something is converted into 1s and 0s, if that device can be networked, then it is just data to the network and can be transmitted.</p>
+<p class="indent">One last thing to remember about VoIP in the corporate environment is that no corporate network can do away with the PSTN connection to the traditional phone network. A corporate environment will always need to be able to communicate with the outside world and especially be able to contact emergency services such as the police, fire, and emergency responders.</p>
+<h3 id="ch13lev1sec9"><span class="pd_blue">Cable Modems</span></h3>
+<p class="noindent">One of the most popular items in the modem industry is the <strong><a id="ch13term06" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0114" class="pd_blue">cable modem</a></strong>, which connects a computer to a cable TV network. Cable modems can be internal or external devices. If a cable modem is external, two methods commonly exist for connectivity to a PC—a NIC (network interface card) is installed in the computer and a cable attaches between the NIC and the cable modem or the cable modem connects to a USB port. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig08">Figures 13.8</a> and <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig09">13.9</a> show these two types of connections.</p>
+<div class="image"><a id="page_705"></a><a id="ch13fig08"></a><img src="./Chapter 13. Internet Connectivity_files/13fig08.jpg" alt="Image" width="484" height="301"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.8.</span> Cable modem and NIC connectivity</p>
+<div class="image"><a id="ch13fig09"></a><img src="./Chapter 13. Internet Connectivity_files/13fig09.jpg" alt="Image" width="494" height="286"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.9.</span> Cable modem and USB connectivity</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Cable TV and cable modems</span></p>
+<p class="notepara">Some cable Internet providers will not provide Internet access through their network unless you have the cable TV service as well.</p>
+<hr></div>
+<p class="indent">Cable modem operation is not hard to understand. Internet data comes in through cable TV coax cable. The coax cable plugs into the cable modem. The cable modem then sends the information out its built-in Ethernet port. A network cable connects from the cable modem’s Ethernet port into an Ethernet port on the computer. To send data to the Internet, the reverse happens: The computer sends the data out its Ethernet port into the cable modem. The cable modem sends the data out the coax cable onto the cable TV company’s network, which is a high-speed fiber network. Fiber networks are covered in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapter 14</a>.</p>
+<p class="indent">Two terms that are often associated with cable modems are upstream and downstream. <strong><a id="ch13term30" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1037" class="pd_blue">Upstream</a></strong> refers to data that are sent from your home to the Internet. <strong><a id="ch13term11" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0268" class="pd_blue">Downstream</a></strong> refers to the data pulled from the Internet into your computer, as when you download a file or view a web page. With cable modems, downstream transfer rates are faster than upstream transfers. Downstream speeds can be as high as 100+Mbps for consumers and even higher for businesses. Upstream speeds vary; with an external cable modem, they tend to be between 384Kbps and 20Mbps. Even though upstream speeds are slower, cable modems are a huge improvement over analog (dial-up) modems.</p>
+<p class="indent">The speed of a cable modem connection depends on two things: (1) the cable company and (2) how many people in the area share the same cable TV provider. Each cable channel uses 6MHz of the cable’s bandwidth. <strong><a id="ch13term03" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0069" class="pd_blue">Bandwidth</a></strong> is the capacity of the communications channel. Bandwidth is also known as <em>throughput</em> or <em>line speed</em>. The cable company designates one of the 6MHz channels as Internet access. Several homes can use the same channel, which reduces the amount of bandwidth each house has available. If you have three neighbors who all use the same cable vendor and they all are Internet warriors, you will have slower access than if you were the only person in the neighborhood connected.</p>
+<p class="indent"><a id="page_706"></a>The minimum amount of hardware needed to have a cable modem depends on the cable company’s specifications. Whether you need an internal modem, Ethernet card, and so on depends on the company from which you receive the cable modem. Some companies include them as part of their rate. Some cable companies install the cable modem and associated software and hardware as part of their package. If you need to install a cable modem, always follow the manufacturer’s installation instructions. The modem installs similarly to any other adapter. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapter 14</a> includes tips on configuring network adapters.</p>
+<p class="indent">Cable vendors frequently offer bundled technologies to subscribers. These bundles include phone, Internet, and cable TV connectivity. In some areas, the vendor offers a high-speed fiber network connection to each house. A single fiber carries voice, data, and video, using three different optical wavelengths. This same type of connectivity is offered at higher speeds to small businesses. A technician must be familiar with configuring these connections.</p>
+<h3 id="ch13lev1sec10"><span class="pd_blue">xDSL Modems</span></h3>
+<p class="noindent"><strong><a id="ch13term35" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1109" class="pd_blue">xDSL</a></strong> is another modem technology. The <em>x</em> in the term xDSL refers to the various types of <strong><a id="ch13term12" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0280" class="pd_blue">DSL</a></strong> (digital subscriber line) that are on the market. The most common one is <strong><a id="ch13term01" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0019" class="pd_blue">ADSL</a></strong> (Asymmetrical DSL), but there are many others. ADSL uses faster downstream speeds than upstream. This performance is fine for most home Internet users. DSL uses the traditional phone line to be able to send and transmit not only voice, but also Internet data. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab06">Table 13.6</a> shows the most common DSL types.</p>
+<p class="tab-caption"><a id="ch13tab06"></a><span class="pd_blue">Table 13.6.</span> DSL technologies</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab06.jpg" alt="Image" width="770" height="566"></div>
+<p class="indent"><a id="page_707"></a>With DSL modems, bandwidth is not shared between people in the same geographic area. The bandwidth paid for is exclusive to the user. DSL is not available in all areas. The DSL Reports website (<a href="http://www.dslreports.com/">http://www.dslreports.com</a>) lists major DSL vendors, other Internet technology vendors, and geographic areas, plus a rating on the service.</p>
+<p class="indent">An internal or external DSL modem can be used and connected to a regular phone line. The phone line can be used for calls, faxes, and so on at the same time as the modem. An external modem can connect to a USB port or an Ethernet network card. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig10">Figure 13.10</a> shows DSL modem ports, including the DSL connector, which connects to the wall outlet and is labeled DSL; the optional USB port, which could have a USB cable connected to a computer; and the four Ethernet LAN connections, which could have connections to one or more computers, printers, external network storage, and so on.</p>
+<div class="image"><a id="ch13fig10"></a><img src="./Chapter 13. Internet Connectivity_files/13fig10.jpg" alt="Image" width="1300" height="865"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.10.</span> DSL modem ports</p>
+<p class="indent">If a DSL implementation uses an internal modem, it occupies an expansion slot (usually PCI) and is configured the same way as an internal modem. Always follow the manufacturer’s installation instructions. Some vendors install a DSL modem and configure the computer as part of their package. Also note that a PC views a DSL connection as a network connection.</p>
+<p class="indent">A drawback to DSL is that the DSL signal needs to be separated from the normal phone traffic. DSL providers normally ship <strong><a id="ch13term22" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0711" class="pd_blue">phone filters</a></strong> that must connect to each phone outlet, and a phone, fax machine, or voice recorder attaches to the filter. The connection from the DSL modem to the phone outlet does not have a filter on it.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Corporate DSL, cable, or fiber</span></p>
+<p class="notepara">Corporate Internet connectivity can use DSL, cable, or fiber connections. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapter 14</a> provides more information on fiber cabling.</p>
+<hr></div>
+<p class="indent">This chapter does not go into firewalls and network security; they are discussed in later chapters. It is very important when installing cable modems and DSL modems to look at information on proxy servers, firewalls, disabling file sharing, and so on. When using these technologies, a computer is more prone to attacks, viruses, theft of computer files, and computer takeover. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig11">Figure 13.11</a> shows three different ways to connect a cable or DSL modem. The example on the left is the least secure. File sharing should not be enabled on computers connected in this manner.</p>
+<div class="image"><a id="page_708"></a><a id="ch13fig11"></a><img src="./Chapter 13. Internet Connectivity_files/13fig11.jpg" alt="Image" width="653" height="537"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.11.</span> Cable/DSL modem connectivity</p>
+<h3 id="ch13lev1sec11"><span class="pd_blue">Troubleshooting Cable and DSL Modems</span></h3>
+<p class="noindent">Since most cable and DSL modems are external, the best tool for troubleshooting connectivity problems is the lights on the front of the modem. The lights will vary between vendors, but common ones are listed in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab07">Table 13.7</a>.</p>
+<p class="tab-caption"><a id="ch13tab07"></a><span class="pd_blue">Table 13.7.</span> Cable/DSL modem lights and troubleshooting<a id="ch13tn01" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tn01a">*</a></p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab07.jpg" alt="Image" width="916" height="460"></div>
+<p class="tn-footnote"><a id="ch13tn01a" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tn01">*</a>Note that you should refer to the modem documentation for the exact status of the lights.</p>
+<p class="indent"><a id="page_709"></a>Once you have checked lights and possibly checked cables, if you still have a problem, power off the modem, power it back on, and reboot the computer. Give the modem a couple minutes to initialize. Most modems have a reset button that can also be used, but powering off and powering back on works without having to wipe all the configuration information. If a modem is still not working after you take these steps, contact the service provider.</p>
+<h3 id="ch13lev1sec12"><span class="pd_blue">Satellite Modems</span></h3>
+<p class="noindent">An option available to areas that do not have cable or DSL service is satellite connectivity. The satellite relays communication back to receivers on Earth. Satellite connectivity requires a satellite dish and a <strong><a id="ch13term27" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0853" class="pd_blue">satellite modem</a></strong> at a minimum. It may also require an analog modem and other equipment, depending on the satellite provider. If connected via satellite, the data goes from the computer to the satellite dish mounted outside the home to another satellite dish (and maybe more), up to the satellite orbiting Earth, down to the <strong><a id="ch13term19" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0510" class="pd_blue">ISP</a></strong> (Internet service provider), and from the ISP to the website requested; the web page returns via the same path it took. Satellite connectivity is not as fast as cable or DSL connectivity, but it can be five to seven times faster than dial-up. The downstream speeds can be from 9Kbps to 24Mbps but typically are around 500Kbps. Some providers offer the same upstream speeds.</p>
+<p class="indent">With a satellite modem, TV programs accessed via the satellite can be watched at the same time that web pages are downloaded from the Internet. However, drawbacks to satellite modems are important to mention:</p>
+<p class="indenthangingB">• The initial cost of installing a satellite modem can be high.</p>
+<p class="indenthangingB">• If other people in the area subscribe to the same satellite service, speed is decreased during peak periods.</p>
+<p class="indenthangingB">• Initial connections have a lag time associated with them, so playing multiplayer games is not very practical.</p>
+<p class="indenthangingB">• VPNs (virtual private networks) are normally not supported.</p>
+<p class="indenthangingB">• Weather elements, such as high winds, rain, and snow, affect performance and connectivity.</p>
+<h3 id="ch13lev1sec13"><span class="pd_blue">Modem Preventive Maintenance</span></h3>
+<p class="noindent">The old adage “an ounce of prevention is worth a pound of cure” is especially true in the case of modems. A power surge can come across a phone line just as it can travel over an electrical power line. Most people think and worry about the computer problems that could result from power surges, but they do not stop to think about surges through the phone line. To provide protection for a modem and a computer, purchase a special protection device called a phone line isolator or a modem isolator at a computer or phone store. A power surge through the phone line or cable can take out many components inside a computer, including the motherboard.</p>
+<p class="indent">Some surge protectors also have modem protection. A cable from the computer plugs into the surge protector. A separate cable connects to another jack on the surge protector, and the other end plugs into the phone or cable company wall jack. The surge protector must, of course, be plugged into a grounded outlet.</p>
+<h3 id="ch13lev1sec14"><span class="pd_blue">Mobile Connectivity</span></h3>
+<p class="noindent">A portable computer may have a modem PC Card or ExpressCard installed in the portable computer. Modem PC Cards are Type II cards that fit into a Type II or a Type III slot. Some modem cards are combo cards—both a modem and a NIC. Modem PC Cards have a special connector called a dongle that attaches to them and allows an RJ-11 cable to be plugged into the card. Dongles can also be used with laptop network PC Cards. Analog modems are not very common today in the U.S., but <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig12">Figure 13.12</a> shows a NIC modem PC Card with a dongle attached.</p>
+<div class="image"><a id="page_710"></a><a id="ch13fig12"></a><img src="./Chapter 13. Internet Connectivity_files/13fig12.jpg" alt="Image" width="533" height="394"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.12.</span> 3Com NIC/modem combo PC Card with a dongle</p>
+<p class="indent">An increasingly popular feature with laptops is connectivity called <strong><a id="ch13term33" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1092" class="pd_blue">wireless broadband</a></strong>, with download speeds up to 45Mbps. This technology is sometimes referred to as wireless or cellular WAN. Cell phone companies and Internet providers offer PC Cards, ExpressCards, USB modems, mobile data cards, or integrated laptop connectivity to have the ability to receive, create, and communicate Internet information within a coverage area. For people who travel a lot, this option gives connectivity in places where data connectivity has not previously been feasible.</p>
+<p class="indent">Some smartphones, computers, and tablets can become <strong><a id="ch13term33a" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1093" class="pd_blue">wireless hot spots</a></strong>. Using their wireless connection, a USB port, Bluetooth wireless connectivity, or the cellular network, such a device can provide wireless Internet connectivity to others in the immediate vicinity (see <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig13">Figure 13.13</a>). Some cell service providers offer this option as part of the cellular plan. The term <em>wireless hot spot</em> is also used to refer to an area of wireless connectivity (normally free) such as in a park, coffee shop, or museum. More information on wireless connectivity is provided in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapters 14</a> and <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch15.html#ch15">15</a>.</p>
+<div class="image"><a id="ch13fig13"></a><img src="./Chapter 13. Internet Connectivity_files/13fig13.jpg" alt="Image" width="400" height="539"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.13.</span> Wireless hot spot</p>
+<p class="indent">Another wireless technology that can be used to connect to the Internet is <strong><a id="ch13term32" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1085" class="pd_blue">WiMAX</a></strong>. WiMAX is similar to your home or corporate wireless network, but on a much larger scale for a larger coverage area. WiMAX is defined in the IEEE 802.16 standard and can provide Internet access at speeds up to 1Gbps. WiMAX can also be used for connectivity as part of a cellular network.</p>
+<p class="indent">A home or portable device can have a WiMAX receiver similar to the wireless broadband receivers. Such a device communicates with a tower that has a WiMAX antenna. This is known as a non-line-of-sight connection. The WiMAX antenna mounted on a tower connects wirelessly with another WiMAX antenna mounted on a tower, which might connect to a third WiMAX <a id="page_711"></a>tower. These between-tower connections are known as <strong><a id="ch13term20" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0539" class="pd_blue">line-of-sight networks</a></strong> or line-of-sight backhauls. Eventually, the last WiMAX tower connects via cable to the ISP. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig14">Figure 13.14</a> summarizes the wireless concepts.</p>
+<div class="image"><a id="ch13fig14"></a><img src="./Chapter 13. Internet Connectivity_files/13fig14.jpg" alt="Image" width="686" height="337"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.14.</span> Wireless Internet connectivity</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Laptop wireless WAN connectivity</span></p>
+<p class="notepara">A laptop that ships with integrated wireless WAN capabilities does not need an additional adapter or antenna. However, the BIOS must have the option enabled. Some laptops might have a key combination or a switch to enable the connection. The wireless application software is available through the Start button.</p>
+<hr></div>
+<h3 id="ch13lev1sec15"><span class="pd_blue">Web Browsers</span></h3>
+<p class="noindent">A web browser is a graphical interface between a user and the Internet. Common web browsers include Microsoft’s Internet Explorer (commonly called IE), Mozilla’s Firefox, and Google’s Chrome (not to be confused with Google’s Chrome OS, which is a Linux-based operating system). Because Internet Explorer ships with Windows, most textbooks use this browser to explain concepts instead of all three.</p>
+<p class="indent">Most browsers are customizable, and many of the settings relate to security, so they are covered in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch15.html#ch15">Chapter 15</a>. To get to those settings, click on <em>Tools</em> or the Tools icon that looks like a gear in the top-right corner of Internet Explorer. Internet Explorer version 9 has seven main Internet Options tabs (see <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig15">Figure 13.15</a>). A user uses these tabs to configure the browser experience. Note that these options can also be reached using the Internet Options Control Panel in all versions of Windows. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab08">Table 13.8</a> explains the main purposes of the main tabs.</p>
+<div class="image"><a id="ch13fig15"></a><img src="./Chapter 13. Internet Connectivity_files/13fig15.jpg" alt="Image" width="423" height="541"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.15.</span> Internet Options tabs</p>
+<p class="tab-caption"><a id="page_712"></a><a id="ch13tab08"></a><span class="pd_blue">Table 13.8.</span> Purposes of the Internet Options tabs</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab08.jpg" alt="Image" width="770" height="600"></div>
+<p class="indent">The General tab is one of the most common used tabs. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab09">Table 13.9</a> explains the purpose of its main sections.</p>
+<p class="tab-caption"><a id="ch13tab09"></a><span class="pd_blue">Table 13.9.</span> Internet Explorer General tab sections</p>
+<div class="image"><img src="./Chapter 13. Internet Connectivity_files/13tab09.jpg" alt="Image" width="770" height="387"></div>
+<p class="indent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13lev2sec5">Lab 13.5</a> at the end of this chapter demonstrates the basics of Internet Explorer configuration. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapters 14</a> and <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch15.html#ch15">15</a> provide more information and labs on networking, network security, and Internet security.</p>
+<h3 id="ch13lev1sec16"><a id="page_713"></a><span class="pd_blue">Soft Skills—Mentoring</span></h3>
+<p class="noindent">Every great technician can tell you that he or she had at least one mentor along the way. When you hear the word <em>mentor</em>, it probably conjures up other words and phrases in your head—coach, guidance, teacher, adviser, positive influence, leadership, setting an example, and so on. No technician can attain his or her ultimate level without being mentored and mentoring someone else along his or her career path. Also, no technician can learn everything from a book or from experience. Others helping us along the way enable us to learn faster and more efficiently.</p>
+<p class="indent">When you enter your first (second, third, or fourth) job in the IT field, you should take a few days to look around the company. Find someone who appears to be very professional and knowledgeable—someone who you want to emulate. Talk to that person and explain your goals. Ask if he or she will mentor you and detail what you would like—whether it is help you with problems you cannot solve or advice about office politics.</p>
+<p class="indent">Mentoring is an important part of life. Not only should you consider being mentored, but you should consider mentoring others. Many technicians hoard information from other technicians and computer users. Knowledge is power, and by sharing information with others and helping them along the way, you cement and expand your own knowledge.</p>
+<h3 id="ch13lev1sec17"><a id="page_714"></a><span class="pd_blue">Chapter Summary</span></h3>
+<p class="indenthangingB">• Serial ports are also called asynchronous ports, COM ports, and RS232 ports.</p>
+<p class="indenthangingB">• Serial ports use either XON/XOFF (software method) or RTS/CTS (hardware method) for flow control.</p>
+<p class="indenthangingB">• Serial ports must be configured for the number of bits, parity, stop bits, FIFO setting, flow control, and handshaking. The two sides of the connection must match.</p>
+<p class="indenthangingB">• The speed at which a 56K modem can transmit is limited by the number of analog-to-digital conversions.</p>
+<p class="indenthangingB">• Internet connectivity can be provided by an analog modem, satellite modem, ISDN, cable modem, fiber, DSL modem, or wirelessly through the cell phone network, a wireless hot spot, WiMAX, or a wireless network.</p>
+<p class="indenthangingB">• Cable modem bandwidth is shared by the number of subscribers in an area. A direct fiber connection might be an option.</p>
+<p class="indenthangingB">• A DSL modem uses a phone line. ADSL has a faster downstream than upstream speed.</p>
+<p class="indenthangingB">• WiMax networks are line-of-sight networks.</p>
+<p class="indenthangingB">• VoIP uses a corporate network and/or the Internet for voice connectivity. Internet-based VoIP does not offer QoS.</p>
+<p class="indenthangingB">• Technicians frequently have to configure Internet browsers. In Internet Explorer, you use the Internet Options tabs for configuration.</p>
+<p class="indenthangingB">• Mentoring is important when you get started as a technician and as you gain experience.</p>
+<h3 id="ch13lev1sec18"><span class="pd_blue">Key Terms</span></h3>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term01">ADSL</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term02">asynchronous</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term03">bandwidth</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">baud</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">bps</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term06">cable modem</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term07">convergence</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">data bits</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term09">DCE</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term10">dial-up network</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term11">downstream</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term12">DSL</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term13">DTE</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term14">fax modem</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">FIFO setting</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">flow control</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">handshaking</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term18">ISDN</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term19">ISP</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term20">line-of-sight network</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab02">parity</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term22">phone filter</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term23">PSTN</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term24">QoS</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">RS232C</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term26">RTS/CTS</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term27">satellite modem</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">start bit</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13tab01">stop bit</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term30">upstream</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term31">VoIP</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term32">WiMAX</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term33">wireless broadband</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term33a">wireless hot spot</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term35">xDSL</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13term36">XON/XOFF</a></p>
+<h3 id="ch13lev1sec19"><span class="pd_blue">Review Questions</span></h3>
+<p class="question"><strong>1.</strong> Which of the following are names for a computer’s serial port? (Select all that apply.) [ COM port | asynchronous port | synchronous port | LPT port | RS232 port ]</p>
+<p class="question"><strong>2.</strong> What setting determines how two serial devices establish communication? [ data bits | stop bits | parity | flow control ]</p>
+<p class="question"><strong>3.</strong> What port would be used to connect an external modem if the motherboard did not have a serial port? [ IEEE 1394 | eSATA | DVI | USB ]</p>
+<p class="question"><strong>4.</strong> What is the biggest limitation to a 56Kbps modem transmitting at 56Kbps?</p>
+<p class="enter">&nbsp;</p>
+<p class="question"><a id="page_715"></a><strong>5.</strong> What is VoIP?</p>
+<p class="question-a"><strong>a.</strong> a cable modem technology</p>
+<p class="question-a"><strong>b.</strong> a method used to wirelessly connect to the Internet</p>
+<p class="question-a"><strong>c.</strong> using a network to carry voice traffic</p>
+<p class="question-a"><strong>d.</strong> communicating faster on the network on downloads than on uploads</p>
+<p class="question"><strong>6.</strong> What component is added to phone jacks that have a phone or answering machine attached when DSL technology is used to connect to the Internet so that both data and voice and be transmitted over the same circuitry?</p>
+<p class="questionp">[ modem surge protector | phone filter | ISP | RJ-11 connector ]</p>
+<p class="question"><strong>7.</strong> [T | F] A cable modem is a good investment for a home modem. Explain your answer.</p>
+<p class="enter">&nbsp;</p>
+<p class="question"><strong>8.</strong> Explain how a NIC is used with a cable modem.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="question"><strong>9.</strong> List one drawback to a cable modem.</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>10.</strong> What does asymmetrical mean in relation to an ADSL modem?</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>11.</strong> Can a phone be used at the same time as a DSL modem? Explain why or why not.</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>12.</strong> What is the first thing you should check if your Internet connectivity is down and you have a DSL modem installed?</p>
+<p class="question1"><strong>13.</strong> What is wireless broadband?</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>14.</strong> Would WiMAX be a good technology for a country that does not have a very strong wired Internet connectivity infrastructure? Why or why not?</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>15.</strong> A new laptop has an integrated wireless WAN. The customer thinks there is a missing wireless antenna. What should you advise the customer?</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>16.</strong> [ T | F ] A hot spot provides wired network connectivity.</p>
+<p class="question1"><strong>17.</strong> What would be the purpose of an Ethernet connection on a cable modem or a DSL modem?</p>
+<p class="question-a"><strong>a.</strong> connect the PC to the phone jack on the wall</p>
+<p class="question-a"><strong>b.</strong> connect the PC to the jack provided by the Internet provider</p>
+<p class="question-a"><strong>c.</strong> connect the PC to the modem</p>
+<p class="question-a"><strong>d.</strong> connect the modem to the jack provided by the Internet provider</p>
+<p class="question1"><strong>18.</strong> A customer has a new laptop with wireless WAN capabilities; however, the software does not connect to the Internet. What would you suggest to the customer?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>19.</strong> What is a phone line isolator?</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>20.</strong> List two ways mentoring can help in the IT field.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<h3 id="ch13lev1sec20"><a id="page_716"></a><span class="pd_blue">Exercises</span></h3>
+<h4 id="ch13lev2sec1">Lab 13.1 Exploring Serial Devices in Windows XP</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To explore serial devices and their properties using Windows XP</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer with Windows XP installed and, optionally, a modem</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer and log on using the user ID and password provided by the instructor or lab assistant.</p>
+<p class="indenthangingN"><strong>2.</strong> Click the <em>Start</em> button and click <em>Control Panel</em>.</p>
+<p class="indenthangingN"><strong>3.</strong> If in Category View, click <em>Performance and Maintenance</em>. In both views, open <em>Administrative Tools</em> and double-click the <em>Computer Management</em> icon.</p>
+<p class="indenthangingN"><strong>4.</strong> In the left window, click <em>Device Manager</em>. In the right window, expand the <em>Ports</em> option.</p>
+<p class="indenthangingN"><strong>5.</strong> Right-click <em>Communications Port (Com1)</em> and select <em>Properties</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What options are available under the Device Usage drop-down menu?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the status of the serial port?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>6.</strong> Click the <em>Troubleshoot</em> button. When the generic hardware device troubleshooter opens, click the <em>Next</em> button.</p>
+<p class="indenthangingN"><strong>7.</strong> Click the <em>Yes, my hardware is on the HCL</em> or <em>I have already contacted the manufacturer and installed updated drivers, but I still have a problem</em> radio button and then click <em>Next</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the next question the troubleshooter poses?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">If a new driver was just installed, what Windows XP feature can be used?</span></p>
+<p class="indenthangingN"><strong>8.</strong> Close the <em>Help and Support Center</em> window and click the <em>Port Settings</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the default serial port speed setting?</span></p>
+<p class="indenthangingN"><strong>9.</strong> Click the <em>Driver</em> tab and click the <em>Driver Details</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">List any drivers, including the complete path associated with the serial port.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>10.</strong> Click the <em>OK</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the purpose of the Roll Back Driver button?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>11.</strong> Click the <em>Resources</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What IRQ and I/O addresses are assigned?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials:</em></strong> _____________</span></p>
+<p class="indenthangingN1"><strong>12.</strong> Click the <em>OK</em> button.</p>
+<h5 id="ch13lev3sec1"><a id="page_717"></a>Modems</h5>
+<p class="noindent"><em>Note</em>: Skip this section if a modem is not installed. If unsure, perform the tasks to see if the steps work.</p>
+<p class="indenthangingN1"><strong>13.</strong> Expand the <em>Modems</em> Device Manager category. Right-click a specific modem and select <em>Properties</em>. Click the <em>Modem</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port does the modem use?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What is the maximum port speed?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Is 115,200bps the speed at which the modem transmits over the phone line? Explain your answer.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>14.</strong> Click the <em>Diagnostics</em> tab and click the <em>Query Modem</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What was the first <em>AT</em> command that was sent to the modem?</span></p>
+<p class="indenthangingN1"><strong>15.</strong> Click the <em>View log</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">Scroll to the bottom of the log. What communications standard(s) does the modem use?</span> Modem dependent, but a common answer is V.90</p>
+<p class="indenthangingN1"><strong>16.</strong> Close the Notepad log. Click the <em>Resources</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What IRQ and I/O addresses does the modem use?</span></p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials:</em></strong> _____________</span></p>
+<p class="indenthangingN1"><strong>17.</strong> Close the <em>Modem Properties</em> window. Close the <em>Computer Management</em> window.</p>
+<h4 id="ch13lev2sec2">Lab 13.2 Exploring Serial Devices in Windows Vista/7</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To explore serial devices and their properties using Windows Vista and Windows 7</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer with Windows Vista or Windows 7 installed</p>
+<p class="partp">Either a serial port with an external modem attached or an internal modem</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer and log on using the user ID and password provided by the instructor or lab assistant.</p>
+<p class="indenthangingN"><strong>2.</strong> Click the <em>Start</em> button and click <em>Control Panel</em>.</p>
+<p class="indenthangingN"><strong>3.</strong> Click the <em>System and Maintenance</em> (Vista) or <em>System and Security</em> (7) Control Panel.</p>
+<p class="indenthangingN"><strong>4.</strong> Click the <em>Device Manager</em> link. Note that you may have to scroll down to see this option.</p>
+<p class="indenthangingN"><strong>5.</strong> Expand the <em>Ports</em> option.</p>
+<p class="indenthangingN"><strong>6.</strong> If <em>Communications Port (Com1)</em> is available, right-click and select <em>Properties</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What tabs are available?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What is the status of the serial port?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>7.</strong> Click the <em>Port Settings</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the maximum number of bits per second?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>8.</strong> Click the <em>Advanced</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What UART is being used?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port is assigned?</span> Machine dependent, but a common answer will be COM1.</p>
+<p class="indenthangingN"><strong>9.</strong> Click <em>Cancel</em>.</p>
+<p class="indenthangingN1"><strong>10.</strong> Click the <em>Driver</em> tab and click the <em>Driver Details</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">List any drivers, including the complete path associated with the serial port.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><a id="page_718"></a><strong>11.</strong> Click the <em>OK</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the purpose of the <em>Roll Back Driver</em> button?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>12.</strong> Click the <em>Resources</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What IRQ and I/O addresses are assigned?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials:</em></strong> _____________</span></p>
+<p class="indenthangingN1"><strong>13.</strong> Click the <em>OK</em> button.</p>
+<h5 id="ch13lev3sec2">Modems</h5>
+<p class="noindent"><em>Note</em>: Skip this section if an internal modem is not installed. If unsure, perform the tasks to see if the steps work.</p>
+<p class="indenthangingN1"><strong>14.</strong> Expand the <em>Modems</em> Device Manager category. Right-click a specific modem and select <em>Properties</em>. Click the <em>Modem</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port does the modem use?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What is the maximum port speed?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Is the setting for the maximum bits per second on a serial port the speed at which the external modem transmits over the phone line? Explain your answer.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">Why would you want the speaker volume enabled when first installing a modem?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>15.</strong> Click the <em>Diagnostics</em> tab and click the <em>Query Modem</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What was the first <code>AT</code> command that was sent to the modem?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>16.</strong> Click the <em>View log</em> button. Scroll to the bottom of the log.</p>
+<p class="indenthangingNP"><span class="pd_blue">What communications standard(s) does the modem use?</span></p>
+<p class="indenthangingN1"><strong>17.</strong> Close the Notepad log. Click the <em>Resources</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What IRQ and I/O addresses does the modem use?</span></p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials:</em></strong> _____________</span></p>
+<p class="indenthangingN1"><strong>18.</strong> Close the <em>Modem Properties</em> window. Close the <em>Device Manager</em> window.</p>
+<p class="indenthangingN1"><strong>19.</strong> Close the <em>Control Panel</em> window.</p>
+<h4 id="ch13lev2sec3">Lab 13.3 Windows XP Direct Cable Connection</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To connect two computers, using either a null serial or null parallel cable so that one computer can access files or resources on the other computer</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two Windows XP computers</p>
+<p class="partp">A null serial or parallel cable</p>
+<p class="note1"><em>Note</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking must previously be installed or installed during the Direct Cable Connection installation. The steps of this process are beyond the scope of this chapter.</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Connect the null serial or parallel cable between the two computers.</p>
+<p class="indenthangingN"><strong>2.</strong> Power on the computer and logon as an administrator or with a user ID that has administrator permissions. See the instructor or lab assistant for more details.</p>
+<p class="indenthangingN"><a id="page_719"></a><strong>3.</strong> Before installing Windows XP’s Direct Cable Connection, check to see if a null serial cable is being used. Look to see if the cable attaches to the serial port or parallel port. If it is a serial connection, the cable must first be installed as a modem. If a null serial cable is being used, go to the Serial Connection Pre-installation section. If a serial connection is not being used, skip this section.</p>
+<h5 id="ch13lev3sec3">Serial Connection Pre-installation</h5>
+<p class="indenthangingN"><strong>4.</strong> Access the <em>Phone and Modem Options</em> Control Panel and select the <em>Modems</em> tab. Click the <em>Add</em> button.</p>
+<p class="indenthangingN"><strong>5.</strong> Enable the <em>Don’t detect my modem, I will select it from a list</em> checkbox and click <em>Next</em>.</p>
+<p class="indenthangingN"><strong>6.</strong> Locate the <em>Standard Modem Types Manufacturer</em> option and click it. In the right pane, select <em>Communications cable between two computers</em> and click <em>Next</em>.</p>
+<p class="indenthangingN"><strong>7.</strong> Select the port that has the null serial cable attached. Click <em>Finish</em> and click <em>OK</em>.</p>
+<h5 id="ch13lev3sec4">Direct Cable Connection Installation</h5>
+<p class="indenthangingN"><strong>8.</strong> Click the <em>Start</em> button and click <em>Control Panel</em>. Double-click <em>Network Connections</em>.</p>
+<p class="indenthangingN"><strong>9.</strong> Under Network Tasks, click the <em>Create a new connection</em> icon and click <em>Next</em>. Under Network Connection Type, select <em>Set up an advanced connection</em> and click <em>Next</em>. If configuring the first computer (the host), select <em>Accept incoming connections</em> in the <em>Type of Connection You Want</em> window and click <em>Next</em>. If configuring the second computer (the guest), select <em>Connect directly to another computer</em> and click <em>Next</em>. The host computer is the one sharing resources. The guest computer is the one that is accessing the shared resources. Click the <em>Next</em> button.</p>
+<p class="indenthangingN1"><strong>10.</strong> Select the type of cable being used checkbox and click <em>Next</em>.</p>
+<p class="indenthangingN1"><strong>11.</strong> Select the <em>Do not allow virtual private connections</em> radio button and click <em>Next</em>.</p>
+<p class="indenthangingN1"><strong>12.</strong> Select the users who will be allowed to connect and click <em>Next</em>.</p>
+<p class="indenthangingN1"><strong>13.</strong> In the <em>Networking software</em> window, ensure that a networking protocol such as TCP/IP and File and Printer Sharing are enabled. Note that the <em>Properties</em> button can be used, if necessary, to configure the networking protocol parameters. See <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html#ch14">Chapter 14</a> for more details on TCP/IP addressing. Click <em>Next</em> and click the <em>Finish</em> button.</p>
+<p class="indenthangingN1"><strong>14.</strong> Go to the second computer and perform exactly the same procedure except select <em>Connect directly to another computer</em> in Step 2.</p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials:</em></strong> _____________</span></p>
+<h4 id="ch13lev2sec4">Lab 13.4 Internal and External Modem Installation</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To be able to install an internal modem and an external modem and establish communication between two computers</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internal modem</p>
+<p class="partp">External modem with serial cable</p>
+<p class="partp">Two Windows XP computers</p>
+<p class="partp">Windows XP HyperTerminal communication software</p>
+<p class="partp">Two RJ-11 phone cables</p>
+<p class="partp">Two analog phone ports or a phone line simulator</p>
+<p class="note1"><em>Note</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two internal modems or two external modems could also be used to perform this lab, with very few adjustments.</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer and ensure that it boots properly.</p>
+<p class="indenthangingN"><strong>2.</strong> Shut down the computer properly and remove the power cord from the back of the computer.</p>
+<h5 id="ch13lev3sec5"><a id="page_720"></a>Internal Modem Installation</h5>
+<p class="indenthangingN"><strong>3.</strong> Install the internal modem into an available slot.</p>
+<p class="indenthangingN"><strong>4.</strong> Re-install the computer cover, re-install the computer power cord, and power on the computer. The <em>Found New Hardware</em> Wizard appears if this is the first time the computer has had this adapter installed.</p>
+<p class="indenthangingN"><strong>5.</strong> Install the correct modem driver, using either the one from Microsoft or the one provided with the modem.</p>
+<p class="indenthangingN"><strong>6.</strong> Access the Device Manager through the <em>System</em> Control Panel (or the <em>Performance and Maintenance</em> category and then the <em>System</em> Control Panel). Click the <em>Hardware</em> tab and click <em>Device Manager</em>. Expand the <em>Modems</em> category. Right-click the internal modem that was just installed and select <em>Properties</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">Under the General tab, what is the device status? It should be that the modem is working properly. If it is not, perform appropriate troubleshooting until it does display that message.</span></p>
+<p class="indenthangingN"><strong>7.</strong> Click the <em>Diagnostics</em> tab. Click the <em>Query modem</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">List at least two AT commands and the response that is shown in the information window.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>8.</strong> Click the <em>View log</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What do you think a technician could do with this information?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>9.</strong> Close the <em>Notepad log</em> window.</p>
+<p class="indenthangingN1"><strong>10.</strong> Click the <em>Resources</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What memory range does the adapter use?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What IRQ is the adapter using?</span></p>
+<p class="indenthangingN1"><strong>11.</strong> Click the <em>Advanced</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">When do you think you would use the Extra initialization commands textbox?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>12.</strong> Click the <em>Advanced Port Settings</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port is used with this adapter?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Are FIFO buffers used by default?</span></p>
+<p class="indenthangingN1"><strong>13.</strong> Click the <em>Cancel</em> button on the next two screens to exit the <em>Properties</em> window.</p>
+<p class="indenthangingN1"><strong>14.</strong> Connect an RJ-11 phone cable from the internal modem port (the one that is <em>not</em> labeled phone) to the analog phone line or to a port on the simulator.</p>
+<h5 id="ch13lev3sec6">External Modem Installation</h5>
+<p class="indenthangingN1"><strong>15.</strong> On the second computer, attach the power cord to the external modem and attach the other end to power outlet. Connect the serial modem cable between the modem and the PC.</p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port are you attaching the modem?</span></p>
+<p class="indenthangingNP">If you do not know, research this until you do. Do not proceed until you determine the COM number assigned to the serial port being used.</p>
+<p class="indenthangingN1"><strong>16.</strong> Turn on the external modem. A <em>Found New Hardware</em> balloon normally appears. If Windows detects the modem, after a short period, a message appears, saying that the hardware is ready to use.</p>
+<p class="indenthangingN1"><strong>17.</strong> Access the <em>Phone and Modem Options</em> Control Panel. Click the <em>Modems</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">Does the modem appear in the list?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If not, troubleshoot until it does.</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What COM port is listed in the <em>Attached to</em> column of the display?</span></p>
+<p class="indenthangingN1"><a id="page_721"></a><strong>18.</strong> Ensure that the correct modem is selected and click the <em>Properties</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">On the <em>General</em> tab, what is the device status?</span></p>
+<p class="indenthangingN1"><strong>19.</strong> Click the <em>Modem</em> tab. This tab is where you can control the speaker volume, maximum port speed, and dial control option. Click the <em>Diagnostics</em> tab and click the <em>Query Modem</em> button. Watch the lights on top of the modem as the PC communicates with the external modem. This ability to watch the connectivity is an advantage of having an external modem.</p>
+<p class="indenthangingNP"><span class="pd_blue">List the first command and response listed in the dialog window as a result of the modem query.</span></p>
+<p class="indenthangingNP">Click the <em>Advanced</em> tab. <span class="pd_blue">What can you do from this tab?</span></p>
+<p class="indenthangingN1"><strong>20.</strong> Click the <em>Driver</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the purpose of the <em>Roll Back Driver</em> option?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>21.</strong> Click the <em>Cancel</em> button on the next two screens to exit the <em>Properties</em> window.</p>
+<p class="indenthangingN1"><strong>22.</strong> Notice the documented markings for the external modem’s phone ports. The port that has the symbol for an RJ-11 connection is used to connect to a phone outlet. The port that has the symbol for a phone is where you can optionally attach an analog phone to the modem. Connect an RJ-11 phone cable from the external modem port to another phone outlet or to a phone network simulator.</p>
+<p class="indenthangingNP"><span class="pd_blue">What phone number is assigned to the wall outlet or port used for the internal modem?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What phone number is assigned to the wall outlet or port used for the external modem?</span></p>
+<p class="enter">&nbsp;</p>
+<h5 id="ch13lev3sec7">Communication Between the Two Modems</h5>
+<p class="indenthangingN1"><strong>23.</strong> The HyperTerminal program is a communications program that has shipped with Windows products since the first version of Windows. On the computer that has an external modem attached, access the HyperTerminal application (normally available through the <em>Accessories</em> option). The <em>New Connection</em> window appears. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig16">Figure 13.16</a> shows this window.</p>
+<div class="image"><a id="ch13fig16"></a><img src="./Chapter 13. Internet Connectivity_files/13fig16.jpg" alt="Image" width="500" height="450"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.16.</span> HyperTerminal window</p>
+<p class="indenthangingN1"><strong>24.</strong> Click the <em>Cancel</em> button. From the <em>File</em> menu option, select <em>Properties</em>. In the <em>Connect using</em> drop-down list, select the modem. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#ch13fig17">Figure 13.17</a> shows how the modem appears in the drop-down list.</p>
+<div class="image"><a id="page_722"></a><a id="ch13fig17"></a><img src="./Chapter 13. Internet Connectivity_files/13fig17.jpg" alt="Image" width="400" height="406"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 13.17.</span> HyperTerminal modem selection</p>
+<p class="indenthangingN1"><strong>25.</strong> Click the <em>Configure</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the default flow control used by this external modem?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Is error compression enabled or disabled by default?</span></p>
+<p class="indenthangingN1"><strong>26.</strong> Click the <em>Advanced</em> tab.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the default setting for the number of data bits, whether parity is used, the number of stop bits, and the type of modulation used?</span></p>
+<p class="indenthangingN1"><strong>27.</strong> Click the <em>Cancel</em> button. In the <em>Properties</em> window, click the <em>OK</em> button. In the HyperTerminal window, type <code>AT</code> and press <span class="middle"><img src="./Chapter 13. Internet Connectivity_files/enter.jpg" alt="Image" width="45" height="20"></span>. The modem responds with the message <em>OK</em> when the modem is working properly. The <code>AT</code> command tells the modem that you want its “ATtention.”</p>
+<p class="indenthangingN1"><strong>28.</strong> On the computer that has the internal modem, access HyperTerminal. In the <em>Name</em> textbox, type your name and click <em>OK</em>. Enter the area code in the <em>area code</em> textbox and ensure that the <em>Connect using drop-down</em> option is set to the internal modem. Click <em>OK</em> and <em>Cancel</em>.</p>
+<p class="indenthangingN1"><strong>29.</strong> From the HyperTerminal window for the external modem, type <span class="EmpStrong">ATE1</span> so that the commands you type will show in the window. From the HyperTerminal window, type <span class="EmpStrong">atdt</span>_<span class="BoldItalic">XXXXXXX</span> (where the <span class="EmpItalic">X</span>s are replaced with the phone number of the other modem). <code>atdt</code> gets the modem’s attention and tells it to dial using the “tone” method. The number that follows is the phone number to dial. If the external modem volume is turned up, you will hear a phone ringing.</p>
+<p class="indenthangingN1"><strong>30.</strong> From the HyperTerminal window for the internal modem, click the <em>Call</em> menu option and select <em>Wait for call</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What message appears in the HyperTerminal window that is used to control the external modem?</span></p>
+<p class="indenthangingN1"><strong>31.</strong> In the HyperTerminal window that is used to control the external modem, type <span class="EmpStrong">Hello to you</span>. Look at the HyperTerminal window for the internal modem.</p>
+<p class="indenthangingNP"><span class="pd_blue">What indication, if any, do you see in the HyperTerminal window?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>32.</strong> Show the HyperTerminal message to the teacher.</p>
+<p class="indenthangingN1"><strong>33.</strong> From the HyperTerminal window that controls the external modem, select the <em>Call</em> menu option and select <em>Disconnect</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What indication do you have in the HyperTerminal window that controls the internal modem that the modem connection is no longer active?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><a id="page_723"></a><strong>34.</strong> Power off the external modem. Disconnect the phone cable. Remove the power connector. Remove the serial modem cable from the back of the PC and the back of the external modem. Replace all parts to their storage location.</p>
+<p class="indenthangingN1"><strong>35.</strong> Disconnect the analog phone cable from the internal modem.</p>
+<p class="indenthangingN1"><strong>36.</strong> On the computer that has the internal modem, power off the computer, remove the power cord, and remove the internal modem. Place the modem inside the antistatic bag. Return the modem, phone cable, and software to the proper storage location.</p>
+<h4 id="ch13lev2sec5">Lab 13.5 Introduction to Internet Explorer Configuration</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To become familiar with basic Internet Explorer configuration options</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows computer</p>
+<p class="note1"><em>Note</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This lab has been tested on Internet Explorer versions 8 and 9, but many parts will also be applicable to earlier versions.</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer and ensure that it boots properly.</p>
+<p class="indenthangingN"><strong>2.</strong> Open Internet Explorer.</p>
+<p class="indenthangingNP"><span class="pd_blue">From either the <em>Tools</em> link or the <em>Help (?)</em> link, select <em>About Internet Explorer</em> to determine the Internet Explorer version.</span></p>
+<p class="indenthangingN"><strong>3.</strong> In the upper-right corner of the Internet Explorer window, select the <em>Tools</em> link. Note that this may be an icon that looks like a gear.</p>
+<p class="indenthangingN"><strong>4.</strong> Select <em>Internet Options</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What URL is listed as the home page?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Is the <em>Delete browsing history on exit</em> option enabled or disabled? [ enabled | disabled ]</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">List one corporate scenario where you think the business security policy would require that this option be enabled.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>5.</strong> Select the <em>Settings</em> button in the <em>Search</em> section.</p>
+<p class="indenthangingNP"><span class="pd_blue">List any search providers listed and whether the site can provide search suggestions (whether search suggestions are enabled, disabled, or not available).</span></p>
+<p class="indenthangingNP"><span class="pd_blue">How do you think the <em>Prevent programs from suggesting changes to my default search provider</em> checkbox at the bottom of the window might help users?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>6.</strong> Click the <em>Close</em> button. Select the <em>Settings</em> button in the <em>Tabs</em> section.</p>
+<p class="indenthangingNP"><span class="pd_blue">[ T | F ] To enable tabbed browsing when it has been disabled, you must close all Internet Explorer windows and then reopening Internet Explorer to activate the change.</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Based on the configured options, what currently happens when a new tab is opened?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What do you think the most secure pop-up setting would be for a corporate environment, and why do you think this?</span></p>
+<p class="enter"><a id="page_724"></a>&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">From the choices provided, what is your favorite way of handling program links provided in a website?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>7.</strong> Click <em>Cancel</em>. Click the <em>Colors</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">Is the <em>Use Windows colors</em> option selected (enabled)? [ enabled | disabled ]</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>8.</strong> Disable the <em>Use Windows colors</em> option. Select the <em>Use hover color</em> option.</p>
+<p class="indenthangingNP"><span class="pd_blue">Based on what you see as the default settings, which option might you change for a red/green colorblind person in a corporate environment?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What color is the default hover color?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>9.</strong> Click <em>Cancel</em>. Click the <em>Languages</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What two prefix and suffix options are available?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>10.</strong> Click <em>Cancel</em>. Select the <em>Fonts</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the current font setting for web pages?</span></p>
+<p class="indenthangingN1"><strong>11.</strong> Click <em>Cancel</em>. Select the <em>Accessibility</em> button.</p>
+<p class="indenthangingNP"><span class="pd_blue">List one example of when you might use the formatting options presented in a home computer environment.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>12.</strong> Click <em>Cancel</em> twice and close <em>Internet Explorer</em>.</p>
+<h3 id="ch13lev1sec21"><span class="pd_blue">Activities</span></h3>
+<h4 id="ch13lev2sec6">Internet Discovery</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To obtain specific information regarding a computer or its associated parts on the Internet</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer with Internet access</p>
+<p class="qquestion"><em>Questions</em>:&nbsp;&nbsp;&nbsp;Use the Internet to answer the following questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Locate a cable modem website that explains how to increase speed on a cable modem. Write the URL where you found the answer as well as the recommendation.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>2.</strong> Determine whether cable or DSL modems are supported in your area. If so, determine as many vendors as you can for these products.</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>3.</strong> Find one vendor of VDSL in the United States and write down the name of the vendor and the URL where you found the answer.</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>4.</strong> Find a website that describes how modem chat scripts are done and that provides an example of one. Write the URL and your own explanation of chat scripts.</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><a id="page_725"></a><strong>5.</strong> Determine how much a vendor charges to enable the mobile hot spot option or a phone that supports it. Document the amount or phone model number and the URL where you found this information.</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>6.</strong> Find a vendor in your state that sells wireless broadband for a laptop. What type of technology does it use (USB, PC Card, ExpressCard, integrated, etc.)? Write the URL, the vendor name and model number, and the cost.</p>
+<p class="enter">&nbsp;</p>
+<h4 id="ch13lev2sec7">Soft Skills</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To enhance and fine-tune a future technician’s ability to listen, communicate in both written and oral forms, and support people who use computers in a professional manner</p>
+<p class="activitie"><em>Afsctivities</em>:</p>
+<p class="indenthangingN"><strong>1.</strong> The class is divided into three groups—two groups that will be debating against one another and a third group of judges. The judges have 45 minutes to determine the rules and consequences of how the debate is to be conducted. During the same 45 minutes, the two debating groups will be researching material and planning a strategy for either cable modems or DSL modems. At the end of 45 minutes, the debate will start, and the judges will mediate with the rules they establish and present to the two teams before the debate begins. The judges, along with the instructor, determine which group proved its point the best.</p>
+<p class="indenthangingN"><strong>2.</strong> Using whatever resources are available, research one of the following that has been assigned to you. Share the results individually with the class.</p>
+<p class="indenthangingNB">• What is the largest number of IRQs supported by an analog modem that you could find?</p>
+<p class="indenthangingNB">• What is the fastest DSL, cable, or analog connection within a 60-mile radius of your school?</p>
+<p class="indenthangingNB">• What is the most common type of Internet connectivity for home users in your area?</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNB">• What is the most common type of Internet connectivity among businesses in your area?</p>
+<p class="indenthangingNB">• What is the type and speed of Internet connectivity at your school?</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNB">• What is the type and speed of Internet connectivity at a college in your state?</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNB">• Which types of DSL services are available in your state?</p>
+<p class="indenthangingNB">• Which types of cable modem services are available in your state?</p>
+<p class="enter">&nbsp;</p>
+<h4 id="ch13lev2sec8">Critical Thinking Skills</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To analyze and evaluate information as well as apply learned information to new or different situations</p>
+<p class="activitie"><em>Activities</em>:</p>
+<p class="indenthangingN"><strong>1.</strong> In groups of three, research one of the following issues, as designated by the instructor. Share your findings with the other groups.</p>
+<p class="indenthangingNB">• The pros and cons of changing the operating system on a smartphone so that it can be a hot spot. Be prepared to share the group findings.</p>
+<p class="indenthangingNB"><a id="page_726"></a>• What wireless broadband options are available from one of the most popular mobile phone providers in the area? Detail one option, rate plan, and cost. Be prepared to share your findings.</p>
+<p class="indenthangingNB">• Determine the best small business class Internet connectivity rates in the area where your school is located. Share at least two competitors’ rates if possible. Detail the connectivity speeds and costs per vendor and be prepared to share your findings.</p>
+<p class="indenthangingNB">• Find at least three VoIP solutions for home users. Prepare a chart that shows vendors, options, pros and cons of each option, costs, and customer ratings (and comments, if possible). Be prepared to share your findings.</p>
+<p class="indenthangingN"><strong>2.</strong> In groups of two, write two analog/cable/DSL modem problems on two separate index cards. Give one problem to another class group and the other problem to a different class group. Your group will receive two index cards from two different groups as well. Solve the problems given to you, using any resource available. Share your group findings with the class.</p>
+<div class="feature1"><hr>
+<p class="feature-title"><span class="middle"><img src="./Chapter 13. Internet Connectivity_files/check.jpg" alt="Image" width="50" height="47"></span> A+ Certification Exam Tips</p>
+<p class="indenthangingC"><span class="ent">✓</span> The Internet connection types that are on the 220-801 exam are as follows: cable, DSL, dial-up, fiber, satellite, ISDN, cellular (mobile hot spot), line of sight wireless, and WiMax. Be able to describe these technologies.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Know pros and cons of each Internet connection type.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Know when each Internet connection type would be used.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Know the purpose of a VoIP phone.</p>
+<p class="indenthangingC"><span class="ent">✓</span> The 220-802 exam includes the <em>Internet Options</em> Control Panel, which includes the tabs that can also be accessed from within Internet Explorer. Be familiar with each tab and why a technician would use the tab. Before the exam, re-examine those options.</p>
+<hr></div>
+</div>
+
+
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12a.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">Activities</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Chapter 14. Introduction to Networking</div>
+        </a>
+    
+  
+  </div>
+
+</section>
+  </div>
+<section class="sbo-saved-archives"></section>
+
+
+
+          
+          
+  
+
+
+
+
+    
+    
+      <div id="js-subscribe-nag" class="subscribe-nag clearfix trial-panel t-subscribe-nag collapsed slideUp">
+        
+        
+          <p class="usage-data">Find answers on the fly, or master something new. Subscribe today. <a href="https://learning.oreilly.com/subscribe/" class="ga-active-trial-subscribe-nag">See pricing options.</a></p>
+        
+
+        
+        
+
+      </div>
+
+    
+    
+
+
+
+        
+      </div>
+      
+        
+
+<footer class="pagefoot t-pagefoot" style="padding-bottom: 69px;">
+  <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" class="icon-up" onclick="window.Appcues.track(&#39;JumpTop_HeronBook&#39;)" style="display: block;"><div class="visuallyhidden">Back to top</div></a>
+  <ul class="js-footer-nav">
+  
+    
+    <li><a href="https://learning.oreilly.com/public/support/">Support</a></li>
+    
+    <li><a href="https://learning.oreilly.com/accounts/logout/">Sign Out</a></li>
+    
+  
+  
+  </ul>
+  <span class="copyright">© 2021 <a href="https://learning.oreilly.com/" target="_blank">O'Reilly Media, Inc</a>.</span>
+  
+    
+    <a href="https://www.oreilly.com/terms/">Terms of Service</a> 
+     / 
+    
+    <a href="https://learning.oreilly.com/privacy">Privacy Policy</a> 
+    
+    
+  
+</footer>
+
+      
+    
+    <script src="./Chapter 13. Internet Connectivity_files/saved_resource(1)" charset="utf-8"></script>
+    <script src="./Chapter 13. Internet Connectivity_files/saved_resource(2)" charset="utf-8"></script>
+  
+
+<div class="annotator-notice"></div><div class="font-flyout" style="top: 201.013px; left: 1611px;"><div class="font-controls-panel">
+	<div class="nightmodes">
+		<ul>
+			<li class="day"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" id="day-mode" title="Day Mode">
+				<i class="fa fa-sun-o"></i>
+				<span>Day Mode</span></a></li>
+			<li class="cloudy"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" id="cloudy-mode" title="Cloudy Mode">
+				<i class="fa fa-cloud"></i>
+				<span>Cloud Mode</span>
+			</a></li>
+			<li class="night"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#" id="night-mode" title="Night Mode">
+				<i class="fa fa-moon-o"></i>
+				<span>Night Mode</span>
+			</a></li>
+		</ul>
+	</div>
+
+	<div class="font-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-font left"></i>
+			<span class="filler" style="width: 50%;"></span>
+			<div id="js-font-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle" style="position: relative; left: 80px;"></div>
+			<i class="fa fa-font right"></i>
+		</div>
+	</div>
+
+	<div class="column-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-compress left"></i>
+			<span class="filler" style="width: 50%;"></span>
+			<div id="js-column-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle" style="position: relative; left: 80px;"></div>
+			<i class="fa fa-expand right"></i>
+		</div>
+	</div>
+
+	<a id="reset" class="button" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html#">Reset</a>
+</div>
+</div></body></html>

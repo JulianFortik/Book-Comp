@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html -->
+<html class=" js flexbox flexboxlegacy no-touch websqldatabase indexeddb history csscolumns csstransforms localstorage sessionstorage no-applicationcache svg inlinesvg zoom" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#" itemscope="" itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/" data-offline-url="/" data-url="/library/view/complete-comptia-a/9780133057638/copyright.html" data-csrf-cookie="csrfsafari" data-user-id="10510590" data-user-uuid="792e0d15-87f7-4f27-a256-7444770f88f0" data-username="jasonfortik" data-account-type="Trial" data-activated-trial-date="01/18/2021" data-archive="9780133057638" data-publishers="Pearson IT Certification" data-htmlfile-name="copyright.html" data-epub-title="Complete CompTIA® A+ Guide to PCs, Sixth Edition" data-debug="0" data-testing="0" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="author" content="O&#39;Reilly Media"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9780133057638"><link rel="shortcut icon" href="https://www.oreilly.com/favicon.ico"><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"><meta property="twitter:account_id" content="4503599627559754"><link rel="shortcut icon" href="https://learning.oreilly.com/favicon.ico" type="image/x-icon"><link href="./Chapter 3. System Configuration_files/css" rel="stylesheet" type="text/css"><title>Chapter 3. System Configuration</title><link rel="stylesheet" href="./Chapter 3. System Configuration_files/output.5bdb4fcb2aad.css" type="text/css"><link rel="stylesheet" type="text/css" href="./Chapter 3. System Configuration_files/annotator.e3b0c44298fc.css"><link rel="stylesheet" href="./Chapter 3. System Configuration_files/font-awesome.min.css"><style type="text/css" title="ibis-book">#sbo-rt-content div{margin-top:4pt;margin-bottom:4pt;margin-right:15pt}#sbo-rt-content h1{margin-top:15pt;margin-bottom:12pt;text-align:center;font-weight:bold;page-break-after:avoid}#sbo-rt-content h2{margin-top:7pt;margin-bottom:25pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h3{margin-top:9pt;margin-bottom:8pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h4{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h5{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content h6{margin-top:9pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content .cover{margin-top:2pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .indent{margin-top:4pt;margin-bottom:4pt;text-indent:15pt}#sbo-rt-content .noindent{margin-top:4pt;margin-bottom:4pt;text-indent:.002pt}#sbo-rt-content .noindentf{margin-top:4pt;margin-bottom:4pt;text-indent:15pt}#sbo-rt-content .address{margin-top:2pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .edition{margin-top:15pt;margin-bottom:15pt;text-align:center;font-weight:bold}#sbo-rt-content .copy{margin-top:8pt;margin-bottom:8pt;text-indent:.024pt}#sbo-rt-content .legalnotice{margin-top:9pt;margin-bottom:8pt;font-weight:bold;text-indent:.002pt}#sbo-rt-content .author{margin-top:80pt;margin-bottom:60pt;text-align:center}#sbo-rt-content .attribution{margin-top:2pt;margin-bottom:14pt;margin-left:25pt;text-align:left}#sbo-rt-content .blockquote{margin-top:7pt;margin-bottom:7pt;margin-right:25pt;margin-left:25pt}#sbo-rt-content .middle,#sbo-rt-content img{vertical-align:middle}#sbo-rt-content div.image,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image{margin-top:5pt;text-align:center}#sbo-rt-content div.image2,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image2{margin-top:9pt;margin-left:40pt;text-align:left}#sbo-rt-content .toc-chapter{margin-top:10pt;margin-bottom:5pt;margin-left:6pt;text-align:left}#sbo-rt-content .toc-chapter1{margin-top:10pt;margin-bottom:5pt;text-align:left}#sbo-rt-content .toc-section{margin-top:5pt;margin-bottom:4pt;margin-left:45pt;text-align:left}#sbo-rt-content .toc-section1{margin-top:4pt;margin-bottom:4pt;margin-left:65pt;text-align:left}#sbo-rt-content .toc-appendix{margin-top:10pt;margin-bottom:10pt;text-align:left}#sbo-rt-content .toc-index{margin-top:10pt;margin-bottom:5pt;text-align:left}#sbo-rt-content .note{margin-top:6pt;margin-bottom:12pt;margin-left:24pt;margin-right:24pt;page-break-inside:avoid;background-color:#DDD}#sbo-rt-content .notepara{margin-top:4pt;margin-bottom:5pt;margin-right:25pt;margin-left:25pt}#sbo-rt-content .title{margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:10pt;margin-right:20pt;page-break-after:avoid;page-break-inside:avoid}#sbo-rt-content .sb-indenthangingN{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;margin-right:20pt;text-indent:-12pt;text-align:left}#sbo-rt-content .feature{margin-top:5pt;margin-bottom:12pt;margin-right:10pt;margin-left:10pt;page-break-inside:avoid}#sbo-rt-content .feature1{margin-top:5pt;margin-bottom:12pt;margin-right:10pt;margin-left:10pt;page-break-inside:avoid;background-color:#B0E2FA}#sbo-rt-content .feature-title{margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:15pt}#sbo-rt-content .indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .q-indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:55pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .p-indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:85pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingBB{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingBP{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-align:left}#sbo-rt-content .indenthangingN{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingN1{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-18pt;text-align:left}#sbo-rt-content .indenthangingNB{margin-top:4pt;margin-bottom:4pt;margin-left:45pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .indenthangingNP{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-align:left}#sbo-rt-content .indenthangingNa{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingNaP{margin-top:4pt;margin-bottom:4pt;margin-left:52pt;text-indent:-.9pt;text-align:left}#sbo-rt-content .tab-caption{font-weight:bold;margin-top:14pt;text-align:center;page-break-after:avoid;page-break-inside:avoid}#sbo-rt-content .fig-caption{margin-bottom:8pt;text-align:center;font-weight:bold;page-break-before:avoid;page-break-inside:avoid}#sbo-rt-content .pre{font-family:"Courier New";font-size:small;margin-top:10pt;margin-bottom:10pt;margin-left:20pt;text-align:left}#sbo-rt-content .pre1{font-family:"Courier New";font-size:small;margin-top:10pt;margin-bottom:10pt;text-align:left;margin-left:45pt}#sbo-rt-content .EmpStrong{font-family:"Courier New Bold";font-weight:bold}#sbo-rt-content .EmpItalic{font-family:"Courier New Italic";font-style:italic}#sbo-rt-content code{font-family:"Courier New";font-size:small}#sbo-rt-content .tn-footnote{margin-top:4pt;margin-bottom:4pt;margin-left:25pt;text-indent:-10pt;text-align:left;font-size:small}#sbo-rt-content .gloss{margin-top:4pt;margin-bottom:4pt;margin-left:4pt}#sbo-rt-content .gloss1{margin-top:4pt;margin-bottom:4pt;margin-left:25pt}#sbo-rt-content .indent1{margin-top:4pt;margin-bottom:4pt;margin-left:15pt}#sbo-rt-content .indent4{margin-top:4pt;margin-bottom:4pt;margin-left:12em}#sbo-rt-content .indent5{margin-top:4pt;margin-bottom:4pt;margin-left:12.5em}#sbo-rt-content .question{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-12pt}#sbo-rt-content .question1{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-18pt}#sbo-rt-content .questionp{margin-top:4pt;margin-bottom:4pt;margin-left:35pt}#sbo-rt-content .questionpi{margin-top:4pt;margin-bottom:4pt;margin-left:50pt}#sbo-rt-content .question-a{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-13pt}#sbo-rt-content .uln-indent{margin-top:4pt;margin-bottom:4pt;margin-left:25pt}#sbo-rt-content .ent{font-family:"Arial Unicode MS";src:url(fonts/ARIALUNI.TTF)}#sbo-rt-content .indexmain{margin-top:2pt;margin-bottom:2pt;text-align:left}#sbo-rt-content .indexsub{margin-top:2pt;margin-bottom:2pt;margin-left:30pt;text-indent:-15pt;text-align:left}#sbo-rt-content .indexsubsub{margin-top:2pt;margin-bottom:2pt;margin-left:50pt;text-indent:-15pt;text-align:left}#sbo-rt-content .pd_blue{color:#00AEEF}#sbo-rt-content .activitie{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .notes1{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-50pt}#sbo-rt-content .note1{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .note1p{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .objective{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .objectivep{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .procedure{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .part{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .partp{margin-top:4pt;margin-bottom:4pt;margin-left:60pt}#sbo-rt-content .qquestion{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .scenario{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .task{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .caution{margin-top:4pt;margin-bottom:4pt;margin-left:60pt;text-indent:-58pt}#sbo-rt-content .indenthangingA{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-14pt;text-align:left}#sbo-rt-content .indenthangingBN{margin-top:4pt;margin-bottom:4pt;margin-left:65pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingC{margin-top:4pt;margin-bottom:4pt;margin-left:35pt;text-indent:-15pt;text-align:left}#sbo-rt-content .key{margin-top:4pt;margin-bottom:4pt;margin-left:15pt}#sbo-rt-content .enter{margin-top:4pt;margin-bottom:4pt;text-indent:.002pt}#sbo-rt-content .BoldItalic{font-family:"Courier New Bold Italic";font-weight:bold;font-style:italic}#sbo-rt-content .pd_ash{color:#6B6D73}#sbo-rt-content div.image-pa,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image-pa{text-align:center}#sbo-rt-content .tab-caption1{font-weight:bold;margin-top:14pt;text-align:center;page-break-after:avoid;page-break-inside:avoid;background-color:#DDD}</style><script async="" src="./Chapter 3. System Configuration_files/gtm.js"></script><script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+          "chapter": "/api/v1/book/9780133057638/chapter/copyright.html",
+          "book_id": "9780133057638",
+          "chapter_uri": "copyright.html",
+          "position": 30.1806588735388,
+          "user_uuid": "792e0d15-87f7-4f27-a256-7444770f88f0",
+          "next_chapter_uri": "/library/view/complete-comptia-a/9780133057638/toc.html"
+        
+      },
+      title: "Complete CompTIA® A+ Guide to PCs, Sixth Edition",
+      author_list: "Cheryl Schmidt",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true,
+      allow_scripts: false,
+      has_mathml: false
+    };
+    // ]]></script><style type="text/css">
+:root div#main > div.D1fz0e
+{ display: none !important; }</style><script src="./Chapter 3. System Configuration_files/modernizr.8e35451ddb64.js"></script><script>
+    
+      
+
+      
+        
+          window.PUBLIC_ANNOTATIONS = true;
+        
+      
+
+      window.MOBILE_PUBLIC_ANNOTATIONS = false;
+
+    
+
+    
+      window.PRIVACY_CONTROL_OVERRIDE = false;
+    
+
+      window.PRIVACY_CONTROL_SWITCH = true;
+
+      window.PUBLISHER_PAGES = true;
+
+      window.SBO = {
+        "constants": {
+          "SITB_ENDPOINT": "/api/v2/sitb/",
+          "SEARCH_SELECT_ENDPOINT": "https://learning.oreilly.com/api/v2/search/select/",
+          "ENABLE_ONLINE_TRAINING": true
+        }
+      };
+  </script><link rel="canonical" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><meta name="description" content="Complete CompTIA® A+ Guide to PCs, Sixth Edition Copyright © 2013 by Pearson Education, Inc. All rights reserved. No part of this book shall be reproduced, stored in a ... "><meta property="og:title" content="Copyright Page"><meta itemprop="isPartOf" content="/library/view/complete-comptia-a/9780133057638/"><meta itemprop="name" content="Copyright Page"><meta property="og:url" itemprop="url" content="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><meta property="og:site_name" content="Safari"><meta property="og:image" itemprop="thumbnailUrl" content="https://learning.oreilly.com/library/cover/9780133057638/"><meta property="og:description" itemprop="description" content="Complete CompTIA® A+ Guide to PCs, Sixth Edition Copyright © 2013 by Pearson Education, Inc. All rights reserved. No part of this book shall be reproduced, stored in a ... "><meta itemprop="inLanguage" content="en"><meta itemprop="publisher" content="Pearson IT Certification"><meta property="og:type" content="book"><meta property="og:book:isbn" itemprop="isbn" content="9780133057638"><meta property="og:book:author" itemprop="author" content="Cheryl Schmidt"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@OReillyMedia"><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: &lt;%= font_size %&gt; !important; }"></style><style type="text/css" id="font-family" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-family: &lt;%= font_family %&gt; !important; }"></style><style type="text/css" id="column-width" data-template="#sbo-rt-content { max-width: &lt;%= column_width %&gt;% !important; margin: 0 auto !important; }"></style><noscript><meta http-equiv="refresh" content="0; url=/library/no-js/" /></noscript><script>
+    var dataLayer = window.dataLayer || [];
+
+    
+      window.medalliaVsgUserIdentifier = '792e0d15-87f7-4f27-a256-7444770f88f0';
+      dataLayer.push({userIdentifier: '792e0d15-87f7-4f27-a256-7444770f88f0'});
+      dataLayer.push({loggedIn: 'yes'});
+
+      
+        window.medalliaVsgAccountIdentifier = 'ea85ea21-7426-45c5-a63b-4e4c8a9e3c20';
+        
+
+        window.medalliaVsgIsIndividual = true;
+        
+          
+          dataLayer.push({learningAccountType: 'free trial'});
+          
+        
+
+        
+      
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5P4V6Z');
+    (function () {
+      var VERSION = 'V1.1';
+      var AUTHOR = 'Awwad';
+      if (!window.GtmHelper)
+        window.GtmHelper = function () {
+          var instance = this;
+          var loc = document.location;
+          this.version = VERSION;
+          this.author = AUTHOR;
+          this.readCookie = function (name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+              if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+          };
+          this.createCookie = function (name, value, days, cookieDomain) {
+            var domain = "";
+            var expires = "";
+
+            if (days) {
+              var date = new Date();
+              date.setTime(date.getTime() + Math.ceil(days * 24 * 60 * 60 * 1000));
+              var expires = " expires=" + date.toGMTString() + ";";
+            }
+
+            if (typeof (cookieDomain) != 'undefined')
+              domain = " domain=" + cookieDomain + "; ";
+
+            document.cookie = name + "=" + value + ";" + expires + domain + "path=/";
+          };
+
+          this.isDuplicated = function (currentTransactionId) {
+            // the previous transaction id:
+            var previousTransIdValue = this.readCookie("previousTransId");
+
+            if (currentTransactionId === previousTransIdValue) {
+              return true; // Duplication
+            } else {
+              return false;
+            }
+          };
+        }
+    })()
+  </script><script defer="" src="./Chapter 3. System Configuration_files/vendor.53472b75cf2a.js"></script><script defer="" src="./Chapter 3. System Configuration_files/reader.99e2c495d789.js"></script><script async="" src="./Chapter 3. System Configuration_files/MathJax.js"></script><style id="annotator-dynamic-style">.annotator-adder, .annotator-outer, .annotator-notice {
+  z-index: 100019;
+}
+.annotator-filter {
+  z-index: 100009;
+}</style></head>
+
+
+<body class="reading sidenav nav-collapsed  scalefonts subscribe-panel library">
+
+    
+  <noscript> 
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P4V6Z"
+            height="0" width="0"
+            style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+
+
+
+    
+      <div class="working hide" role="status">
+        <div class="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+  
+
+
+<a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li><a href="https://learning.oreilly.com/home/" class="l0 nav-icn"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.738 14H9.254v-3.676a.617.617 0 0 0-.621-.613H7.39a.617.617 0 0 0-.62.613V14H4.284a.617.617 0 0 1-.622-.613V10.22c0-.327.132-.64.367-.87l3.547-3.493a.627.627 0 0 1 .875 0l3.54 3.499c.234.229.366.54.367.864v3.167a.617.617 0 0 1-.62.613zM7.57 2.181a.625.625 0 0 1 .882 0l5.77 5.692-.93.92-5.28-5.209-5.28 5.208-.932-.919 5.77-5.692z"></path></svg><span>Home</span></a></li><li class="search"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="t-search-nav trigger nav-icn l0" data-dropdown-selector=".searchbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>search icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M31.3 0C20.9 0 12.5 8.4 12.5 18.8 12.5 22.5 13.6 25.9 15.4 28.8L1.2 42.9C-0.4 44.5-0.4 47.2 1.2 48.8 2 49.6 3.1 50 4.2 50 5.2 50 6.3 49.6 7.1 48.8L21.2 34.6C24.1 36.5 27.5 37.5 31.3 37.5 41.6 37.5 50 29.1 50 18.8 50 8.4 41.6 0 31.3 0ZM31.3 31.3C24.4 31.3 18.8 25.6 18.8 18.8 18.8 11.9 24.4 6.3 31.3 6.3 38.1 6.3 43.8 11.9 43.8 18.8 43.8 25.6 38.1 31.3 31.3 31.3Z"></path></g></svg><span>Search</span></a></li><li class="usermenu dropdown"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="trigger l0 nav-icn nav-dropdown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>navigation arrow</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M0.1 12.5L9.7 3.1C9.8 3 9.9 3 10 3 10.1 3 10.2 3 10.3 3.1L19.9 12.5C20 12.5 20 12.6 20 12.8 20 12.9 20 13 19.9 13L17 15.9C16.9 16 16.8 16 16.7 16 16.5 16 16.4 16 16.4 15.9L10 9.7 3.6 15.9C3.6 16 3.5 16 3.3 16 3.2 16 3.1 16 3 15.9L0.1 13C0 12.9 0 12.8 0 12.7 0 12.7 0 12.6 0.1 12.5Z"></path></g></svg><span>Expand Nav</span></a><div class="drop-content"><ul><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="l1 nav-icn "><!--?xml version="1.0" encoding="UTF-8"?--><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M8,8 C6.34321755,8 5.00013,6.65691245 5.00013,5.00013 C5.00013,3.34334755 6.34321755,2.00026001 8,2.00026001 C9.65678245,2.00026001 10.99987,3.34334755 10.99987,5.00013 C10.99987,6.65691245 9.65678245,8 8,8 Z M2.33024571,11.3523547 L2.33774538,11.3523547 C3.7622187,9.70968996 5.82947484,8.76608166 8.00374984,8.76608166 C10.1780248,8.76608166 12.245281,9.70968996 13.6697543,11.3523547 C13.8892083,11.6177474 14.0062813,11.9530021 13.99974,12.2973138 L13.99974,13.99974 L2.00026001,13.99974 L2.00026001,12.2973138 C1.99371867,11.9530021 2.11079172,11.6177474 2.33024571,11.3523547 Z" id="path-1"></path></svg><span>Your O'Reilly</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/profile/" class="l2 nav-icn"><span>Profile</span></a></li><li><a href="https://learning.oreilly.com/history/" class="l2 nav-icn"><span>History</span></a></li><li><a href="https://learning.oreilly.com/playlists/" class="l2 nav-icn"><span>Playlists</span></a></li><li><a href="https://learning.oreilly.com/u/792e0d15-87f7-4f27-a256-7444770f88f0/" class="l2 nav-icn"><span>Highlights</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.564 2.263l2.172 2.174c.17.168.264.397.264.636V11a.6.6 0 0 1-.6.6h-.6V6.2h-6V2.6a.6.6 0 0 1 .6-.6h3.527c.239 0 .468.095.637.263zM2.6 14a.6.6 0 0 1-.6-.6V6.8a.6.6 0 0 1 .6-.6h1.903a1.2 1.2 0 0 1 .849.352L6.2 7.4H11a.6.6 0 0 1 .6.6v5.4a.6.6 0 0 1-.6.6H2.6zM11 5h1.8L11 3.2V5z"></path></svg><span>Featured</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/featured/navigating-21st-century/" class="l2 nav-icn"><span>Navigating Change</span></a></li><li><a href="https://learning.oreilly.com/recommendations/" class="l2 nav-icn"><span>Recommended</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>queue icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M25 29.2C25.4 29.2 25.8 29.1 26.1 28.9L48.7 16.8C49.5 16.4 50 15.5 50 14.6 50 13.7 49.5 12.8 48.7 12.4L26.1 0.3C25.4-0.1 24.6-0.1 23.9 0.3L1.3 12.4C0.5 12.8 0 13.7 0 14.6 0 15.5 0.5 16.4 1.3 16.8L23.9 28.9C24.2 29.1 24.6 29.2 25 29.2ZM7.3 14.6L25 5.2 42.7 14.6 25 24 7.3 14.6ZM48.7 22.4L47.7 21.9 25 34.2 2.3 21.9 1.3 22.4C0.5 22.9 0 23.7 0 24.7 0 25.6 0.5 26.5 1.3 26.9L23.9 39.3C24.2 39.5 24.6 39.6 25 39.6 25.4 39.6 25.8 39.5 26.1 39.3L48.7 26.9C49.5 26.5 50 25.6 50 24.7 50 23.7 49.5 22.9 48.7 22.4ZM48.7 32.8L47.7 32.3 25 44.6 2.3 32.3 1.3 32.8C0.5 33.3 0 34.1 0 35.1 0 36 0.5 36.9 1.3 37.3L23.9 49.7C24.2 49.9 24.6 50 25 50 25.4 50 25.8 49.9 26.1 49.7L48.7 37.3C49.5 36.9 50 36 50 35.1 50 34.1 49.5 33.3 48.7 32.8Z"></path></g></svg><span>Explore</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/topics/" class="l2 nav-icn"><span>All Topics</span></a></li><li><a href="https://learning.oreilly.com/search/?query=&amp;extended_publisher_data=true&amp;highlight=true&amp;include_assessments=false&amp;include_case_studies=true&amp;include_courses=true&amp;include_orioles=true&amp;include_playlists=true&amp;include_collections=true&amp;include_notebooks=true&amp;is_academic_institution_account=false&amp;source=user&amp;formats=book&amp;sort=publication_date&amp;facet_json=true&amp;page=0" class="l2 nav-icn"><span>Early Releases</span></a></li><li><a href="https://learning.oreilly.com/playlists/discover/" class="l2 nav-icn"><span>Shared Playlists</span></a></li><li><a href="https://learning.oreilly.com/search/?query=&amp;extended_publisher_data=true&amp;highlight=true&amp;include_assessments=false&amp;include_case_studies=true&amp;include_courses=true&amp;include_orioles=true&amp;include_playlists=true&amp;include_collections=true&amp;include_notebooks=true&amp;is_academic_institution_account=false&amp;source=user&amp;formats=book&amp;formats=case%20study&amp;formats=learning%20path&amp;formats=live%20online%20training&amp;formats=notebook&amp;formats=oriole&amp;formats=video&amp;sort=popularity&amp;facet_json=true&amp;page=0&amp;collection_type=expert" class="l2 nav-icn"><span>Most Popular Titles</span></a></li><li><a href="https://learning.oreilly.com/resource-centers/" class="l2 nav-icn"><span>Resource Centers</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12.8 3.2A1.2 1.2 0 0 1 14 4.4v8.4a1.2 1.2 0 0 1-1.2 1.2H3.2A1.2 1.2 0 0 1 2 12.8V4.4a1.2 1.2 0 0 1 1.2-1.2h1.2V2h1.2v1.2h4.8V2h1.2v1.2h1.2zm-9.6 9.6h9.6V6.2H3.2v6.6zM8 9.5a1.35 1.35 0 1 1 0-2.7 1.35 1.35 0 0 1 0 2.7zm2.7 2.148v.552H5.3v-.552c0-.321.124-.634.355-.858a3.358 3.358 0 0 1 4.69 0c.23.224.355.537.355.858z"></path></svg><span>Attend</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/live-training/" class="l2 nav-icn"><span>Live Trainings</span></a></li><li><a href="https://learning.oreilly.com/featured/architectural-katas" class="l2 nav-icn"><span>Architectural Katas</span></a></li><li><a href="https://learning.oreilly.com/featured/strata/" class="l2 nav-icn"><span>Strata</span></a></li><li><a href="https://learning.oreilly.com/featured/oscon/" class="l2 nav-icn"><span>Open Source</span></a></li><li><a href="https://learning.oreilly.com/featured/infrastructure-ops/" class="l2 nav-icn"><span>Infra &amp; Ops</span></a></li><li><a href="https://learning.oreilly.com/featured/software-architecture/" class="l2 nav-icn"><span>Software Arch</span></a></li></ul></li><li class="flyout-parent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="l1 nav-icn "><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.6467109,4.35328907 L14.7964612,7.51003884 C15.0678463,7.78304342 15.0678463,8.22395603 14.7964612,8.49696061 L11.6467109,11.6467109 L10.6597892,10.6597892 L13.3055794,8 L10.6597892,5.34021084 L11.6467109,4.35328907 Z M4.35328907,11.6467109 L1.20353875,8.48996116 C0.932153749,8.21695658 0.932153749,7.77604397 1.20353875,7.50303939 L4.35328907,4.35328907 L5.34021084,5.34021084 L2.69442057,8 L5.34021084,10.6597892 L4.35328907,11.6467109 Z M5.84417089,11.4997226 L8.67194674,4.50027742 L10.1838269,4.50027742 L7.35605105,11.4997226 L5.84417089,11.4997226 Z" id="Mask"></path></svg><span>Interact</span></a><ul class="flyout"><li><a href="https://learning.oreilly.com/scenarios/?classification=content-scenario" class="l2 nav-icn"><span>Scenarios</span></a></li><li><a href="https://learning.oreilly.com/scenarios/?classification=sandbox-scenario" class="l2 nav-icn"><span>Sandboxes</span></a></li><li><a href="https://learning.oreilly.com/interactive/?classification=jupyter-notebook" class="l2 nav-icn"><span>Jupyter Notebooks</span></a></li></ul></li><li><a href="https://learning.oreilly.com/answers/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M2.31032699,3.75609006 C4.65421571,1.41371359 8.45302454,1.41472092 10.7955702,3.75860838 C13.1381158,6.10249583 13.1369405,9.90130261 10.7930518,12.243847 C8.44916311,14.5863913 4.65018639,14.5852161 2.30780867,12.2413286 C-0.0346204845,9.89749489 -0.0334929936,6.09853298 2.31032699,3.75609006 Z M8.8198605,4.98016308 C7.34193969,3.86924672 5.23410194,3.98609692 3.88914868,5.33104946 C3.12814393,6.09032122 2.72818176,7.13880077 2.79015179,8.21201133 C2.79115912,8.23064692 2.79233434,8.24928252 2.79350956,8.26791811 L2.79350956,8.26791811 C2.83179539,8.8307976 2.9944077,9.37404287 3.26947292,9.86201677 L3.26947292,9.86201677 L2.77621706,11.7027432 C2.7699968,11.7259241 2.77662063,11.7506624 2.79359185,11.7676337 C2.8105631,11.7846049 2.83530144,11.7912287 2.85848233,11.7850085 L2.85848233,11.7850085 L4.69400524,11.2922565 C5.26306363,11.6167344 5.90703177,11.786885 6.56209849,11.7858479 C8.64827865,11.7858479 10.3395879,10.094542 10.3395879,8.00836292 C10.3405204,6.84135608 9.80105674,5.73967784 8.87862141,5.02482134 L8.87862141,5.02482134 L8.82825492,4.98654283 Z M13.7933062,2 C14.7073496,2.00009863 15.4482759,2.74110484 15.4482759,3.65514822 C15.4482759,4.32460943 15.0449926,4.92814782 14.4264842,5.18432286 C13.8079757,5.44049789 13.096053,5.29885769 12.6226979,4.82545158 C12.1493429,4.35204547 12.0077795,3.64010743 12.2640213,3.02162665 C12.5202631,2.40314587 13.123845,1.99992776 13.7933062,2 Z"></path></svg><span>Answers</span></a></li><li><a href="https://learning.oreilly.com/certifications/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M12.912 9.18L14 8.014l-1.088-1.18a.304.304 0 01-.075-.268L13.195 5l-1.535-.463a.313.313 0 01-.194-.194l-.462-1.537-1.565.358c-.09.03-.194 0-.269-.074L8.007 2 6.845 3.09a.303.303 0 01-.269.074l-1.565-.358-.462 1.537a.313.313 0 01-.194.194L2.82 5l.358 1.567a.26.26 0 01-.075.269L2 8.015l1.088 1.164c.075.075.09.18.075.269l-.358 1.567 1.535.463c.09.03.164.104.194.194l.462 1.537 1.565-.358c.015 0 .045-.015.075-.015.075 0 .15.03.209.074L8.007 14l1.163-1.09a.303.303 0 01.269-.074l1.565.358.462-1.537a.313.313 0 01.194-.194L13.195 11l-.358-1.567a.338.338 0 01.075-.254zm-6.046 1.37L4.41 8.26l1.16-1.244 1.767 1.649L10.4 5.6l1.202 1.202-4.242 4.243-.495-.495z"></path></svg><span>Certifications</span></a></li><li><a href="https://learning.oreilly.com/preferences/" class="l1 nav-icn "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 53" width="20" height="20" version="1.1" fill="#4A3C31"><desc>settings icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M44.6 29.6C44.7 28.6 44.8 27.5 44.8 26.5 44.8 25.5 44.7 24.4 44.6 23.4L49.6 19C50 18.8 50.1 18.3 49.9 17.9 48.9 14.7 47.1 11.7 44.9 9.1 44.6 8.8 44.2 8.7 43.8 8.8L37.4 11.1C35.8 9.8 34 8.7 32.1 8L30.9 1.4C30.8 0.9 30.4 0.6 30 0.5 26.7-0.2 23.3-0.2 20 0.5 19.6 0.6 19.2 0.9 19.1 1.4L17.9 8C16 8.7 14.1 9.8 12.6 11.1L6.2 8.8C5.8 8.7 5.4 8.8 5.1 9.1 2.9 11.7 1.1 14.7 0.1 17.9 -0.1 18.3 0 18.8 0.4 19L5.4 23.4C5.3 24.4 5.2 25.5 5.2 26.5 5.2 27.5 5.3 28.6 5.4 29.6L0.4 34C0 34.2-0.1 34.7 0.1 35.1 1.1 38.3 2.9 41.4 5.1 43.9 5.4 44.2 5.8 44.4 6.2 44.2L12.6 42C14.1 43.2 16 44.3 17.9 45L19.1 51.7C19.2 52.1 19.6 52.5 20 52.5 21.6 52.8 23.3 53 25 53 26.7 53 28.4 52.8 30 52.5 30.4 52.5 30.8 52.1 30.9 51.7L32.1 45C34 44.3 35.8 43.2 37.4 42L43.8 44.2C44.2 44.4 44.6 44.2 44.9 43.9 47.1 41.4 48.9 38.3 49.9 35.1 50.1 34.7 50 34.2 49.6 34L44.6 29.6ZM25 36.4C19.6 36.4 15.2 32 15.2 26.5 15.2 21 19.6 16.6 25 16.6 30.4 16.6 34.8 21 34.8 26.5 34.8 32 30.4 36.4 25 36.4Z"></path></g></svg><span>Settings</span></a></li><li><a href="https://learning.oreilly.com/public/support/" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.363 6.656a2.692 2.692 0 0 1-2.681-2.703c0-1.493 1.2-2.703 2.681-2.703a2.692 2.692 0 0 1 2.682 2.703c0 1.493-1.2 2.703-2.682 2.703zm4.023 2.027c-1.852 0-3.352 1.513-3.352 3.379H2v-1.534c-.006-.31.099-.612.295-.852a6.666 6.666 0 0 1 9.09-.993zm-.543.676h1.12v.304c.003.284.16.543.408.676a.766.766 0 0 0 .77 0l.303-.176.556.966-.302.176a.772.772 0 0 0-.362.676v.08a.772.772 0 0 0 .362.677l.302.21-.556.965-.302-.175a.766.766 0 0 0-.771 0 .778.778 0 0 0-.409.675v.352h-1.106v-.372a.778.778 0 0 0-.409-.676.766.766 0 0 0-.77 0l-.303.176-.556-.912.302-.176a.772.772 0 0 0 .362-.676v-.04-.04a.772.772 0 0 0-.362-.676l-.302-.176.556-.966.289.155a.766.766 0 0 0 .77 0 .778.778 0 0 0 .41-.676V9.36zm1.562 2.703c0-.271-.108-.531-.3-.722a1.001 1.001 0 0 0-.72-.292 1.01 1.01 0 0 0-.992 1.023 1.01 1.01 0 0 0 1.01 1.004 1.01 1.01 0 0 0 1.002-1.013z"></path></svg><span>Support</span></a></li><li><a href="https://get.oreilly.com/email-signup.html" class="l1 nav-icn " target="&quot;_blank&quot;"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.564 2.263l2.172 2.174c.17.168.264.397.264.636V11a.6.6 0 0 1-.6.6h-.6V6.2h-6V2.6a.6.6 0 0 1 .6-.6h3.527c.239 0 .468.095.637.263zM2.6 14a.6.6 0 0 1-.6-.6V6.8a.6.6 0 0 1 .6-.6h1.903a1.2 1.2 0 0 1 .849.352L6.2 7.4H11a.6.6 0 0 1 .6.6v5.4a.6.6 0 0 1-.6.6H2.6zM11 5h1.8L11 3.2V5z"></path></svg><span>Newsletters</span></a></li><li><a href="https://learning.oreilly.com/accounts/logout/" class="l1 nav-icn "><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.613 12.63A.607.607 0 0 1 2 12.03V3.602C2 3.269 2.274 3 2.613 3h5.515v1.204H3.226v7.223h4.902v1.203H2.613zM5.677 9.02V6.611h4.903V4.926a.301.301 0 0 1 .19-.274.31.31 0 0 1 .33.063l2.722 2.673a.594.594 0 0 1 0 .849L11.1 10.909a.31.31 0 0 1-.331.063.301.301 0 0 1-.19-.274V9.02H5.677z"></path></svg><span>Sign Out</span></a></li></ul></div></li></ul></nav></header>
+
+
+
+      </div>
+      <div id="container" class="application" style="height: auto;">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container toc-menu"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1><div class="visuallyhidden">Table of Contents for </div>
+      
+      Complete CompTIA® A+ Guide to PCs, Sixth Edition
+      
+    </h1></span></a><div class="toc-contents" style="max-height: 0px;">
+  <div class="sbo-toc">
+    <button type="button" class="sbo-toc-thumb close"><div class="visuallyhidden">Close</div></button>
+      <section class="ios-app-teaser">
+        <ul>
+            <li><a class="js-toc-link toc-link" href="https://itunes.apple.com/gb/app/safari-queue-library-over/id881697395?mt=8" role="button">Install App</a></li>
+            <li><a class="js-toc-link toc-link" href="safaridetail://9780133057638" role="button">Open in App</a></li>
+        </ul>
+      </section>
+      <div class="sbo-book-meta">
+        
+        <span class="cover">
+         <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/">
+          <img src="./Chapter 3. System Configuration_files/saved_resource" alt="Cover image for Complete CompTIA® A+ Guide to PCs, Sixth Edition" height="183" width="143">
+        </a>
+        </span>
+        <span class="title">
+          
+            
+                <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/publisher/pearson-it-certification/">
+                  <img src="./Chapter 3. System Configuration_files/pearson.png" class="publisher-logo video" alt="publisher logo">
+                </a>
+            
+          
+
+          <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/">Complete CompTIA® A+ Guide to PCs, Sixth Edition</a>
+        </span>
+        
+        <span class="authors">by Cheryl Schmidt</span>
+        
+
+        
+        <span class="publishers t-publishers">Published by
+          <!-- Show publisher page link if publisher pages switch is on -->
+          
+            <a class="t-publisher-link toc-link js-toc-link" href="https://learning.oreilly.com/library/publisher/pearson-it-certification/">
+              Pearson IT Certification</a>, 2013
+          
+        </span>
+        
+
+    
+
+    </div>
+  <ol class="tocList">
+    
+    
+    
+     
+
+     <li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/title.html">
+        Title Page <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html">
+        Copyright Page <span class="minutes">(02:18 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/toc.html">
+        Contents at a Glance <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/bk01-toc.html">
+        Contents <span class="minutes">(13:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref01.html">
+        About the Author <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ded01.html">
+        Dedication <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref02.html">
+        Acknowledgments <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1 currently-reading">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref03.html">
+        We Want to Hear from You! <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref04.html">
+        Reader Services <span class="minutes">(01:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref05.html">
+        It Pays to Get Certified <span class="minutes">(04:36 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref06.html">
+        Introduction <span class="minutes">(04:36 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/pref07.html">
+        Features of This Book <span class="minutes">(11:30 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch01.html">
+        Chapter 1. Introduction to Computer Repair <span class="minutes">(83:57 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch02.html">
+        Chapter 2. On the Motherboard <span class="minutes">(87:24 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html">
+        Chapter 3. System Configuration <span class="minutes">(48:18 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch04.html">
+        Chapter 4. Disassembly and Power <span class="minutes">(131:06 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch05.html">
+        Chapter 5. Logical Troubleshooting <span class="minutes">(31:03 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch06.html">
+        Chapter 6. Memory <span class="minutes">(86:15 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch07.html">
+        Chapter 7. Storage Devices <span class="minutes">(164:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch08.html">
+        Chapter 8. Multimedia Devices <span class="minutes">(87:24 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch09.html">
+        Chapter 9. Other Peripherals <span class="minutes">(141:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch10.html">
+        Chapter 10. Computer Design <span class="minutes">(37:57 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch11.html">
+        Chapter 11. Basic Operating Systems <span class="minutes">(116:09 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+     <ul class="toc-level-2">
+     
+
+     <li class="toc-level2">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch11a.html#ch11lev1sec26">
+        Activities <span class="minutes">(77:03 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+    </li></ul>
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12.html">
+        Chapter 12. Windows XP, Vista, and 7 <span class="minutes">(149:30 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+     <ul class="toc-level-2">
+     
+
+     <li class="toc-level2">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12a.html#ch12lev1sec41">
+        Activities <span class="minutes">(105:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+    </li></ul>
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch13.html">
+        Chapter 13. Internet Connectivity <span class="minutes">(59:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch14.html">
+        Chapter 14. Introduction to Networking <span class="minutes">(174:48 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch15.html">
+        Chapter 15. Computer and Network Security <span class="minutes">(127:39 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html">
+        Glossary <span class="minutes">(118:27 mins)</span>
+       </a>
+      
+        
+      
+    
+    
+     
+
+     </li><li class="toc-level1">
+        
+        <a class="js-toc-link toc-link" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/index.html">
+        Index <span class="minutes">(58:39 mins)</span>
+       </a>
+      
+        
+      
+   </li></ol>
+ </div>
+
+
+
+</div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" title="Search in archive" class="js-search-controls search-controls" onclick="window.Appcues.track(&#39;SearchBook_HeronBook&#39;)"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input type="search" name="query" placeholder="Search inside this book..." autocomplete="off"></form><div class="search-archive-results"><div class="js-sitb-results-region"></div></div></li><li class="queue-control"><div class="js-content-uri" data-content-uri="/api/v1/book/9780133057638/chapter/copyright.html"><div class="js-collections-dropdown collections-dropdown menu-bit-cards" onclick="window.Appcues.track(&#39;AddPlaylist_HeronBook&#39;)"><div data-reactroot="" class="menu-dropdown-wrapper js-menu-dropdown-wrapper align-right"><img class="hidden" src="./Chapter 3. System Configuration_files/ajax-transp.gif" alt="loading spinner"><div class="menu-control"><div class="control "><div class="js-playlists-menu"><button class="js-playlist-icon"><svg class="icon-add-to-playlist-sml" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill-rule="nonzero" fill="#000000"><g transform="translate(-1.000000, 0.000000)"><rect x="5" y="0" width="12" height="2"></rect><title>Playlists</title><path d="M4.5,14 C6.43299662,14 8,12.4329966 8,10.5 C8,8.56700338 6.43299662,7 4.5,7 C2.56700338,7 1,8.56700338 1,10.5 C1,12.4329966 2.56700338,14 4.5,14 Z M2.5,10 L4,10 L4,8.5 L5,8.5 L5,10 L6.5,10 L6.5,11 L5,11 L5,12.5 L4,12.5 L4,11 L2.5,11 L2.5,10 Z"></path><circle cx="2" cy="5" r="1"></circle><circle cx="1.94117647" cy="1" r="1"></circle><rect x="5" y="4" width="12" height="2"></rect><rect x="9" y="8" width="8" height="2"></rect><rect x="9" y="12" width="8" height="2"></rect></g></g></g></svg><div class="js-playlist-addto-label">Add&nbsp;To</div></button></div></div></div></div></div></div></li><li class="js-font-control-panel font-control-activator"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size" onclick="window.Appcues.track(&#39;ChangeFont_HeronBook&#39;)"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="trigger" data-push-state="false" title="Share" aria-label="Share" onclick="window.Appcues.track(&#39;Share_HeronBook&#39;)"><i class="fa fa-share"></i></a><ul class="social-sharing dropdown-menu"><li class=""><a class="twitter share-button t-twitter" target="_blank" aria-label="Share this section on Twitter" title="Share this section on Twitter" href="https://twitter.com/share?url=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html&amp;text=Complete%20CompTIA%C2%AE%20A%2B%20Guide%20to%20PCs%2C%20Sixth%20Edition&amp;via=OReillyMedia"><span>Twitter</span></a></li><li class=""><a class="facebook share-button t-facebook" target="_blank" aria-label="Share this section on Facebook" title="Share this section on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><span>Facebook</span></a></li><li class=""><a class="googleplus share-button t-googleplus" target="_blank" aria-label="Share this secton on Google Plus" title="Share this secton on Google Plus" href="https://plus.google.com/share?url=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html"><span>Google Plus</span></a></li><li class=""><a class="email share-button t-email" aria-label="Share this section via email" title="Share this section via email" href="mailto:?subject=Safari:%20Copyright%20Page&amp;body=https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/copyright.html%0D%0Afrom%20Complete%20CompTIA%C2%AE%20A%2B%20Guide%20to%20PCs%2C%20Sixth%20Edition%0D%0A"><span>Email</span></a></li></ul></li><!-- endif request.user.is_authenticated -->
+      </ul>
+    </div>
+
+      
+          
+      
+
+    <section role="document"><script src="./Chapter 3. System Configuration_files/48743.js"></script>
+<script>
+  var userId = "792e0d15-87f7-4f27-a256-7444770f88f0";
+
+  var userObject = {
+    firstName: "Jason",
+    segment: "Trial",
+    admin: "False",
+    profileCreatedOn: "2021-01-18",
+    academic: ""
+  };
+  window.Appcues.identify(userId, userObject);
+  window.Appcues.page();
+
+  setTimeout(function () {
+    window.Appcues.track('ViewingBook_HeronBook')
+  }, 20000);
+</script>
+
+
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch02.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">Chapter 2. On the Motherboard</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch04.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Chapter 4. Disassembly and Power</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><h2 id="ch03"><a id="page_93"></a><span class="pd_ash">Chapter 3</span>. <span class="pd_blue">System Configuration</span></h2>
+<div class="feature"><hr>
+<p class="feature-title">Chapter Objectives</p>
+<p class="noindentf">In this chapter you will learn:</p>
+<p class="indenthangingB">• How to make configuration changes to a computer</p>
+<p class="indenthangingB">• The importance of BIOS and UEFI BIOS</p>
+<p class="indenthangingB">• How to replace a motherboard battery</p>
+<p class="indenthangingB">• What system resources are and how to view/change them</p>
+<hr></div>
+<div class="feature1"><hr>
+<p class="feature-title"><span class="middle"><img src="./Chapter 3. System Configuration_files/check.jpg" alt="Image" width="50" height="47"></span> CompTIA Exam Objectives</p>
+<p class="noindentf">What CompTIA A+ exam objectives are covered in this chapter?</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.1 Configure and apply BIOS settings.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.2 Differentiate between motherboard components, their purposes, and properties.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 801-1.4 Install and configure expansion cards.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 802-1.4 Given a scenario, use appropriate operating system features and tools.</p>
+<p class="indenthangingC"><span class="ent">✓</span> 802-4.2 Given a scenario, troubleshoot common problems related to motherboards, RAM, CPU, and power with appropriate tools.</p>
+<hr></div>
+<h3 id="ch03lev1sec1"><a id="page_94"></a><span class="pd_blue">Configuration Overview</span></h3>
+<p class="noindent">Installing and configuring the motherboard, the processor, RAM, or other devices can involve using the system BIOS Setup program, cabling certain motherboard pins, jumpering motherboard pins, setting switches, or using the operating system. The system <strong><a id="ch03term14" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0881" class="pd_blue">Setup</a></strong> program allows you to configure the motherboard, power, and devices and enables you to set performance options.</p>
+<p class="indent">Another configuration option involves motherboard pins. The motherboard contains pins that are used to connect cables such as those that go to the computer front panel. Look back to <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch02.html#ch02fig16">Figure 2.16</a> to see how the processor fan connects to pins on the motherboard.</p>
+<p class="indent">Pins can also be covered by a <strong><a id="ch03term08" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0513" class="pd_blue">jumper</a></strong> to enable or disable a particular feature, such as resetting all the system Setup settings. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig01">Figure 3.1</a> shows an enlarged jumper; the pins and jumper are much smaller in real life than the one shown. When a jumper is not in use, instead of putting it in a drawer, place the jumper over a single pin. This action does not enable anything, and it keeps the jumper safe and convenient for when it is needed later.</p>
+<div class="image"><a id="ch03fig01"></a><img src="./Chapter 3. System Configuration_files/03fig01.jpg" alt="Image" width="234" height="346"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.1.</span> JP1 jumper block with pins 1 and 2 jumpered together</p>
+<h3 id="ch03lev1sec2"><span class="pd_blue">BIOS Overview</span></h3>
+<p class="noindent">The BIOS (basic input/output system) is an important motherboard component that has the following functions:</p>
+<p class="indenthangingB">• Holds and executes POST (power-on self-test)—a program that identifies, tests, and initializes basic hardware components</p>
+<p class="indenthangingB">• Holds a basic routine called a bootstrap program that locates an operating system and allows it to load</p>
+<p class="indenthangingB">• Holds Setup (also called BIOS setup, system Setup, and CMOS setup), which is a program that allows settings to be viewed and managed</p>
+<p class="noindent">The BIOS can also turn control over to an adapter’s onboard BIOS so that it can initialize.</p>
+<p class="indent">POST performs basic tests of individual hardware components, such as the motherboard, RAM modules, keyboard, optical drive, and hard drive. When a computer is turned on with the power switch, BIOS executes POST. An indication that POST is running is that the lights on the keyboard momentarily flash on and then off, or you will see the hard drive or optical drive light momentarily flash. Turning the computer on with the power switch is known as a cold boot. Users perform a cold boot every time they power on their computer. A technician performs a cold boot when he or she is troubleshooting a computer and needs POST to execute. BIOS can be configured to reduce the time and number of devices checked by POST.</p>
+<p class="indent"><a id="page_95"></a>You can restart a Windows XP computer with a warm boot by clicking the Start button &gt; <em>Shut Down</em> &gt; <em>Restart</em> &gt; <em>OK</em>. You can also perform a warm boot by holding down the <span class="middle"><img src="./Chapter 3. System Configuration_files/ctrl.jpg" alt="Image" width="34" height="21"></span> key, the <span class="middle"><img src="./Chapter 3. System Configuration_files/alt.jpg" alt="Image" width="30" height="20"></span> key, and the <span class="middle"><img src="./Chapter 3. System Configuration_files/del.jpg" alt="Image" width="35" height="20"></span> key at the same time &gt; <em>Task Manager</em> &gt; <em>Shut Down</em> &gt; <em>Restart</em> &gt; <em>OK</em>. Warm booting causes any changes that have been made to take effect without putting as much strain on the computer as a cold boot does. In Windows Vista or 7, click on the Start button &gt; right arrow adjacent to the lock button and select <em>Restart</em> or press <span class="middle"><img src="./Chapter 3. System Configuration_files/ctrl.jpg" alt="Image" width="34" height="21"></span> + <span class="middle"><img src="./Chapter 3. System Configuration_files/alt.jpg" alt="Image" width="30" height="20"></span> + <span class="middle"><img src="./Chapter 3. System Configuration_files/del.jpg" alt="Image" width="35" height="20"></span>, select the up arrow in bottom-right corner, and choose <em>Restart</em> from the menu.</p>
+<p class="indent">When assembling, troubleshooting, or repairing a computer, a technician must go into a Setup program to configure the system. The Setup program is held in BIOS, and through the Setup program, you can see and possibly configure such things as how much RAM is in the computer, the type and number of drives installed, where the computer looks for its boot files, the current date and time, and so on. An error message is displayed if the information in the Setup program fails to match the hardware or if a specific device does not work properly.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Using Setup to disable integrated ports and connectors</span></p>
+<p class="notepara">Motherboards include connectors for hard drives, optical drives, and so on. If any of these connectors fails, you can disable it through Setup and obtain a replacement adapter just as you would if an integrated port failed.</p>
+<hr></div>
+<p class="indent">There are two main ways to configure your system or an adapter: through the Setup program held in system BIOS and through the operating system. We examine the Setup program first.</p>
+<h3 id="ch03lev1sec3"><span class="pd_blue">The Setup Program</span></h3>
+<p class="noindent">Computers have Setup software built into the system BIOS chip on the motherboard that you can access with specific keystrokes determined by the BIOS manufacturer. During the boot process, most computers display a message stating which keystroke(s) will launch the Setup program. The message shown is usually in one of the four screen corners. See <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig02">Figure 3.2</a>. The keystroke can be one or more keys pressed during startup, such as the <span class="middle"><img src="./Chapter 3. System Configuration_files/esc.jpg" alt="Image" width="35" height="20"></span>, <span class="middle"><img src="./Chapter 3. System Configuration_files/ins.jpg" alt="Image" width="29" height="20"></span>, <span class="middle"><img src="./Chapter 3. System Configuration_files/del.jpg" alt="Image" width="35" height="20"></span>, <span class="middle"><img src="./Chapter 3. System Configuration_files/f1.jpg" alt="Image" width="24" height="21"></span>, <span class="middle"><img src="./Chapter 3. System Configuration_files/f2.jpg" alt="Image" width="25" height="21"></span>, or <span class="middle"><img src="./Chapter 3. System Configuration_files/f10.jpg" alt="Image" width="33" height="20"></span> keys. Another key combination is <span class="middle"><img src="./Chapter 3. System Configuration_files/ctrl.jpg" alt="Image" width="34" height="21"></span> + <span class="middle"><img src="./Chapter 3. System Configuration_files/alt.jpg" alt="Image" width="30" height="20"></span> + some other key.</p>
+<div class="image"><a id="ch03fig02"></a><img src="./Chapter 3. System Configuration_files/03fig02.jpg" alt="Image" width="737" height="459"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.2.</span> Setup keystrokes</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: How to access setup</span></p>
+<p class="notepara">The key or keys used to access Setup is normally displayed briefly during the boot process. Otherwise, look in the motherboard documentation for the proper keystroke(s) to use.</p>
+<hr></div>
+<h3 id="ch03lev1sec4"><a id="page_96"></a><span class="pd_blue">Flash BIOS</span></h3>
+<p class="noindent"><strong><a id="ch03term05" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0377" class="pd_blue">Flash BIOS</a></strong> is the most common type of BIOS; it allows changing the BIOS without installing a new chip or chips. Common computer BIOS manufacturers include AMI (American Megatrends, Inc.), Phoenix, Byosoft (Nanjing Byosoft Co., Ltd), and Insyde Software. Many computer companies produce their own BIOS chips or subcontract with one of these companies to customize the BIOS.</p>
+<p class="indent">The BIOS can be upgraded. The term used for this process is “flashing the BIOS.” The following procedure is one example of flashing the BIOS:</p>
+<p class="indenthangingN"><strong>1.</strong> After the system BIOS upgrade is downloaded from the Internet, execute the update.</p>
+<p class="indenthangingN"><strong>2.</strong> Follow the directions on the screen or from the manufacturer.</p>
+<p class="indenthangingN"><strong>3.</strong> Reboot the computer.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: How to remove BIOS write protection</span></p>
+<p class="notepara">Because the flash BIOS is frequently write protected, a motherboard jumper, switch, or BIOS setting may need to be changed to allow an update. Viruses can infect the flash BIOS, so you should keep the BIOS write protected until you need to update it. Refer to the computer or motherboard documentation to find the exact procedure for removing the write protection and updating the flash BIOS.</p>
+<hr></div>
+<p class="indent">Another method some manufacturers support is downloading a program to a USB flash drive along with the BIOS update. The computer is booted from the USB drive to ensure that the BIOS update works. Those who overclock their processor prefer this option.</p>
+<p class="indent">A computer may need a BIOS upgrade for a variety of reasons, including the following:</p>
+<p class="indenthangingB">• To provide support for new or upgraded hardware</p>
+<p class="indenthangingB">• To provide support for a higher-capacity hard drive</p>
+<p class="indenthangingB">• For increased virus protection</p>
+<p class="indenthangingB">• For optional password protection</p>
+<p class="indenthangingB">• To solve problems with the current version</p>
+<p class="indent">Some motherboards have a utility that allows recovery if a BIOS becomes corrupted or the BIOS update fails. Another option is a flash BIOS recovery jumper or switch used for BIOS recovery. A third option is a backup BIOS in case a BIOS upgrade fails or stalls during the upgrade process. Also, an alternative is having a portion of the BIOS that cannot be changed so that the computer can still boot, even if a BIOS update fails. If the motherboard manufacturer does not provide one of these alternatives, the motherboard will have to be replaced. A computer without an operational BIOS cannot boot. See the motherboard manual or documentation for specific BIOS details and the method that is being used to protect the BIOS.</p>
+<p class="indent"><strong><a id="ch03term16" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_1027" class="pd_blue">UEFI</a></strong> (Unified Extensible Firmware Interface, and sometimes seen as simply EFI) is the interface between the operating system and firmware, which could be the traditional BIOS, or UEFI could replace the BIOS. The traditional BIOS has roots in the original PC; the BIOS always checked for certain things such as a keyboard before allowing the system to boot. A traditional BIOS made configuring kiosks and touchscreen technologies difficult. UEFI fixed these issues.</p>
+<p class="indent">With UEFI, you can boot into the environment (which includes configuration parameters), but unlike the original BIOS environment, you can use your mouse and possibly do some of the following, depending on the manufacturer: connect to the Internet, run applications, run a virus scan, have a GUI environment, execute utilities, or perform a backup or a restore—a lot more configuration options and in a much easier-to-use environment. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig03">Figure 3.3</a> show an example of such an environment.</p>
+<div class="image"><a id="page_97"></a><a id="ch03fig03"></a><img src="./Chapter 3. System Configuration_files/03fig03.jpg" alt="Image" width="746" height="597"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.3.</span> Sample UEFI main menu</p>
+<p class="indent">Many manufacturers have moved to the UEFI type of BIOS for the following reasons:</p>
+<p class="indenthangingB">• It is a graphical environment that provides mouse support.</p>
+<p class="indenthangingB">• It enables you to have a virus-scanning utility that is not operating system dependent.</p>
+<p class="indenthangingB">• It offers more BIOS software that is not just configuration screens.</p>
+<p class="indenthangingB">• It offers optional Internet access for troubleshooting or download capabilities.</p>
+<p class="indenthangingB">• It offers better system support for cooling, voltage levels, performance, and security.</p>
+<p class="indenthangingB">• It provides support for increased hard drive capacities.</p>
+<p class="noindent">From the UEFI BIOS main menu, there might be icons you can use to access utilities or more advanced configurations. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig04">Figure 3.4</a> shows the type of menu options you might see if you clicked on the Advanced button from the main menu. Other manufacturers might have these category icons available from the main menu.</p>
+<div class="image"><a id="ch03fig04"></a><img src="./Chapter 3. System Configuration_files/03fig04.jpg" alt="Image" width="746" height="148"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.4.</span> Sample UEFI advanced menu</p>
+<div class="note"><hr>
+<p class="title"><a id="page_98"></a><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Using AC when flashing laptop BIOS</span></p>
+<p class="notepara">Attach AC power to a laptop when flashing the BIOS to avoid power loss during the BIOS update.</p>
+<hr></div>
+<h3 id="ch03lev1sec5"><span class="pd_blue">BIOS Configuration Settings</span></h3>
+<p class="noindent">BIOS options vary according to manufacturer, but many options are similar. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab01">Table 3.1</a> shows some common BIOS settings and briefly explains each. Most Setup programs have help that can be accessed from within the Setup program to explain the purpose of each option.</p>
+<p class="tab-caption"><a id="ch03tab01"></a><span class="pd_blue">Table 3.1.</span> Common Setup options</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab01.jpg" alt="Image" width="916" height="746"></div>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab01a.jpg" alt="Image" width="916" height="879"></div>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab01b.jpg" alt="Image" width="916" height="431"></div>
+<div class="note"><hr>
+<p class="title"><a id="page_99"></a><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Using default BIOS settings for a new system</span></p>
+<p class="notepara">When installing a new system, use the default BIOS settings until all components are tested.</p>
+<hr></div>
+<p class="indent"><a id="page_100"></a>Some motherboards have pins that, when jumpered together, remove the power-on password. Look at the computer or motherboard documentation for the exact procedure to remove the power-on password. Some motherboards distinguish between supervisor and user passwords. Another security option of some BIOS chips is whether a password is needed every time the computer boots or only when someone tries to enter the Setup program. The options available in Setup and Advanced Setup are machine dependent due to the different BIOS chips and the different chipsets installed on the motherboard. Always refer to the computer or motherboard documentation for the meaning of each option.</p>
+<p class="indent">You must save your changes whenever you make configuration changes. Incorrectly saving the changes is a common mistake. The options available when exiting BIOS depend on the model of BIOS being used. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab02">Table 3.2</a> lists sample BIOS exit options.</p>
+<p class="tab-caption"><a id="ch03tab02"></a><span class="pd_blue">Table 3.2.</span> Sample configuration change options</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab02.jpg" alt="Image" width="770" height="280"></div>
+<h3 id="ch03lev1sec6"><span class="pd_blue">CMOS Memory</span></h3>
+<p class="noindent">Settings changed in system BIOS are recorded and stored in <strong><a id="ch03term02" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0150" class="pd_blue">CMOS</a></strong> (complementary metal-oxide semiconductor) found in the motherboard chipset (south bridge or I/O controller hub). CMOS is memory that requires a small amount of power, provided by a small coin-sized lithium battery when the system is powered off. The memory holds the settings configured through BIOS. Part of the BIOS software routine that runs after the computer is turned on checks CMOS for information about what components are supposed to be installed. These components are then tested.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Incorrect Setup information causes POST errors</span></p>
+<p class="notepara">If you incorrectly input configuration information, POST error codes or error messages that would normally indicate a hardware problem appear.</p>
+<hr></div>
+<p class="indent">The information inside CMOS memory can be kept there for several years, using a small coin-sized lithium battery. When the battery dies, all configuration information in CMOS is lost and must be re-entered or relearned after the battery is replaced.</p>
+<p class="indent">Remember that POST runs whenever the computer cold boots, and it performs a hardware check on installed components. POST knows what hardware is <em>supposed</em> to be in the computer by obtaining the settings from CMOS. If the settings do not match, an error occurs.</p>
+<p class="indent">When working on a computer with a POST error code, ensure that the user or another technician (1) has not changed the configuration through the Setup program or (2) removed or installed any hardware without changing the Setup program or updating the operating system. Correct system Setup information is crucial for proper PC operation.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Don’t clear CMOS after a BIOS update</span></p>
+<p class="notepara">Do not clear the CMOS immediately after upgrading the BIOS. Power down the system and then power it back on before clearing CMOS data.</p>
+<hr></div>
+<p class="indent">Most motherboards allow clearing the settings saved in CMOS by a system BIOS setup option. However, if the saved setting is a forgotten password, then setting motherboard jumpers as shown in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig05">Figure 3.5</a> is usually an option. If all else fails, you can remove and replace the motherboard battery, but then all BIOS settings would be reset to the default settings.</p>
+<div class="image"><a id="page_101"></a><a id="ch03fig05"></a><img src="./Chapter 3. System Configuration_files/03fig05.jpg" alt="Image" width="640" height="508"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.5.</span> A CMOS password jumper</p>
+<h3 id="ch03lev1sec7"><span class="pd_blue">Motherboard Batteries</span></h3>
+<p class="noindent">The most common battery used today is a CR2032 lithium battery, which is about the size of a nickel. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig06">Figure 3.6</a> shows a photo of a lithium battery installed on a motherboard. If you cannot find the motherboard battery, refer to the motherboard or computer documentation for the exact location.</p>
+<div class="image"><a id="ch03fig06"></a><img src="./Chapter 3. System Configuration_files/03fig06.jpg" alt="Image" width="609" height="491"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.6.</span> Motherboard battery</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Battery replacement hints</span></p>
+<p class="notepara">Check the motherboard for any evidence of battery corrosion and verify that no battery acid has come in contact with the motherboard. If the motherboard is contaminated with battery acid, it will probably need to be replaced. A first indication that a battery is failing is the loss of the date or time on the computer.</p>
+<hr></div>
+<p class="indent"><a id="page_102"></a>No battery lasts forever. High temperatures and powering devices that use batteries on and off shorten a battery’s life span. Computer motherboard batteries last three to eight years. Today, batteries last longer, and people replace their computers more frequently; therefore, replacing batteries is not the issue it once was.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Using a battery recycling program</span></p>
+<p class="notepara">Many states have environmental regulations regarding battery disposal. Many companies also have battery recycling programs. The <a href="http://earth911.com/">earth911.com</a> website has information regarding recycling and disposing of batteries and computer components by zip code or city/state.</p>
+<hr></div>
+<h3 id="ch03lev1sec8"><span class="pd_blue">Other Configuration Parameters</span></h3>
+<p class="noindent">Other possible parameters contained and set via the Setup program or operating system are IRQs (interrupt requests), I/O (input/output) addresses, DMA (direct memory access) channels, and memory addresses. These parameters are assigned to individual adapters and ports, such as disk controllers, and the USB, serial, parallel, and mouse ports. Sometimes these ports must be disabled through Setup in order for other devices or adapter ports to work. No matter how the parameters are assigned, collectively they are known as <strong><a id="ch03term15" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0969" class="pd_blue">system resources</a></strong>. These are not the same system resources that we refer to when we discuss Windows operating systems. Let’s take a look at three important system resources: IRQs, I/O addresses, and memory addresses.</p>
+<h3 id="ch03lev1sec9"><span class="pd_blue">IRQ (Interrupt Request)</span></h3>
+<p class="noindent">Imagine being in a room of 20 students when 4 students want the teacher’s attention. If all 4 students talk at once, the teacher is overloaded and unable to respond to the 4 individuals’ needs. Instead, the teacher needs an orderly process of acknowledging each request, prioritizing the requests (which student is first), and then answering each question. The same thing happens when multiple devices want the attention of the CPU. For example, which device gets to go first if a key on the PS/2 keyboard is pressed and the PS/2 mouse is moved simultaneously? The answer lies in what interrupt request numbers are assigned to the keyboard and the mouse. Every device requests permission to do something by interrupting the processor (which is similar to a student raising his hand). The CPU has a priority system to handle such situations.</p>
+<p class="indent">The processor prioritizes device requests through the use of IRQ. An <strong><a id="ch03term07" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0504" class="pd_blue">IRQ</a></strong> (interrupt request) is a number assigned to an expansion adapter or port so orderly communication can occur between the device or port and the processor. For example, when a key is pressed and the mouse is moved simultaneously, the keyboard has the highest priority because of its IRQ number.</p>
+<p class="indent">Older computers had 16 interrupts numbered 0 through 15. The chip that controls the interrupts is known as the interrupt controller chip. Today, computers have <strong><a id="ch03term01" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0038" class="pd_blue">APICs</a></strong> (advanced programmable interrupt controllers) that support more interrupt outputs (24, for example) and provide more flexibility than a traditional system, which does not normally support more than one device to an interrupt. APICs allow sharing interrupts between devices. There are two common types of APICs: LAPIC (local APIC) and I/O APIC. LAPIC is normally integrated into each CPU and has its own timer, whereas the I/O APIC is used throughout any of the peripheral buses and is integrated into the chipset. The chipsets used today are backward compatible with the traditional interrupts used.</p>
+<p class="indent">Interrupts for integrated ports and some devices can be set through a system’s Setup program. Other adapter and device interrupts are set by using <strong><a id="ch03term03" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0227" class="pd_blue">Device Manager</a></strong> in Windows or using various control panels. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig07">Figure 3.7</a> shows the various methods used to access Device Manager.</p>
+<div class="image"><a id="ch03fig07"></a><img src="./Chapter 3. System Configuration_files/03fig07.jpg" alt="Image" width="653" height="413"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.7.</span> Accessing Device Manager</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: How IRQs are assigned to multiple-device ports</span></p>
+<p class="notepara">Ports such as USB, SCSI, and IEEE 1394 (FireWire) that support multiple devices require only one interrupt per port. For example, a single USB port can support up to 127 devices but needs only one IRQ.</p>
+<hr></div>
+<p class="indent"><a id="page_103"></a><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig08">Figure 3.8</a> shows how IRQs appear in Device Manager &gt; <em>View</em> &gt; <em>Resources by type</em>. In <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig07">Figure 3.7</a>, notice that some interrupts have multiple entries. Multiple entries do not always indicate a resource conflict. They are allowed because PCI/PCIe devices may share IRQs. The next section goes into more detail on this issue.</p>
+<div class="image"><a id="ch03fig08"></a><img src="./Chapter 3. System Configuration_files/03fig08.jpg" alt="Image" width="795" height="560"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.8.</span> IRQs in Device Manager</p>
+<p class="indent"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig09">Figure 3.9</a> shows an integrated network card’s properties that cannot be changed through Device Manager; notice that the <em>Change Setting</em> button is grayed out. However, properties might be able to be modified through the system BIOS Setup program.</p>
+<div class="image"><a id="page_104"></a><a id="ch03fig09"></a><img src="./Chapter 3. System Configuration_files/03fig09.jpg" alt="Image" width="414" height="479"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.9.</span> Resources tab in Device Manager</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Verifying resources with Device Manager</span></p>
+<p class="notepara">A little down arrow (Vista/7) or an X (XP) means disabled, and ! usually indicates a resource conflict or missing driver. An i indicates that the Use Automatic Settings feature is not being used for the device, and resources were manually configured.</p>
+<hr></div>
+<p class="indent">Indications of a resource conflict (including IRQ, DMA, I/O address, and memory address conflicts) are as follows:</p>
+<p class="indenthangingB">• The new device is installed and the new device or a device already installed does not work.</p>
+<p class="indenthangingB">• The computer locks up or restarts when performing a specific function, such as when playing or recording audio.</p>
+<p class="indenthangingB">• The computer hangs during startup or shutdown.</p>
+<p class="indenthangingB">• A device does not work properly or fails to work at all.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Use the General tab for troubleshooting</span></p>
+<p class="notepara">On the <em>General</em> tab of any adapter or port properties, check the <em>Device status</em> section for any error codes, including those for resource conflicts.</p>
+<hr></div>
+<p class="indent">Within Device Manager, if an exclamation point appears, the hardware device is not working properly. Check for cabling issues, resource conflicts, and configuration issues. If a yellow question mark appears, Windows does not recognize the device. Try one of the following:</p>
+<p class="indenthangingB">• See if there is a Windows update to check whether any new drivers are available. See <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch12.html#ch12">Chapter 12</a> for more details on Windows updates.</p>
+<p class="indenthangingB">• Manually update the driver. To do so, right-click the device in Device Manager &gt; <em>Properties</em> &gt; <em>Driver</em> tab &gt; <em>Update Driver</em>. You could download this driver from the device manufacturer website or let Windows try to find the driver.</p>
+<p class="indent">With any Device Manager issue, you can right-click the device and select <em>Properties</em>. On the General tab, notice if there are any error codes. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab03">Table 3.3</a> lists some Device Manager error codes and descriptions. You can review all these codes and more at Microsoft’s TechNet website.</p>
+<p class="tab-caption"><a id="page_105"></a><a id="ch03tab03"></a><span class="pd_blue">Table 3.3.</span> Device Manager error codes</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab03.jpg" alt="Image" width="770" height="583"></div>
+<h3 id="ch03lev1sec10"><span class="pd_blue">PCI Interrupts</span></h3>
+<p class="noindent">When a PC first boots, the operating system discovers what AGP, PCI, and PCIe adapters and devices are present and what system resources each one needs. The operating system allocates resources such as an interrupt to the adapter/device. If the adapter or device has a ROM or flash BIOS chip installed that contains software that initializes and/or controls the device, the software is allowed to execute during the boot process.</p>
+<p class="indent">PCI/PCIe devices use interrupts called INTA, INTB, INTC, INTD, and so on. These interrupts are commonly referred to as PCI interrupts. Some motherboard documentation uses the numbers 1, 2, 3, and 4 to replace the letters A, B, C, and D. Devices that use these interrupts are allowed to share them as necessary.</p>
+<p class="indent">PCI interrupts are normally assigned dynamically to the USB, PCI, PCIe, and SATA devices as the interrupts are needed. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab04">Table 3.4</a> shows an example of how a motherboard might make PCI IRQ assignments.</p>
+<p class="tab-caption"><a id="ch03tab04"></a><span class="pd_blue">Table 3.4.</span> Sample PCI interrupt assignments</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab04.jpg" alt="Image" width="918" height="709"></div>
+<p class="indent">PCI interrupts can also be mapped to one of the traditional interrupts, usually IRQ 9, 10, 11, and 12. With so many devices installed in today’s computers, this is solved with a technique called IRQ steering. IRQ steering allows multiple adapters to be mapped to the same traditional IRQ. PCI steering (another name for IRQ steering) allows multiple devices to share the same interrupt. Adapters should be able to share the same resources without conflicts. When IRQ steering is enabled and when an adapter needs an interrupt, the operating system finds an available interrupt (which may be currently used by another device that does not need it) and allows the requesting device to use it.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: When <em>not</em> to share a PCI IRQ</span></p>
+<p class="notepara">A technician should be able to verify the resources being used. If a device needs maximum performance, it should not share an IRQ with another device.</p>
+<hr></div>
+<p class="indent"><a id="page_106"></a>During the boot process, the system BIOS configures adapters. Windows examines the resources assigned by the BIOS and uses those resources when communicating with a piece of hardware.</p>
+<p class="indent">Starting with PCI version 2.2 and continuing on with PCIe, an adapter can use a different type of interrupt method, called MSI or MSI-X. <strong><a id="ch03term10" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0613" class="pd_blue">MSI</a></strong> (Message Signaled Interrupt) allows an interrupt to be delivered to the CPU using software and memory space. <strong><a id="ch03term11" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0614" class="pd_blue">MSI-X</a></strong> supports more interrupts. This method was optional with PCI, but PCIe cards are required to support MSI and MSI-X.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: What to do when a conflict occurs in an older system</span></p>
+<p class="notepara">If you suspect a resource conflict with a card, move the card to another slot. PCI slot 1 in particular can cause resource conflicts with the AGP slot. If swapping slots does not work, you must make BIOS changes.</p>
+<hr></div>
+<h3 id="ch03lev1sec11"><span class="pd_blue">I/O (Input/Output) Addresses</span></h3>
+<p class="noindent">An <strong><a id="ch03term06" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0463" class="pd_blue">I/O address</a></strong>, otherwise known as an input/output address or port address, allows a device and a processor to exchange data. An I/O address is like a mailbox number; it must be unique, or the postal worker gets confused. The device places data (mail) in the box for the CPU to pick <a id="page_107"></a>up. The processor delivers the data to the appropriate device through the same I/O address (mailbox number). I/O addresses are simply addresses for the processor to distinguish among the devices with which it communicates. Remember that you cannot deliver mail without an address.</p>
+<p class="indent">I/O addresses are shown in hexadecimal format, from 0000 to FFFF. Some outputs are shown with eight positions, such as 00000000 to FFFFFFFF. Hexadecimal numbers are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 just like the decimal numbers we use, but hexadecimal numbers also include the letters A, B, C, D, E, and F. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab05">Table 3.5</a> shows decimal numbers 0 through 15 and their hexadecimal and binary equivalents.</p>
+<p class="tab-caption"><a id="ch03tab05"></a><span class="pd_blue">Table 3.5.</span> Decimal, binary, and hexadecimal numbers</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab05.jpg" alt="Image" width="770" height="333"></div>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: When is an I/O address needed?</span></p>
+<p class="notepara">Remember that every device must have a separate I/O address. Otherwise, the CPU cannot distinguish between installed devices.</p>
+<hr></div>
+<p class="indent">An example of an I/O address is 390h, where the lowercase h denotes hexadecimal. <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab06">Table 3.6</a> uses this method and shows sample I/O addresses used in computers.</p>
+<p class="tab-caption"><a id="ch03tab06"></a><span class="pd_blue">Table 3.6.</span> Sample I/O addresses</p>
+<div class="image"><img src="./Chapter 3. System Configuration_files/03tab06.jpg" alt="Image" width="771" height="234"></div>
+<p class="indent">Notice in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03tab06">Table 3.6</a> that the I/O address shown is a range of I/O addresses. Normally, devices need more than one hexadecimal address location. The number of extra addresses depends on the individual device and what business it does with the processor. In manuals or documentation for a device or an adapter, a technician might see just one I/O address listed. I/O addresses can be set for some devices and ports through the BIOS system Setup program, Device Manager, or various Windows control panels.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: What to do if only the starting hexadecimal number is shown</span></p>
+<p class="notepara">One problem for technicians is that some documentation and some Setup programs give only the starting hexadecimal I/O address and not the ending I/O address. The range of addresses the adapter uses can conflict with that of another adapter or device. Device Manager shows the full range.</p>
+<hr></div>
+<h3 id="ch03lev1sec12"><a id="page_108"></a><span class="pd_blue">Memory Addresses</span></h3>
+<p class="noindent">The last important system resource is the memory address. A <strong><a id="ch03term09" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0575" class="pd_blue">memory address</a></strong> is a unique address assigned to memory chips installed anywhere in the system. The memory address is used by the CPU when it accesses information inside the chip. Configuration problems can be caused by overlapping or conflicting memory addresses.</p>
+<p class="indent">Memory addresses are shown in hexadecimal. A sample memory address range would be A0000–BFFFFh. However, some documentation drops the last digit and does not include the full memory range that the memory chip takes. For example, memory on an adapter might be listed as C800h. In reality, this is C8000–C8FFFh. When you look at the memory address on the computer, the address may be shown with more hexadecimal places, as shown in Device Manager in <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03fig10">Figure 3.10</a>.</p>
+<div class="image"><a id="ch03fig10"></a><img src="./Chapter 3. System Configuration_files/03fig10.jpg" alt="Image" width="831" height="579"></div>
+<p class="fig-caption"><span class="pd_blue">Figure 3.10.</span> Memory addresses in Device Manager</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: An IEEE 1394 port uses the same system resources to access any devices attached to the same port</span></p>
+<p class="notepara">If one or more FireWire devices connect to a FireWire port (integrated or on an adapter), the devices use the same system resources that are assigned to the port.</p>
+<hr></div>
+<p class="indent">Some memory addresses are preset and cannot be changed. Others can be changed through Device Manager or various Windows control panels. Some BIOS chips allow the contents of memory chips to be copied into RAM. This is called ROM shadowing. Access from RAM is faster than from a ROM chip. Exercises at the end of the chapter help to identify IRQs, I/O addresses, and memory addresses for various devices and operating systems.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: Changing system resources on integrated ports and devices connected to motherboard ports</span></p>
+<p class="notepara">System resources for integrated ports and motherboard connectors (hard drive, optical drive, USB, PS/2, and so on) are configurable through the BIOS Setup program.</p>
+<hr></div>
+<h3 id="ch03lev1sec13"><a id="page_109"></a><span class="pd_blue">Adapter Configuration</span></h3>
+<p class="noindent">Configuration of adapters is easy if you follow the documentation and know how to obtain device drivers. Adapter documentation is frequently available through the Internet, as are many device drivers. Technicians must be familiar with using the Internet to download documentation, updated device drivers, and support files related to adapters and devices.</p>
+<p class="indent">The system BIOS plays an important role as part of the startup routine. Not only does it check hardware for errors as part of POST, but also the BIOS detects installed adapters and, together with the operating system, determines what resources to assign to an adapter. This information is stored in a part of CMOS known as the <strong><a id="ch03term04" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0332" class="pd_blue">ESCD</a></strong> (Extended System Configuration Data) area. Some system BIOS Setup routines allow resetting this information or manually configuring a resource such as an IRQ. Once information is configured in the ESCD area, the information stays there and does not have to be recomputed unless another device is added. After resources are allocated, the BIOS looks in the saved settings of CMOS to determine what device it should look to first for an operating system. This part of the BIOS routine is known as the bootstrap loader. If BIOS cannot locate an operating system in the first location specified in the saved settings, it tries the second device and continues on, looking to each device specified in the saved settings for an operating system. Keep in mind that once an operating system is found, the operating system loads.</p>
+<p class="indent">PCI, AGP, and PCIe adapters, on the other hand, are the easiest adapters to configure because they support PnP. <strong><a id="ch03term12" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0730" class="pd_blue">PnP</a></strong> (plug and play) allows automatic software configuration of an adapter. Once an adapter has been installed into an expansion slot, the technician normally does not have to worry about the adapter conflicting with other devices in the system. PCI, PCI-X, AGP, and PCIe adapters support PnP.</p>
+<div class="note"><hr>
+<p class="title"><span class="middle"><img src="./Chapter 3. System Configuration_files/tip.jpg" alt="Image" width="36" height="46"></span> <span class="pd_blue">Tech Tip: What to do if plug and play does not work</span></p>
+<p class="notepara">Plug and play (and sometimes a configuration utility supplied with a device) is used to configure system resources. Sometimes, a reboot is required for the changes to take effect. If the device does not work after the reboot, reboot the computer again (and possibly a third time) to allow the operating system to sort out the system resources. You can manually make changes if this does not work.</p>
+<hr></div>
+<p class="indent">Normally, adapters do not have problems with system resource conflicts because the PCI/PCIe standards allow interrupt sharing. Also software interrupts can be used to avoid resource conflicts, especially with PCIe adapters. A PCI/PCIe card can be configured through the BIOS and system Setup software, as well as through software provided with the adapter.</p>
+<p class="indent">When you install an adapter in a Windows environment, the operating system detects the installation and adds the adapter’s configuration information to the registry. The <strong><a id="ch03term13" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/gloss01.html#gloss01_0811" class="pd_blue">registry</a></strong> is a central database in Windows that holds hardware information and other data. All software applications access the registry for configuration information instead of going to the adapter. In a plug and play operating system, the system prompts for either the operating system discs or for software media from the adapter manufacturer.</p>
+<p class="indent">Windows works in conjunction with the BIOS to configure adapters automatically. Windows attempts to make hardware installation easier by keeping track of the computer’s configuration. When Windows boots, it compares the saved configuration with what is detected during initialization. When adding hardware, the system automatically detects it, or you can use the <em>Add/Remove Hardware</em> Control Panel (XP) or use <em>Devices and Printers</em> Control Panel link &gt; <em>Add a device</em> (Vista/7).</p>
+<h3 id="ch03lev1sec14"><span class="pd_blue">Soft Skills—A Good Technician Quality: One Thing at a Time</span></h3>
+<p class="noindent">The least effective type of computer technician is a “gun slinger.” The term <em>gun slinger</em> brings to mind images of Wild West ruffians who had shooting matches with other gangsters in the town’s main street. Gun slingers drew their guns frequently and with little provocation. They did not put much thought into their method or consider other possible resolutions. You must strive <em>not</em> to be this type of technician.</p>
+<p class="indent"><a id="page_110"></a>A gun slinger technician changes multiple things simultaneously. For example, if there is no display on the output, the technician might swap out the monitor, disable the onboard video port, add a new video adapter, power on the computer, and, when output appears, call the problem “solved.” If a computer problem is repaired using such a technique, the technician never knows exactly what solved the problem.</p>
+<p class="indent">A good technician, on the other hand, makes a list of symptoms (even if it is simply a mental list) followed by a list of things to try. Then the technician tries the possible solutions, starting with the simplest one (the one that costs the least amount of time to the computer user). The technician documents each step. After each approach that does not fix the problem, the technician puts the system back to the original configuration before attempting the next possible solution. This method keeps the technician focused on what has been tested, and if another technician takes over, the steps do not have to be repeated. Best of all, when one of the possible solutions fixes the problem, the exact solution is known.</p>
+<p class="indent">Gun slinger technicians do not learn as fast as other technicians because they do not determine the real causes of problems. Each time they are presented with a problem similar to one they have seen in the past, gun slinger technicians use the same haphazard troubleshooting method. These technicians are actually dangerous to an organization because they are not good at documenting what they have done and determining exactly what fixes a particular problem.</p>
+<h3 id="ch03lev1sec15"><a id="page_111"></a><span class="pd_blue">Chapter Summary</span></h3>
+<p class="indenthangingB">• The system flash BIOS is used to enable/disable, configure, and troubleshoot motherboard components, expansion slots, and ports. When the computer is off, a motherboard battery holds saved settings in CMOS.</p>
+<p class="indenthangingB">• An updated type of BIOS is UEFI BIOS, which allows the use of a mouse and a graphical environment. Security options, support for larger hard drives, antivirus software, and utilities may also be included.</p>
+<p class="indenthangingB">• Each port and card uses system resources such as interrupts, I/O addresses, and memory addresses.</p>
+<p class="indenthangingB">• PCIe cards can use traditional interrupts or software interrupts known as MSI or MSI-X.</p>
+<p class="indenthangingB">• System resources can be viewed and changed using Device Manager. Specific Device Manager codes and messages help in troubleshooting conflicts.</p>
+<p class="indenthangingB">• A good computer technician should methodically troubleshoot a problem by making only one change at a time and reverting the change if the change did not solve the problem. Furthermore, the technician documents the issue and its resolution for future problems.</p>
+<h3 id="ch03lev1sec16"><span class="pd_blue">Key Terms</span></h3>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term01">APIC</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term02">CMOS</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term03">Device Manager</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term04">ESCD</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term05">flash BIOS</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term06">I/O address</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term07">IRQ</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term08">jumper</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term09">memory address</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term10">MSI</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term11">MSI-X</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term12">PnP</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term13">registry</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term14">Setup</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term15">system resources</a></p>
+<p class="key"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#ch03term16">UEFI</a></p>
+<h3 id="ch03lev1sec17"><span class="pd_blue">Review Questions</span></h3>
+<p class="question"><strong>1.</strong> When would a technician flash a BIOS?</p>
+<p class="question-a"><strong>a.</strong> when the date and time start to be incorrect</p>
+<p class="question-a"><strong>b.</strong> when a port or motherboard component does not perform at its maximum potential</p>
+<p class="question-a"><strong>c.</strong> when the driver for a motherboard port is out of date</p>
+<p class="question-a"><strong>d.</strong> when the motherboard has an upgrade such as a new processor, extra RAM, or an additional adapter installed into an expansion slot</p>
+<p class="question"><strong>2.</strong> What is the effect of setting an administrator password in BIOS?</p>
+<p class="question-a"><strong>a.</strong> It prevents the computer from having multiple devices that can boot the system.</p>
+<p class="question-a"><strong>b.</strong> It prevents the BIOS from being infected with a virus.</p>
+<p class="question-a"><strong>c.</strong> It prevents a user from accessing the computer operating system.</p>
+<p class="question-a"><strong>d.</strong> It prevents a user from changing system Setup settings.</p>
+<p class="question"><strong>3.</strong> What program is used to determine the driver version being used for a specific component? [ BIOS | CMOS | Task Manager | Device Manager | system Setup ]</p>
+<p class="question"><strong>4.</strong> List two symptoms of a device resource conflict.</p>
+<p class="question"><a id="page_112"></a><strong>5.</strong> Where would a CR2032 lithium battery most likely be used in a computing device?</p>
+<p class="question-a"><strong>a.</strong> as a laptop battery</p>
+<p class="question-a"><strong>b.</strong> inside the processor</p>
+<p class="question-a"><strong>c.</strong> as a component on the motherboard</p>
+<p class="question-a"><strong>d.</strong> within CMOS</p>
+<p class="question"><strong>6.</strong> What is the name of the Windows database where Windows configuration information is stored? [ registry | BIOS | UEFI | Device Manager ]</p>
+<p class="question"><strong>7.</strong> [ T | F ] If a power failure occurs during a BIOS update, the motherboard might have to be replaced.</p>
+<p class="question"><strong>8.</strong> What is the result of attaching a USB 2.0 device and a USB 3.0 device to a USB hub attached to a motherboard USB 3.0 port?</p>
+<p class="question-a"><strong>a.</strong> The devices share system resources.</p>
+<p class="question-a"><strong>b.</strong> The 3.0 device gets a higher-priority IRQ.</p>
+<p class="question-a"><strong>c.</strong> If either of the devices is an externally powered device, that particular device gets a higher-priority IRQ. Otherwise, the two devices share an interrupt.</p>
+<p class="question-a"><strong>d.</strong> The 3.0 device always has a higher-priority I/O address.</p>
+<p class="question"><strong>9.</strong> Which device properties tab has a <em>Device status</em> section that might contain helpful troubleshooting information or the status of the device? [ General | Advanced | Driver | Details | Management ]</p>
+<p class="question1"><strong>10.</strong> A technician receives a complaint about a computer being slow to respond to typed keystrokes. The technician installs more memory and a new keyboard. The customer is happy. What, if anything, could have been done better?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>11.</strong> What is another name for a PCIe software interrupt? [ MSI | APIC | IRQ | PIRQ ]</p>
+<p class="enter">&nbsp;</p>
+<p class="questionp">Consider the following BIOS configuration menu options for answering Questions 12 through 16:</p>
+<div class="image2"><img src="./Chapter 3. System Configuration_files/0112tab01.jpg" alt="Image" width="736" height="410"></div>
+<p class="question1"><a id="page_113"></a><strong>12.</strong> What menu item would you use to determine whether the system should be flashed?</p>
+<p class="question-a"><strong>a.</strong> Main menu</p>
+<p class="question-a"><strong>b.</strong> Onboard Devices</p>
+<p class="question-a"><strong>c.</strong> Boot Device Priority</p>
+<p class="question1"><strong>13.</strong> A computer is mounted inside a cabinet, and you want to know if an IEEE 1394 port is available. Which menu item would you use?</p>
+<p class="question-a"><strong>a.</strong> Main menu</p>
+<p class="question-a"><strong>b.</strong> Onboard Devices</p>
+<p class="question-a"><strong>c.</strong> Boot Device Priority</p>
+<p class="question1"><strong>14.</strong> [ T | F ] The system date and time must be configured through the system BIOS.</p>
+<p class="question1"><strong>15.</strong> A technician keeps having to go to the BIOS main menu to configure date and time. What component is suspect? [ CPU | BIOS | battery | chipset | CMOS ]</p>
+<p class="question1"><strong>16.</strong> A technician wants to boot from an eSATA external hard drive. Which submenu item is used? [ OnChip SATA controller | SATA | PCIE training | 1st Boot Device ]</p>
+<p class="question1"><strong>17.</strong> A user cannot get a computer to boot. The technician replaces the motherboard and the hard drive. The system now works. What could the technician have done differently in this situation, if anything?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="question1"><strong>18.</strong> When would a technician use UEFI?</p>
+<p class="question-a"><strong>a.</strong> when managing configuration through Device Manager</p>
+<p class="question-a"><strong>b.</strong> when the date and/or time continues to be misconfigured</p>
+<p class="question-a"><strong>c.</strong> when an adapter has just been installed</p>
+<p class="question-a"><strong>d.</strong> when replacing a motherboard</p>
+<p class="question1"><strong>19.</strong> A computer is being used in a medical office. For security reasons, the technician has been asked to reasonably ensure that no one attaches any external media. What would the technician probably do?</p>
+<p class="question-a"><strong>a.</strong> Password protect the BIOS and disable unused ports.</p>
+<p class="question-a"><strong>b.</strong> Swap out the motherboard for one that doesn’t have extra ports.</p>
+<p class="question-a"><strong>c.</strong> Assign user rights through user passwords on the computer.</p>
+<p class="question-a"><strong>d.</strong> Encrypt the hard drive.</p>
+<p class="question-a"><strong>e.</strong> Flash the chipset.</p>
+<p class="question1"><strong>20.</strong> A technician for a small company set a BIOS password on every computer. The technician left the company, and the replacement technician needs to access the BIOS. What should the new technician do?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<h3 id="ch03lev1sec18"><span class="pd_blue">Exercises</span></h3>
+<h4 id="ch03lev2sec1">Lab 3.1 Configuration Method Exercise and Review</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To determine which configuration method a computer uses</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer and Internet access</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><a id="page_114"></a><strong>1.</strong> Open the computer and look at the motherboard. Note that you may have to use the computer model number and the Internet to do research for parts of this lab or to answer some of the questions. Verify any information found on the Internet with what you see in the computer.</p>
+<p class="indenthangingN"><strong>2.</strong> Document (write down) the location, name, and purpose of all motherboard jumpers.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>3.</strong> Locate the motherboard battery and document the battery type.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is an advantage of having a battery that keeps CMOS information?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">How can you tell the purpose of the jumper(s)?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What is one of the first indications of a failing battery?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the keystroke(s) required to access the Setup program?</span></p>
+<p class="enter">&nbsp;</p>
+<h4 id="ch03lev2sec2">Lab 3.2 System Resource Configuration Through the Setup Program</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To access the system resources through the Setup program</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer.</p>
+<p class="indenthangingN"><strong>2.</strong> Press the appropriate key(s) to enter the Setup program.</p>
+<p class="indenthangingN"><strong>3.</strong> Go through the various menus or icons until you find an interrupt (IRQ) setting for a particular device or port. Write the device or port and the associated IRQ in the space below.</p>
+<div class="image2"><img src="./Chapter 3. System Configuration_files/114fig01.jpg" alt="Image" width="735" height="64"></div>
+<p class="indenthangingNP">Why do different devices generally not have the same interrupt? So the processor can prioritize requests from devices that want attention at the same time.</p>
+<p class="indenthangingN"><strong>4.</strong> Go through the various menus or icons until you find an I/O address setting for a particular device or port. Write the device or port in the space provided, along with the associated I/O address.</p>
+<div class="image2"><img src="./Chapter 3. System Configuration_files/114fig02.jpg" alt="Image" width="735" height="64"></div>
+<p class="indenthangingNP"><span class="pd_blue">Why must each device and port have a separate and unique I/O address?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">How do I/O addresses, interrupts, and memory addresses get assigned to an installed adapter?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the best source for viewing interrupts, I/O addresses, and memory address that have been assigned?</span></p>
+<p class="indenthangingN"><a id="page_115"></a><strong>5.</strong> Exit the Setup program.</p>
+<p class="indenthangingN"><strong>6.</strong> Go to Device Manager and determine whether the information collected in Steps 3 and 4 is the same.</p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials: _____________</em></strong></span></p>
+<h4 id="ch03lev2sec3">Lab 3.3 Examining System Resources by Using Windows</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To be able to view and access system resources by using Windows</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer with Windows loaded</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Complete the following procedure and answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> Power on the computer and verify that Windows loads. Log on to the computer, using the user ID and password provided by the instructor or lab assistant.</p>
+<p class="indenthangingN"><strong>2.</strong> Access the <em>Performance and Maintenance</em> Control Panel (XP), the <em>System and Maintenance</em> Control Panel (Vista), or the <em>System and Security</em> Control Panel (7).</p>
+<p class="indenthangingN"><strong>3.</strong> Locate and access <em>Device Manager</em>.</p>
+<p class="indenthangingN"><strong>4.</strong> Click the <em>View</em> menu option and select <em>Resources by type</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What four types of system resources are shown?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>5.</strong> Click the plus sign (or arrow) by <em>IRQ</em> (interrupt request) or <em>Interrupt request</em> (IRQ).</p>
+<p class="indenthangingNP"><span class="pd_blue">Are any interrupts in use by multiple PCI devices? If so, list one.</span></p>
+<p class="indenthangingN"><strong>6.</strong> Click the help icon or <em>Help &gt; Help Topics menu item</em>.</p>
+<p class="indenthangingN"><strong>7.</strong> In Windows Vista/7, expand <em>Device Manager</em>. In all Windows versions, expand <em>Uninstalling and Reinstalling Devices</em>. Locate and select the <em>Remove a Driver Package from the Driver Store</em> option.</p>
+<p class="indenthangingNP"><span class="pd_blue">Using the help function, determine how to find the name of the driver package in the driver store. Document your findings.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">Why would a technician need to know the name of a driver store?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>8.</strong> Close the help window.</p>
+<p class="indenthangingNP"><span class="pd_blue">What device, if any, is using IRQ8?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">Is this the standard IRQ for this device?</span></p>
+<p class="noindent"><span class="pd_blue"><strong><em>Instructor initials</em></strong>: _____________</span></p>
+<p class="indenthangingN"><strong>9.</strong> Click the plus sign (or arrow) by <em>Input/output (I/O)</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">What is the first I/O address range listed for the first occurrence of the Direct Memory Access controller?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>10.</strong> Collapse the <em>Input/output</em> section. Click the plus sign (or arrow) by <em>DMA</em>.</p>
+<p class="indenthangingNP"><span class="pd_blue">Are any DMA channels being used? If so, list them.</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>11.</strong> Click on any device listed in the IRQ section. Move your mouse slowly over the icons at the top until you locate the <em>Update Driver Software</em> icon. When the mouse is moved slowly enough, a description of the icon appears.</p>
+<p class="indenthangingNP"><span class="pd_blue">What does the <em>Update Driver</em> icon look like?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><a id="page_116"></a><strong>12.</strong> Move your mouse slowly over the icons at the top until you locate the <em>Uninstall</em> icon. <em>Do not click this icon</em>. The Disable icon can be used to troubleshoot problem devices.</p>
+<p class="indenthangingNP"><span class="pd_blue">In what situation do you think a technician would use this option?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN1"><strong>13.</strong> Ensure that you still have a device selected in the IRQ section. Click the <em>Action</em> menu item and select <em>Properties</em>. The <em>Properties</em> window opens. Many devices have a <em>Troubleshooter</em> button located on the <em>General</em> tab.</p>
+<p class="indenthangingN1"><strong>14.</strong> Click the <em>Resources</em> tab. The resources tab shows what system resources a particular device is using.</p>
+<p class="indenthangingNP"><span class="pd_blue">What resources are being used?</span></p>
+<p class="indenthangingNP"><span class="pd_blue">What message displays in the <em>Conflicting device list</em> section?</span></p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingNP"><span class="pd_blue">Is the <em>Use automatic settings</em> checkbox enabled?</span></p>
+<p class="noindent"><span class="pd_blue"><em><strong>Instructor initials</strong></em><strong>:</strong> _____________</span></p>
+<p class="indenthangingN1"><strong>15.</strong> Click the <em>Cancel</em> button to return to Device Manager. Close Device Manager.</p>
+<h4 id="ch03lev2sec4">Lab 3.4 Device Drivers</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To become familiar with finding driver, driver information, and current driver version.</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A computer with Windows installed and access to Internet</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Use the Internet and a computer to answer the accompanying questions.</p>
+<p class="indenthangingN"><strong>1.</strong> List three things fixed by the 7.12.8.1794 driver version for 64-bit Windows 7 for the ASUS PCI XONAR DG audio card.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>2.</strong> What is the release date for the latest driver for a Creative Labs Sound Blaster Recon3D PCIe adapter on a 32-bit Windows 7 computer?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>3.</strong> What are the device driver version and date for any USB Root Hub on the computer?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>4.</strong> Locate a USB Enhanced Host Controller in Device Manager. Use the Driver tab and update the driver if possible. Record your results.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>5.</strong> What is the latest driver revision for a StarTech PCIe 1000Mbps fiber network card that has the part number ST1000SPEX?</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<h3 id="ch03lev1sec19"><span class="pd_blue">Activities</span></h3>
+<h4 id="ch03lev2sec5">Internet Discovery</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To obtain specific information on the Internet regarding a computer or its associated parts</p>
+<p class="part"><em>Parts</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer with Internet access</p>
+<p class="procedure"><em>Procedure</em>:&nbsp;&nbsp;Use the Internet to answer the following questions. Assume that the customer owns a Gateway NE56R12U notebook computer in answering Questions 1 and 2.</p>
+<p class="qquestion"><a id="page_117"></a><em>Questions</em>:</p>
+<p class="indenthangingN"><strong>1.</strong> A customer owns a Gateway NE56R12U laptop. Determine the procedure for accessing the computer’s Setup program. Write the key(s) to press and the URL where you find this information.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>2.</strong> How many (if any) PC Card/ExpressCard slots does this notebook have, and what type of slots are they? If this notebook does not have such slots, how does the manufacturer recommend that you upgrade this computer? Write the answer and the URL where you find the information.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>3.</strong> Another customer owns a Tyan S7025 motherboard. How many and what type of PCIe slots does this motherboard have? Write the answer and the URL where you find the information.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>4.</strong> On the same Tyan S7025 motherboard, what motherboard jumper is used to clear CMOS? Write the answer and the URL where you find the information.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="indenthangingN"><strong>5.</strong> On the same Tyan S7025 motherboard, what BIOS menu option is used to configure the I/O address and IRQ for the first serial port? Write the answer and the URL where you find the answer.</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<p class="enter">&nbsp;</p>
+<h4 id="ch03lev2sec6">Soft Skills</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To enhance and fine tune a future technician’s ability to listen, communicate in both written and oral form, and support people who use computers in a professional manner</p>
+<p class="activitie"><em>Activities</em>:</p>
+<p class="indenthangingN"><strong>1.</strong> In teams, come up with a troubleshooting scenario that involves a computer technician who uses gun slinging techniques and the same scenario involving a technician who is methodical. Explain what each technician type does and how they solve the problem. Also, detail how they treat the customer differently. Determine ways of how a gun slinger technician might be harmful to a computer repair business.</p>
+<p class="indenthangingN"><strong>2.</strong> After exploring the BIOS options, turn to a fellow student, pretend he or she is a customer over the phone, and walk the student through accessing Setup. Explain the purposes of at least five of the options. Reverse roles and cover five other options. Be sure to act like a typical computer user when playing the customer role.</p>
+<p class="indenthangingN"><strong>3.</strong> Brainstorm a troubleshooting scenario in which you fix the problem that involves accessing the Setup program and/or an adapter. Document the problem using a word processing application. Create an invoice using either a word processing or spreadsheet application. Share your documents with others in the class.</p>
+<h4 id="ch03lev2sec7"><a id="page_118"></a>Critical Thinking Skills</h4>
+<p class="objective"><em>Objective</em>:&nbsp;&nbsp;&nbsp;To analyze and evaluate information as well as apply learned information to new or different situations</p>
+<p class="activitie"><em>Activities</em>:</p>
+<p class="indenthangingN"><strong>1.</strong> Why do you think so few computers today have very few PCI adapters or slots?</p>
+<p class="indenthangingN"><strong>2.</strong> Compare and contrast a post office with IRQs, I/O addresses, and memory addresses shown in Device Manager. For example, how might something that happens in a post office relate to an IRQ in a PC (or I/O address or memory address)?</p>
+<p class="indenthangingN"><strong>3.</strong> Your parents want to buy a new computer, and they are doing research. They ask you to explain whether they should buy a PCIe or an AGP video adapter. Explain to them (either verbally or in writing) the differences between them and your recommendation.</p>
+<div class="feature1"><hr>
+<p class="feature-title"><span class="middle"><img src="./Chapter 3. System Configuration_files/check.jpg" alt="Image" width="50" height="47"></span> A+ Certification Exam Tips</p>
+<p class="indenthangingC"><span class="ent">✓</span> A lot of questions from both exams can come from this chapter, especially in the troubleshooting areas. Review the troubleshooting bullets. Research issues on the Internet and read people’s postings. Their stories and frustration (and successes) will stick in your mind and help you with the test.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Go to at least one computer and go through the BIOS menus. Review what types of things can be configured through BIOS.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Review the difference between a BIOS and a UEFI BIOS.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Review different sections of Device Manager. Device Manager is a critical tool for troubleshooting computer issues. Know how to determine what driver is installed. Practice finding drivers on Internet sites.</p>
+<p class="indenthangingC"><span class="ent">✓</span> Know what issues look like in Device Manager. Trying to get Windows or BIOS to show an error within Device Manager on a machine that works properly is difficult, so use a search engine such as Google Images and type <code>Device Manager conflicts</code> as your search string. The resulting images are examples of Device Manager conflicts.</p>
+<hr></div>
+</div>
+
+
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch02.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">Chapter 2. On the Motherboard</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch04.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Chapter 4. Disassembly and Power</div>
+        </a>
+    
+  
+  </div>
+
+</section>
+  </div>
+<section class="sbo-saved-archives"></section>
+
+
+
+          
+          
+  
+
+
+
+
+    
+    
+      <div id="js-subscribe-nag" class="subscribe-nag clearfix trial-panel t-subscribe-nag collapsed slideUp">
+        
+        
+          <p class="usage-data">Find answers on the fly, or master something new. Subscribe today. <a href="https://learning.oreilly.com/subscribe/" class="ga-active-trial-subscribe-nag">See pricing options.</a></p>
+        
+
+        
+        
+
+      </div>
+
+    
+    
+
+
+
+        
+      </div>
+      
+        
+
+<footer class="pagefoot t-pagefoot" style="padding-bottom: 69px;">
+  <a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" class="icon-up" onclick="window.Appcues.track(&#39;JumpTop_HeronBook&#39;)" style="display: none;"><div class="visuallyhidden">Back to top</div></a>
+  <ul class="js-footer-nav">
+  
+    
+    <li><a href="https://learning.oreilly.com/public/support/">Support</a></li>
+    
+    <li><a href="https://learning.oreilly.com/accounts/logout/">Sign Out</a></li>
+    
+  
+  
+  </ul>
+  <span class="copyright">© 2021 <a href="https://learning.oreilly.com/" target="_blank">O'Reilly Media, Inc</a>.</span>
+  
+    
+    <a href="https://www.oreilly.com/terms/">Terms of Service</a> 
+     / 
+    
+    <a href="https://learning.oreilly.com/privacy">Privacy Policy</a> 
+    
+    
+  
+</footer>
+
+      
+    
+    <script src="./Chapter 3. System Configuration_files/saved_resource(1)" charset="utf-8"></script>
+    <script src="./Chapter 3. System Configuration_files/saved_resource(2)" charset="utf-8"></script>
+  
+
+<div class="annotator-notice"></div><div class="font-flyout" style="top: 201.013px; left: 1611px;"><div class="font-controls-panel">
+	<div class="nightmodes">
+		<ul>
+			<li class="day"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" id="day-mode" title="Day Mode">
+				<i class="fa fa-sun-o"></i>
+				<span>Day Mode</span></a></li>
+			<li class="cloudy"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" id="cloudy-mode" title="Cloudy Mode">
+				<i class="fa fa-cloud"></i>
+				<span>Cloud Mode</span>
+			</a></li>
+			<li class="night"><a href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#" id="night-mode" title="Night Mode">
+				<i class="fa fa-moon-o"></i>
+				<span>Night Mode</span>
+			</a></li>
+		</ul>
+	</div>
+
+	<div class="font-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-font left"></i>
+			<span class="filler" style="width: 50%;"></span>
+			<div id="js-font-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle" style="position: relative; left: 80px;"></div>
+			<i class="fa fa-font right"></i>
+		</div>
+	</div>
+
+	<div class="column-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-compress left"></i>
+			<span class="filler" style="width: 50%;"></span>
+			<div id="js-column-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle" style="position: relative; left: 80px;"></div>
+			<i class="fa fa-expand right"></i>
+		</div>
+	</div>
+
+	<a id="reset" class="button" href="https://learning.oreilly.com/library/view/complete-comptia-a/9780133057638/ch03.html#">Reset</a>
+</div>
+</div></body></html>
